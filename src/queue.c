@@ -1,23 +1,6 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctype.h>
-#include <string.h>
-#include <stdbool.h>
+#include "queue.h"
 
-typedef struct link {
-	void *payload;
-	size_t size;
-	struct link *next;
-	struct link *successor;
-} LINK;
-
-typedef struct {
-	LINK *start;
-	LINK *end;
-	char *name;
-} QUEUE;
-
-bool isEmpty(QUEUE *queue) {
+int isEmpty(QUEUE *queue) {
 	return(queue->start->next == queue->end);
 } 
 
@@ -99,7 +82,8 @@ int enqueue(QUEUE* queue, void* data, size_t size) {
 	return 0;
 }
 
-/*int main(int argc, char **argv) {
+#ifdef debug
+int main(int argc, char **argv) {
 
 	const char test1[] = "test1";
 	const char test2[] = "test2";
@@ -148,5 +132,5 @@ int enqueue(QUEUE* queue, void* data, size_t size) {
 	printf("%d\n",isEmpty(queue));
 
 	return 0;
-}*/
-
+}
+#endif

@@ -21,7 +21,7 @@ LIBS=-lm
 _DEPS = 
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = part1.o
+_OBJ = queue.o reader.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 

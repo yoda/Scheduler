@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "process.h"
+#include "queue.h"
 #include <string.h>
 #include <stdbool.h>
-#include "queue.c"
 
 void printQueue(QUEUE *queue) {
 	void *temp;
