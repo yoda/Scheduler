@@ -5,6 +5,37 @@
 #include <string.h>
 #include <stdbool.h>
 
+process* readFile(int * length) {
+
+	char filename[] = "test.txt";
+	//try to open the file
+	FILE * file;
+  	file = fopen (filename,"r");
+  	if(file==NULL) {
+    	printf("File '%s' failed to open, or does not exist!\n",filename);
+		exit(EXIT_FAILURE);
+  	}
+								
+	//allocate memory for the initial structure
+  	process *proc = malloc(1*sizeof(process)); //n.b. size of process structure is 72
+	
+	//read the processes into the next 'process' structure in the 'proc' array. reallocates for the next structure
+	*length = 0;
+	while(true) {
+		if(fscanf(file, "%s%d%d", proc[*length].name,&proc[*length].start,&proc[*length].duration) == EOF) {
+			break;
+		}else {
+			//reallocate for the next structure to be filled, and adjust length variable
+			(*length)++;
+			proc = (process*) realloc(proc,(*length+1)*sizeof(process));
+		}
+	}
+	
+	//close the file
+  	fclose(file);
+	return proc;
+}
+
 void printQueue(QUEUE *queue) {
 	void *temp;
 	size_t sizetemp = 0;
@@ -34,13 +65,17 @@ void getReady(QUEUE *pqueue, QUEUE *ready, int time_cycle) {
 	}
 }
 
-void roundRobin(QUEUE *pqueue,int quantum) {
+void output() {
 	//create the output file for writing to	
 	FILE *file;
 	if ((file = fopen("out.file","w")) == NULL) {
 		printf("Failed to create/open the file\n");
 		exit(EXIT_FAILURE);
 	}
+
+}
+
+void roundRobin(QUEUE *pqueue,int quantum) {
 
 	//initialise variables
 	void *temp;
@@ -141,32 +176,9 @@ QUEUE * sort(process *proc, int length) {
 //reads the input file and sort the processes into an array based on their start time (first at top last at bottom) 
 int main(int argc, char **argv) {
 	
-	char filename[] = "test.txt";
-	//try to open the file
-	FILE * file;
-  	file = fopen (filename,"r");
-  	if(file==NULL) {
-    	printf("File '%s' failed to open, or does not exist!\n",filename);
-		return EXIT_FAILURE;
-  	}
-								
-	//allocate memory for the initial structure
-  	process *proc = malloc(1*sizeof(process)); //n.b. size of process structure is 72
-	
-	//read the processes into the next 'process' structure in the 'proc' array. reallocates for the next structure
-	int length = 0;
-	while(true) {
-		if(fscanf(file, "%s%d%d", proc[length].name,&proc[length].start,&proc[length].duration) == EOF) {
-			break;
-		}else {
-			//reallocate for the next structure to be filled, and adjust length variable
-			length++;
-			proc = (process*) realloc(proc,(length+1)*sizeof(process));
-		}
-	}
-	
-	//close the file
-  	fclose(file);
+	int length;
+	process* proc;
+	proc = readFile(&length);	
 	
 	//sort the data
 	printf("\nOriginal Process List...\n\n");
