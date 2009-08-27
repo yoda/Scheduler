@@ -4,6 +4,7 @@
 #include <string.h>
 #include <stdbool.h>
 
+
 typedef struct link {
 	void *payload;
 	size_t size;
@@ -11,7 +12,7 @@ typedef struct link {
 	struct link *successor;
 } LINK;
 
-typedef struct {
+typedef struct queue{
 	LINK *start;
 	LINK *end;
 	char *name;
