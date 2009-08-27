@@ -1,5 +1,6 @@
- typedef struct {
-          char name[64];
+typedef struct {
+          char *name;
           int start;
           int duration;
-  } process;
+          struct queue *run;
+} process;
