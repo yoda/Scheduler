@@ -234,3 +234,28 @@ QUEUE * sort(process **proc, int length) {
 	return pqueue;
 }
 
+//reads the input file and sort the processes into an array based on their start time (first at top last at bottom) 
+int main(int argc, char **argv) {
+	//read the input file
+	int length;
+
+  	process **proc = readFile(&length);
+
+	//sort the processes and enqueue
+  	QUEUE *pqueue = sort(proc,length);
+
+  	//prepare the output file
+  	FILE *file;
+  	if( (file = fopen("out.file","w")) == NULL) printf("Failed to create/open the file\n");
+  	
+  	//testing algorithms
+	printf("Starting...\n\n");
+	firstCome(pqueue);
+	//roundRobin(pqueue,1);
+
+	printf("\n...Done\n");
+	
+	fclose(file);
+  	return 0;
+	
+}

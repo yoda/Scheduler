@@ -35,9 +35,23 @@ int main(int argc, char **argv) {
 	{
 		printf("Algorithm specified: %s\n", args_info.algorithm_arg);
 	}
-#endif debug
+#endif
+
+	if(args_info.scheduler_given)
+	{
+#ifdef debug
+		printf("Running scheduler\n");
+#endif
+	} 
+	else if(args_info.virtualmem_given)
+	{
+#ifdef debug
+		printf("Running virtualmem\n");
+#endif
+	}
 
 	cmdline_parser_free(&args_info);
 
 	return 0;
+
 }
