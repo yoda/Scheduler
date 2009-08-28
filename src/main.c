@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "cmdline.h"
+#include "handler.h"
 
 #define debug
 
@@ -36,12 +37,36 @@ int main(int argc, char **argv) {
 		printf("Algorithm specified: %s\n", args_info.algorithm_arg);
 	}
 #endif
+	
+	int *q; // Quantum
+	int *e; // Exit point
+	char **a; // Algorithm
 
 	if(args_info.scheduler_given)
 	{
 #ifdef debug
 		printf("Running scheduler\n");
 #endif
+		if(args_info.quantum_given)
+		{
+			q = &args_info.quantum_arg;
+		}
+		else
+		{
+			q = &args_info.quantum_orig;
+		}
+		
+		if(args_info.algorithm_given)
+		{
+			a = &args_info.algorithm_arg;
+		}
+		else
+		{
+			a = &args_info.algoirthm_orig;
+		}
+
+		scheduler(&args_info.input_arg, a, q);
+		
 	} 
 	else if(args_info.virtualmem_given)
 	{
