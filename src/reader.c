@@ -35,10 +35,10 @@ process ** readFile(int *length) {
     	printf("File '%s' failed to open, or does not exist!\n",filename);
 		exit(EXIT_FAILURE);
   	}	
-
+	
 	//allocate memory for the initial pointer array
   	process **proc = malloc(1*sizeof(process*)); //n.b. size of process structure is 72
-
+	
 	//read the processes into the next 'process' structure in the 'proc' array. reallocates for the next structure
 	*length = 0;
 	char tempc[1024]; //buffer to read the string into
@@ -87,7 +87,7 @@ void sortSPN(QUEUE * ready) {
 		swap_count = 0;
 		link = ready->start->next;
 		while(link->next != ready->end) {
-
+			
 			//find duration of the current and next processes (within the current and next links)
 			duration1 = ((process*)link->payload)->duration;
 			duration2 = ((process*)link->next->payload)->duration;
@@ -134,7 +134,7 @@ void roundRobin(QUEUE *pqueue,int quantum) {
 	while(!isEmpty(pqueue) || !isEmpty(ready)) {
 		//find the ready processes given the current time cycle
 		getReady(pqueue,ready,time_cycle);
-
+		
 		//if there are processes ready, grant access to the first
 		if(!isEmpty(ready)) {
 			//peek and modify the duration until the time quantum expires or until the process terminates
@@ -167,7 +167,7 @@ void roundRobin(QUEUE *pqueue,int quantum) {
 				data[0] = time_cycle-counter;
 				data[1] = counter;
 				enqueue(proc->run,(void*)data,sizeof(data));
-
+				
 				counter=0;
 				getReady(pqueue,ready,time_cycle);
 				dequeue(ready,&temp,&sizetemp);
@@ -284,6 +284,7 @@ void shortestRemaining(QUEUE *pqueue) {
 	int time_cycle = 0;
 	int counter = 0;			//records the count (relative to the quantum)
 	process *last = NULL;		//pos of the last process to access the cpu, when it changes it triggers a file write operation
+	int *data;
 	
 	//simulate time cycles with a loop and for each cycle, queue the available processes in a new queue (ready queue)
 	while(!isEmpty(pqueue) || !isEmpty(ready)) {
@@ -297,13 +298,16 @@ void shortestRemaining(QUEUE *pqueue) {
 			peek(ready, &temp, &sizetemp);
 			process *proc = temp;
 			
-			if(last != NULL && last != proc) {
+			if(last != NULL && last != proc && last->duration != 0) {
+				printf("adding data due to change ctr:%d\n",counter);
 				//add the processing data to the 'run' queue in the process structure
-				int *data = malloc(2*sizeof(int));
+				data = malloc(2*sizeof(int));
 				data[0] = time_cycle-counter;
 				data[1] = counter;
-				enqueue(proc->run,(void*)data,sizeof(data));
+				enqueue(last->run,(void*)data,sizeof(data));
+				counter=0;
 			}
+			
 			last=proc;	
 			proc->duration--;
 			counter++;
@@ -312,8 +316,9 @@ void shortestRemaining(QUEUE *pqueue) {
 			
 			//if the process terminates, reset the count and dequeue the process
 			if(proc->duration == 0) {
+				printf("finished proc adding data\n");
 				//add the processing data to the 'run' queue in the process structure
-				int *data = malloc(2*sizeof(int));
+				data = malloc(2*sizeof(int));
 				data[0] = time_cycle-counter;
 				data[1] = counter;
 				enqueue(proc->run,(void*)data,sizeof(data));
@@ -364,5 +369,4 @@ QUEUE * sort(process **proc, int length) {
 	}
 	return pqueue;
 }
-
 
