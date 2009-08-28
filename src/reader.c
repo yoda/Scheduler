@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#include "process.h"
-#include "queue.h"
-extern char * strdup(const char * str);
+#include "reader.h"
 
 void output(process *proc) {
 	//create the output file for writing to	

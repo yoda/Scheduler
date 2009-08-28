@@ -1,2 +1,3 @@
 
-extern void scheduler(**char, **char, *int);
+extern void scheduler(char**, char**, int*);
+

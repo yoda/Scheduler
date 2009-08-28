@@ -47,14 +47,7 @@ int main(int argc, char **argv) {
 #ifdef debug
 		printf("Running scheduler\n");
 #endif
-		if(args_info.quantum_given)
-		{
-			q = &args_info.quantum_arg;
-		}
-		else
-		{
-			q = &args_info.quantum_orig;
-		}
+		q = &args_info.quantum_arg;
 		
 		if(args_info.algorithm_given)
 		{
@@ -62,7 +55,7 @@ int main(int argc, char **argv) {
 		}
 		else
 		{
-			a = &args_info.algoirthm_orig;
+			a = &args_info.algorithm_orig;
 		}
 
 		scheduler(&args_info.input_arg, a, q);
