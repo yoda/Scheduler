@@ -25,3 +25,10 @@ extern void print(process *proc, int length);
 
 extern void printQueue(QUEUE *queue);
 
+extern void sortSPN(QUEUE *ready);
+
+extern void shortestNext(QUEUE *pqueue);
+
+extern void shortestRemaining(QUEUE *pqueue);
+
+
