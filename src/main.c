@@ -49,14 +49,7 @@ int main(int argc, char **argv) {
 #endif
 		q = &args_info.quantum_arg;
 		
-		if(args_info.algorithm_given)
-		{
-			a = &args_info.algorithm_arg;
-		}
-		else
-		{
-			a = &args_info.algorithm_orig;
-		}
+		a = &args_info.algorithm_arg;
 
 		scheduler(&args_info.input_arg, a, q);
 		
