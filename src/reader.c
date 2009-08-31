@@ -327,6 +327,7 @@ void shortestRemaining(QUEUE *pqueue) {
 				//dequeue and free the finished process
 			    dequeue(ready, &temp, &sizetemp);
 			    free(temp);
+				last=NULL;
 			}
 		}else{
 			time_cycle++;
