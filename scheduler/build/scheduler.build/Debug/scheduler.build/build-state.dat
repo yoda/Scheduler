@@ -1,0 +1,314 @@
+Tscheduler
+v7
+r0
+t273378185.250194
+cCheck dependencies
+cCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/scheduler normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004A5C14A60000000000002C18
+t1247548582
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/getopt.h
+c000000004A5C14A60000000000000CBC
+t1247548582
+s3260
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004A11EB240000000000000644
+t1242688292
+s1604
+
+N/Users/yoda/Work/CITS2230/Scheduler/include/queue.h
+c000000004A96462C00000000000001DF
+t1251362348
+s479
+i<stdlib.h>
+i<stdio.h>
+i<ctype.h>
+i<string.h>
+i<stdbool.h>
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/cmdline.h
+c000000004A97521C0000000000001E76
+t1251430940
+s7798
+i"config.h"
+i<stdio.h>
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/handler.h
+c000000004A977D76000000000000002F
+t1251442038
+s47
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/reader.h
+c000000004A9785D900000000000002AB
+t1251444185
+s683
+i"queue.h"
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c
+c000000004A9749D60000000000004FFE
+t1251428822
+s20478
+i"config.h"
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"getopt.h"
+i"cmdline.h"
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c
+c000000004A97889400000000000002D8
+t1251444884
+s728
+i"reader.h"
+i"handler.h"
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c
+c000000004A9789350000000000000445
+t1251445045
+s1093
+i<stdlib.h>
+i<stdio.h>
+i"cmdline.h"
+i"handler.h"
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c
+c000000004A9645F50000000000000C90
+t1251362293
+s3216
+i"queue.h"
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c
+c000000004A978ECE0000000000002D28
+t1251446478
+s11560
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdbool.h>
+i"reader.h"
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c
+c000000004A9756760000000000001CAB
+t1251432054
+s7339
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdbool.h>
+i"process.h"
+i"queue.h"
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/scheduler
+t1251685323
+s33808
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/cmdline.o
+t1251685183
+s28812
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/handler.o
+t1251685183
+s6136
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main-29C005DF56F5258C.o
+t2
+s0
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main-5528AA44578057A4.o
+t2
+s0
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main.o
+t1251685183
+s4348
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/queue.o
+t1251685183
+s6640
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/reader.o
+t1251685183
+s16008
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/readertemp.o
+t2
+s0
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/scheduler.LinkFileList
+c000000004A9B33CA000000000000025C
+t1251685322
+s604
+
+N/Users/yoda/Work/CITS2230/Scheduler/scheduler/main.c
+c000000004A9B32640000000000000089
+t1251684964
+s137
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies273378185#273378185#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal x86_64 c com.apple.compilers.gcc.4_2
+s273377983.484056
+e273377983.587285
+r1
+xCompileC
+xbuild/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/cmdline.o
+x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c273377983#273377983#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c4300882208#1396"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/cmdline.o0#
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal x86_64 c com.apple.compilers.gcc.4_2
+s273377983.484972
+e273377983.559357
+r1
+xCompileC
+xbuild/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/handler.o
+x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c273377983#273377983#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c4300882208#1396"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/handler.o0#
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main-29C005DF56F5258C.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main-5528AA44578057A4.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s273377983.559456
+e273377983.595419
+r1
+xCompileC
+xbuild/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main.o
+x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'
+lSLF07#2@67"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273377983#273377983#0(174"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'1(22@19"Unused variable 'e'273377983#81#93#0(6@59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273137845#42#0#42#0#19"unused variable '*'0(0#0#59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c4300882208#1390"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal x86_64 c com.apple.compilers.gcc.4_2
+s273377983.587368
+e273377983.634517
+r1
+xCompileC
+xbuild/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/queue.o
+x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c273377983#273377983#0(0"0(0#0#60"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c4300882208#1392"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/queue.o0#
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal x86_64 c com.apple.compilers.gcc.4_2
+s273377983.595501
+e273377983.662677
+r1
+xCompileC
+xbuild/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/reader.o
+x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'
+lSLF07#2@69"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273377983#273377983#0(289"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'2(22@26"Unused variable 'sizetemp'273377983#89#102#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#70#0#70#0#19"unused variable '*'0(22@22"Unused variable 'temp'273377983#191#98#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#69#0#69#0#19"unused variable '*'0(0#0#61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c4300882208#1394"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/reader.o0#
+
+CCompileC build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/readertemp.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c normal x86_64 c com.apple.compilers.gcc.4_2
+s273377990.412416
+e273377990.447185
+r0
+xCompileC
+xbuild/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/readertemp.o
+x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:5:21: error: process.h: No such file or directory
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:9: error: expected ')' before '*' token
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:30: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'printQueue':
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: 'process' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: (Each undeclared identifier is reported only once
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: for each function it appears in.)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: 'proc' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:71: warning: unused variable 'sizetemp'
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:70: warning: unused variable 'temp'
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'getReady':
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:86: error: 'process' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:86: error: 'proc' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'roundRobin':
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:115: error: 'process' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:115: error: 'proc' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:128: warning: implicit declaration of function 'output'
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:147: error: expected expression before ')' token
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:147: error: too few arguments to function 'enqueue'
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'firstCome':
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:173: error: 'process' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:173: error: 'proc' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:186: error: expected expression before ')' token
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: At top level:
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:202: error: expected ')' before '*' token
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:211: error: expected ')' before '*' token
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'main':
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:242: error: 'process' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:242: error: 'proc' undeclared (first use in this function)
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:242: warning: implicit declaration of function 'readFile'
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:245: warning: implicit declaration of function 'sort'
+o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:245: warning: initialization makes pointer from integer without a cast
+lSLF07#2@73"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273377990#273377990#0(3676"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:5:21: error: process.h: No such file or directory/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:9: error: expected ')' before '*' token/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:30: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'printQueue':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: 'process' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: (Each undeclared identifier is reported only once/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: for each function it appears in.)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:74: error: 'proc' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:71: warning: unused variable 'sizetemp'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:70: warning: unused variable 'temp'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'getReady':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:86: error: 'process' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:86: error: 'proc' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'roundRobin':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:115: error: 'process' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:115: error: 'proc' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:128: warning: implicit declaration of function 'output'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:147: error: expected expression before ')' token/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:147: error: too few arguments to function 'enqueue'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'firstCome':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:173: error: 'process' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:173: error: 'proc' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:186: error: expected expression before ')' token/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: At top level:/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:202: error: expected ')' before '*' token/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:211: error: expected ')' before '*' token/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c: In function 'main':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:242: error: 'process' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:242: error: 'proc' undeclared (first use in this function)/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:242: warning: implicit declaration of function 'readFile'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:245: warning: implicit declaration of function 'sort'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c:245: warning: initialization makes pointer from integer without a cast25(4@36"Process.h: No such file or directory273377990#0#116#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#5#0#5#0#28"*: No such file or directory0(4@29"Expected ')' before '*' token273377990#116#106#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#9#0#9#0#19"expected * before *0(4@65"Expected '=', ',', ';', 'asm' or '__attribute__' before '*' token273377990#222#143#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#30#0#30#0#19"expected * before *0(4@49"'process' undeclared (first use in this function)273377990#458#127#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#74#0#74#0#43"'*' undeclared (first use in this function)0(4@46"'proc' undeclared (first use in this function)273377990#823#124#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#74#0#74#0#43"'*' undeclared (first use in this function)0(22@26"Unused variable 'sizetemp'273377990#947#106#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#71#0#71#0#19"unused variable '*'0(22@22"Unused variable 'temp'273377990#1053#102#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#70#0#70#0#19"unused variable '*'0(4@49"'process' undeclared (first use in this function)273377990#1246#127#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#86#0#86#0#43"'*' undeclared (first use in this function)0(4@46"'proc' undeclared (first use in this function)273377990#1373#124#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#86#0#86#0#43"'*' undeclared (first use in this function)0(4@49"'process' undeclared (first use in this function)273377990#1590#128#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#115#0#115#0#43"'*' undeclared (first use in this function)0(4@46"'proc' undeclared (first use in this function)273377990#1718#125#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#115#0#115#0#43"'*' undeclared (first use in this function)0(22@41"Implicit declaration of function 'output'273377990#1843#122#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#128#0#128#0#36"implicit declaration of function '*'0(4@36"Expected expression before ')' token273377990#1965#115#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#147#0#147#0#19"expected * before *0(4@39"Too few arguments to function 'enqueue'273377990#2080#118#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#147#0#147#0#33"too few arguments to function '*'0(4@49"'process' undeclared (first use in this function)273377990#2290#128#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#173#0#173#0#43"'*' undeclared (first use in this function)0(4@46"'proc' undeclared (first use in this function)273377990#2418#125#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#173#0#173#0#43"'*' undeclared (first use in this function)0(4@36"Expected expression before ')' token273377990#2543#115#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#186#0#186#0#19"expected * before *0(23@13"At top level:273377990#2658#81#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#0#0#0#0#0"0(4@29"Expected ')' before '*' token273377990#2739#108#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#202#0#202#0#19"expected * before *0(4@29"Expected ')' before '*' token273377990#2847#108#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#211#0#211#0#19"expected * before *0(4@49"'process' undeclared (first use in this function)273377990#3042#128#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#242#0#242#0#43"'*' undeclared (first use in this function)0(4@46"'proc' undeclared (first use in this function)273377990#3170#125#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#242#0#242#0#43"'*' undeclared (first use in this function)0(22@43"Implicit declaration of function 'readFile'273377990#3295#124#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#242#0#242#0#36"implicit declaration of function '*'0(22@39"Implicit declaration of function 'sort'273377990#3419#120#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#245#0#245#0#36"implicit declaration of function '*'0(22@56"Initialization makes pointer from integer without a cast273377990#3539#137#0(6@65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c273124854#245#0#245#0#0"0(0#0#65"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c4300882208#1402"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/readertemp.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/readertemp.o1#
+
+CLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/scheduler normal x86_64
+s273378122.803804
+e273378123.176211
+r1
+xLd
+x/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/scheduler
+xnormal
+xx86_64
+lSLF07#2@72"Link /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/scheduler273378122#273378123#0(0"0(0#0#0"4300882208#541"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug -filelist /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Debug/scheduler.build/Objects-normal/x86_64/scheduler.LinkFileList -mmacosx-version-min=10.6 -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Debug/scheduler0#
+
