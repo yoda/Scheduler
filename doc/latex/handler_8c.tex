@@ -1,0 +1,28 @@
+\hypertarget{handler_8c}{
+\section{src/handler.c File Reference}
+\label{handler_8c}\index{src/handler.c@{src/handler.c}}
+}
+{\tt \#include \char`\"{}reader.h\char`\"{}}\par
+{\tt \#include \char`\"{}handler.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{handler_8c_65fe8d7216eda7580f414308007e8154}{scheduler} (char $\ast$$\ast$inputfile, char $\ast$$\ast$algorithm, int $\ast$quantum)
+\begin{CompactList}\small\item\em Handles the algorithm selection, depending on which scheduling method was specified via the command line. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{handler_8c_65fe8d7216eda7580f414308007e8154}{
+\index{handler.c@{handler.c}!scheduler@{scheduler}}
+\index{scheduler@{scheduler}!handler.c@{handler.c}}
+\subsubsection[{scheduler}]{\setlength{\rightskip}{0pt plus 5cm}void scheduler (char $\ast$$\ast$ {\em inputfile}, \/  char $\ast$$\ast$ {\em algorithm}, \/  int $\ast$ {\em quantum})}}
+\label{handler_8c_65fe8d7216eda7580f414308007e8154}
+
+
+Handles the algorithm selection, depending on which scheduling method was specified via the command line. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em inputfile}]The name of the input file containing the processes \item[{\em algorithm}]The desired schedulaing algorithm \item[{\em quantum}]The desired time quantum (for round robin scheduling only) \end{description}
+\end{Desc}

@@ -1,0 +1,228 @@
+\hypertarget{cmdline_8c}{
+\section{src/cmdline.c File Reference}
+\label{cmdline_8c}\index{src/cmdline.c@{src/cmdline.c}}
+}
+{\tt \#include $<$stdio.h$>$}\par
+{\tt \#include $<$stdlib.h$>$}\par
+{\tt \#include $<$string.h$>$}\par
+{\tt \#include \char`\"{}getopt.h\char`\"{}}\par
+{\tt \#include \char`\"{}cmdline.h\char`\"{}}\par
+\subsection*{Enumerations}
+\begin{CompactItemize}
+\item 
+enum \hyperlink{cmdline_8c_88e31a859f36efa57ad64e6ae13332a1}{cmdline\_\-parser\_\-arg\_\-type} \{ \hyperlink{cmdline_8c_88e31a859f36efa57ad64e6ae13332a167dd250fb3e23862523b667407868ada}{ARG\_\-NO}, 
+\hyperlink{cmdline_8c_88e31a859f36efa57ad64e6ae13332a11e0904ee5e3baf2aa4070ab0718a3afa}{ARG\_\-STRING}, 
+\hyperlink{cmdline_8c_88e31a859f36efa57ad64e6ae13332a158393752406d163205fa18f450909993}{ARG\_\-INT}
+ \}
+\end{CompactItemize}
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{cmdline_8c_96f27bf35ce0ab8eea7a1f6e6b59a5e2}{cmdline\_\-parser\_\-print\_\-version} (void)
+\item 
+void \hyperlink{cmdline_8c_d4f7db2fa4002379eb30e5206f3b7492}{cmdline\_\-parser\_\-print\_\-help} (void)
+\item 
+void \hyperlink{cmdline_8c_ca62b50d03d0d082968eeb1940f98650}{cmdline\_\-parser\_\-init} (struct gengetopt\_\-args\_\-info $\ast$args\_\-info)
+\item 
+void \hyperlink{cmdline_8c_f72b814611cffc706b2135ccdfe7e997}{cmdline\_\-parser\_\-params\_\-init} (struct cmdline\_\-parser\_\-params $\ast$params)
+\item 
+struct cmdline\_\-parser\_\-params $\ast$ \hyperlink{cmdline_8c_fd778af110fe0ee1ea5eac7aa9939d92}{cmdline\_\-parser\_\-params\_\-create} (void)
+\item 
+int \hyperlink{cmdline_8c_1f73418092a6e6eb3706aa0de2785e11}{cmdline\_\-parser\_\-dump} (FILE $\ast$outfile, struct gengetopt\_\-args\_\-info $\ast$args\_\-info)
+\item 
+int \hyperlink{cmdline_8c_5f3e9412f88f1058a31ac28ad2ea2818}{cmdline\_\-parser\_\-file\_\-save} (const char $\ast$filename, struct gengetopt\_\-args\_\-info $\ast$args\_\-info)
+\item 
+void \hyperlink{cmdline_8c_f1b97c4e92b88f736e350b3902266ba4}{cmdline\_\-parser\_\-free} (struct gengetopt\_\-args\_\-info $\ast$args\_\-info)
+\item 
+int \hyperlink{cmdline_8c_96f1044799c552f3ee139f9b1387b363}{cmdline\_\-parser} (int argc, char $\ast$const $\ast$argv, struct gengetopt\_\-args\_\-info $\ast$args\_\-info)
+\item 
+int \hyperlink{cmdline_8c_77e461b5bdfd4a36c59a96bfb1813e38}{cmdline\_\-parser\_\-ext} (int argc, char $\ast$const $\ast$argv, struct gengetopt\_\-args\_\-info $\ast$args\_\-info, struct cmdline\_\-parser\_\-params $\ast$params)
+\item 
+int \hyperlink{cmdline_8c_08e3536edc64ec5ee7c2df546c6e9dd7}{cmdline\_\-parser2} (int argc, char $\ast$const $\ast$argv, struct gengetopt\_\-args\_\-info $\ast$args\_\-info, int override, int initialize, int check\_\-required)
+\item 
+int \hyperlink{cmdline_8c_83651e5be280d60aed58fdb72456a030}{cmdline\_\-parser\_\-required} (struct gengetopt\_\-args\_\-info $\ast$args\_\-info, const char $\ast$prog\_\-name)
+\end{CompactItemize}
+\subsection*{Variables}
+\begin{CompactItemize}
+\item 
+const char $\ast$ \hyperlink{cmdline_8c_610c3307abce5a8fd304b86b018ae60b}{gengetopt\_\-args\_\-info\_\-purpose} = \char`\"{}\char`\"{}
+\item 
+const char $\ast$ \hyperlink{cmdline_8c_9f397a306f363bfdebb611e86acf36d5}{gengetopt\_\-args\_\-info\_\-usage} = \char`\"{}Usage: prosim \mbox{[}OPTIONS\mbox{]}...\char`\"{}
+\item 
+const char $\ast$ \hyperlink{cmdline_8c_ccad6107ca685f6eba555f6ce63d355d}{gengetopt\_\-args\_\-info\_\-description} = \char`\"{}\char`\"{}
+\item 
+const char $\ast$ \hyperlink{cmdline_8c_6af7a6b7fb37c0abaa916ee1cfa0a41f}{gengetopt\_\-args\_\-info\_\-help} \mbox{[}$\,$\mbox{]}
+\item 
+char $\ast$ \hyperlink{cmdline_8c_be5f2fec4ac321c2ac1c19a9ad07bc2a}{cmdline\_\-parser\_\-algorithm\_\-values} \mbox{[}$\,$\mbox{]} = \{\char`\"{}FCFS\char`\"{}, \char`\"{}RR\char`\"{}, \char`\"{}SRT\char`\"{}, \char`\"{}SPN\char`\"{}, 0\}
+\end{CompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{cmdline_8c_88e31a859f36efa57ad64e6ae13332a1}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-arg\_\-type@{cmdline\_\-parser\_\-arg\_\-type}}
+\index{cmdline\_\-parser\_\-arg\_\-type@{cmdline\_\-parser\_\-arg\_\-type}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-arg\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf cmdline\_\-parser\_\-arg\_\-type}}}
+\label{cmdline_8c_88e31a859f36efa57ad64e6ae13332a1}
+
+
+\begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{ARG\_\-NO@{ARG\_\-NO}!cmdline.c@{cmdline.c}}\index{cmdline.c@{cmdline.c}!ARG\_\-NO@{ARG\_\-NO}}\item[{\em 
+\hypertarget{cmdline_8c_88e31a859f36efa57ad64e6ae13332a167dd250fb3e23862523b667407868ada}{
+ARG\_\-NO}
+\label{cmdline_8c_88e31a859f36efa57ad64e6ae13332a167dd250fb3e23862523b667407868ada}
+}]\index{ARG\_\-STRING@{ARG\_\-STRING}!cmdline.c@{cmdline.c}}\index{cmdline.c@{cmdline.c}!ARG\_\-STRING@{ARG\_\-STRING}}\item[{\em 
+\hypertarget{cmdline_8c_88e31a859f36efa57ad64e6ae13332a11e0904ee5e3baf2aa4070ab0718a3afa}{
+ARG\_\-STRING}
+\label{cmdline_8c_88e31a859f36efa57ad64e6ae13332a11e0904ee5e3baf2aa4070ab0718a3afa}
+}]\index{ARG\_\-INT@{ARG\_\-INT}!cmdline.c@{cmdline.c}}\index{cmdline.c@{cmdline.c}!ARG\_\-INT@{ARG\_\-INT}}\item[{\em 
+\hypertarget{cmdline_8c_88e31a859f36efa57ad64e6ae13332a158393752406d163205fa18f450909993}{
+ARG\_\-INT}
+\label{cmdline_8c_88e31a859f36efa57ad64e6ae13332a158393752406d163205fa18f450909993}
+}]\end{description}
+\end{Desc}
+
+
+
+\subsection{Function Documentation}
+\hypertarget{cmdline_8c_96f1044799c552f3ee139f9b1387b363}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser@{cmdline\_\-parser}}
+\index{cmdline\_\-parser@{cmdline\_\-parser}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser}]{\setlength{\rightskip}{0pt plus 5cm}int cmdline\_\-parser (int {\em argc}, \/  char $\ast$const $\ast$ {\em argv}, \/  struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info})}}
+\label{cmdline_8c_96f1044799c552f3ee139f9b1387b363}
+
+
+\hypertarget{cmdline_8c_08e3536edc64ec5ee7c2df546c6e9dd7}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser2@{cmdline\_\-parser2}}
+\index{cmdline\_\-parser2@{cmdline\_\-parser2}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser2}]{\setlength{\rightskip}{0pt plus 5cm}int cmdline\_\-parser2 (int {\em argc}, \/  char $\ast$const $\ast$ {\em argv}, \/  struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info}, \/  int {\em override}, \/  int {\em initialize}, \/  int {\em check\_\-required})}}
+\label{cmdline_8c_08e3536edc64ec5ee7c2df546c6e9dd7}
+
+
+\hypertarget{cmdline_8c_1f73418092a6e6eb3706aa0de2785e11}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-dump@{cmdline\_\-parser\_\-dump}}
+\index{cmdline\_\-parser\_\-dump@{cmdline\_\-parser\_\-dump}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-dump}]{\setlength{\rightskip}{0pt plus 5cm}int cmdline\_\-parser\_\-dump (FILE $\ast$ {\em outfile}, \/  struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info})}}
+\label{cmdline_8c_1f73418092a6e6eb3706aa0de2785e11}
+
+
+\hypertarget{cmdline_8c_77e461b5bdfd4a36c59a96bfb1813e38}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-ext@{cmdline\_\-parser\_\-ext}}
+\index{cmdline\_\-parser\_\-ext@{cmdline\_\-parser\_\-ext}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-ext}]{\setlength{\rightskip}{0pt plus 5cm}int cmdline\_\-parser\_\-ext (int {\em argc}, \/  char $\ast$const $\ast$ {\em argv}, \/  struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info}, \/  struct cmdline\_\-parser\_\-params $\ast$ {\em params})}}
+\label{cmdline_8c_77e461b5bdfd4a36c59a96bfb1813e38}
+
+
+\hypertarget{cmdline_8c_5f3e9412f88f1058a31ac28ad2ea2818}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-file\_\-save@{cmdline\_\-parser\_\-file\_\-save}}
+\index{cmdline\_\-parser\_\-file\_\-save@{cmdline\_\-parser\_\-file\_\-save}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-file\_\-save}]{\setlength{\rightskip}{0pt plus 5cm}int cmdline\_\-parser\_\-file\_\-save (const char $\ast$ {\em filename}, \/  struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info})}}
+\label{cmdline_8c_5f3e9412f88f1058a31ac28ad2ea2818}
+
+
+\hypertarget{cmdline_8c_f1b97c4e92b88f736e350b3902266ba4}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-free@{cmdline\_\-parser\_\-free}}
+\index{cmdline\_\-parser\_\-free@{cmdline\_\-parser\_\-free}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void cmdline\_\-parser\_\-free (struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info})}}
+\label{cmdline_8c_f1b97c4e92b88f736e350b3902266ba4}
+
+
+\hypertarget{cmdline_8c_ca62b50d03d0d082968eeb1940f98650}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-init@{cmdline\_\-parser\_\-init}}
+\index{cmdline\_\-parser\_\-init@{cmdline\_\-parser\_\-init}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}void cmdline\_\-parser\_\-init (struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info})}}
+\label{cmdline_8c_ca62b50d03d0d082968eeb1940f98650}
+
+
+\hypertarget{cmdline_8c_fd778af110fe0ee1ea5eac7aa9939d92}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-params\_\-create@{cmdline\_\-parser\_\-params\_\-create}}
+\index{cmdline\_\-parser\_\-params\_\-create@{cmdline\_\-parser\_\-params\_\-create}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-params\_\-create}]{\setlength{\rightskip}{0pt plus 5cm}struct cmdline\_\-parser\_\-params$\ast$ cmdline\_\-parser\_\-params\_\-create (void)\hspace{0.3cm}{\tt  \mbox{[}read\mbox{]}}}}
+\label{cmdline_8c_fd778af110fe0ee1ea5eac7aa9939d92}
+
+
+\hypertarget{cmdline_8c_f72b814611cffc706b2135ccdfe7e997}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-params\_\-init@{cmdline\_\-parser\_\-params\_\-init}}
+\index{cmdline\_\-parser\_\-params\_\-init@{cmdline\_\-parser\_\-params\_\-init}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-params\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}void cmdline\_\-parser\_\-params\_\-init (struct cmdline\_\-parser\_\-params $\ast$ {\em params})}}
+\label{cmdline_8c_f72b814611cffc706b2135ccdfe7e997}
+
+
+\hypertarget{cmdline_8c_d4f7db2fa4002379eb30e5206f3b7492}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-print\_\-help@{cmdline\_\-parser\_\-print\_\-help}}
+\index{cmdline\_\-parser\_\-print\_\-help@{cmdline\_\-parser\_\-print\_\-help}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-print\_\-help}]{\setlength{\rightskip}{0pt plus 5cm}void cmdline\_\-parser\_\-print\_\-help (void)}}
+\label{cmdline_8c_d4f7db2fa4002379eb30e5206f3b7492}
+
+
+\hypertarget{cmdline_8c_96f27bf35ce0ab8eea7a1f6e6b59a5e2}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-print\_\-version@{cmdline\_\-parser\_\-print\_\-version}}
+\index{cmdline\_\-parser\_\-print\_\-version@{cmdline\_\-parser\_\-print\_\-version}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-print\_\-version}]{\setlength{\rightskip}{0pt plus 5cm}void cmdline\_\-parser\_\-print\_\-version (void)}}
+\label{cmdline_8c_96f27bf35ce0ab8eea7a1f6e6b59a5e2}
+
+
+\hypertarget{cmdline_8c_83651e5be280d60aed58fdb72456a030}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-required@{cmdline\_\-parser\_\-required}}
+\index{cmdline\_\-parser\_\-required@{cmdline\_\-parser\_\-required}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-required}]{\setlength{\rightskip}{0pt plus 5cm}int cmdline\_\-parser\_\-required (struct gengetopt\_\-args\_\-info $\ast$ {\em args\_\-info}, \/  const char $\ast$ {\em prog\_\-name})}}
+\label{cmdline_8c_83651e5be280d60aed58fdb72456a030}
+
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{cmdline_8c_be5f2fec4ac321c2ac1c19a9ad07bc2a}{
+\index{cmdline.c@{cmdline.c}!cmdline\_\-parser\_\-algorithm\_\-values@{cmdline\_\-parser\_\-algorithm\_\-values}}
+\index{cmdline\_\-parser\_\-algorithm\_\-values@{cmdline\_\-parser\_\-algorithm\_\-values}!cmdline.c@{cmdline.c}}
+\subsubsection[{cmdline\_\-parser\_\-algorithm\_\-values}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ {\bf cmdline\_\-parser\_\-algorithm\_\-values}\mbox{[}$\,$\mbox{]} = \{\char`\"{}FCFS\char`\"{}, \char`\"{}RR\char`\"{}, \char`\"{}SRT\char`\"{}, \char`\"{}SPN\char`\"{}, 0\}}}
+\label{cmdline_8c_be5f2fec4ac321c2ac1c19a9ad07bc2a}
+
+
+\hypertarget{cmdline_8c_ccad6107ca685f6eba555f6ce63d355d}{
+\index{cmdline.c@{cmdline.c}!gengetopt\_\-args\_\-info\_\-description@{gengetopt\_\-args\_\-info\_\-description}}
+\index{gengetopt\_\-args\_\-info\_\-description@{gengetopt\_\-args\_\-info\_\-description}!cmdline.c@{cmdline.c}}
+\subsubsection[{gengetopt\_\-args\_\-info\_\-description}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf gengetopt\_\-args\_\-info\_\-description} = \char`\"{}\char`\"{}}}
+\label{cmdline_8c_ccad6107ca685f6eba555f6ce63d355d}
+
+
+\hypertarget{cmdline_8c_6af7a6b7fb37c0abaa916ee1cfa0a41f}{
+\index{cmdline.c@{cmdline.c}!gengetopt\_\-args\_\-info\_\-help@{gengetopt\_\-args\_\-info\_\-help}}
+\index{gengetopt\_\-args\_\-info\_\-help@{gengetopt\_\-args\_\-info\_\-help}!cmdline.c@{cmdline.c}}
+\subsubsection[{gengetopt\_\-args\_\-info\_\-help}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf gengetopt\_\-args\_\-info\_\-help}\mbox{[}$\,$\mbox{]}}}
+\label{cmdline_8c_6af7a6b7fb37c0abaa916ee1cfa0a41f}
+
+
+\textbf{Initial value:}
+
+\begin{Code}\begin{verbatim} {
+  "  -h, --help              Print help and exit",
+  "  -V, --version           Print version and exit",
+  "  -i, --input=filename    Input filename for Jobs list.",
+  "  -q, --quantum=INT       Time Quantum for Processor.  (default=`2')",
+  "  -a, --algorithm=STRING  Scheduler algorithm.  (possible values=\"FCFS\", \n                            \"RR\", \"SRT\", \"SPN\" default=`FCFS')",
+  "\n Group: simulator\n  Simulators available",
+  "  -s, --scheduler         Process Scheduler.",
+  "\n Process Scheduler mode.\n",
+  "  -v, --virtualmem        Virtual Memory Scheduler.",
+  "\n Virtual Memory Scheduler mode.\n",
+  "  -x, --expire=INT        Number of Quantums at which the result will be \n                            returned.",
+    0
+}
+\end{verbatim}
+\end{Code}
+\hypertarget{cmdline_8c_610c3307abce5a8fd304b86b018ae60b}{
+\index{cmdline.c@{cmdline.c}!gengetopt\_\-args\_\-info\_\-purpose@{gengetopt\_\-args\_\-info\_\-purpose}}
+\index{gengetopt\_\-args\_\-info\_\-purpose@{gengetopt\_\-args\_\-info\_\-purpose}!cmdline.c@{cmdline.c}}
+\subsubsection[{gengetopt\_\-args\_\-info\_\-purpose}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf gengetopt\_\-args\_\-info\_\-purpose} = \char`\"{}\char`\"{}}}
+\label{cmdline_8c_610c3307abce5a8fd304b86b018ae60b}
+
+
+\hypertarget{cmdline_8c_9f397a306f363bfdebb611e86acf36d5}{
+\index{cmdline.c@{cmdline.c}!gengetopt\_\-args\_\-info\_\-usage@{gengetopt\_\-args\_\-info\_\-usage}}
+\index{gengetopt\_\-args\_\-info\_\-usage@{gengetopt\_\-args\_\-info\_\-usage}!cmdline.c@{cmdline.c}}
+\subsubsection[{gengetopt\_\-args\_\-info\_\-usage}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf gengetopt\_\-args\_\-info\_\-usage} = \char`\"{}Usage: prosim \mbox{[}OPTIONS\mbox{]}...\char`\"{}}}
+\label{cmdline_8c_9f397a306f363bfdebb611e86acf36d5}
+
+

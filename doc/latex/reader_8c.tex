@@ -1,0 +1,195 @@
+\hypertarget{reader_8c}{
+\section{src/reader.c File Reference}
+\label{reader_8c}\index{src/reader.c@{src/reader.c}}
+}
+{\tt \#include $<$stdio.h$>$}\par
+{\tt \#include $<$stdlib.h$>$}\par
+{\tt \#include $<$string.h$>$}\par
+{\tt \#include $<$stdbool.h$>$}\par
+{\tt \#include \char`\"{}reader.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{reader_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}{output} (process $\ast$proc)
+\begin{CompactList}\small\item\em Writes the process's cpu access history to the output file. \item\end{CompactList}\item 
+process $\ast$$\ast$ \hyperlink{reader_8c_d3993d1ecc5237fcd44975adc12cf745}{readFile} (char $\ast$filename, int $\ast$length)
+\begin{CompactList}\small\item\em Reads the contents of the input file into an unsorted array of process structures. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_147ceda5f975cc44e1cc3c387b762ddf}{printQueue} (QUEUE $\ast$queue)
+\begin{CompactList}\small\item\em Debugging method that prints the contents of a given queue. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_9d92d5fd943184e547ba24fe47af8a55}{sortSPN} (QUEUE $\ast$ready)
+\begin{CompactList}\small\item\em Sorts the ready queue by process duration, shortest process first. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_914892adfd28425e112c0152754aa9f5}{getReady} (QUEUE $\ast$pqueue, QUEUE $\ast$ready, int time\_\-cycle)
+\begin{CompactList}\small\item\em Appends all available processes at the given time to the ready queue. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_c447175fbc74e5ee285c58c27b14dc09}{roundRobin} (QUEUE $\ast$pqueue, int quantum)
+\begin{CompactList}\small\item\em Simulates the Round Robin scheduling algorithm for the given time quantum. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_98532579e94e95f322df48029c36d600}{firstCome} (QUEUE $\ast$pqueue)
+\begin{CompactList}\small\item\em Simulates the First-Come First-Serve scheduling algorithm. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_2856d7db6abdc36f9c1ecb2b3765230f}{shortestNext} (QUEUE $\ast$pqueue)
+\begin{CompactList}\small\item\em Simulates the Shortest Process Next scheduling algorithm. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_c3ad972b83b741b5eb78b48820883c1d}{shortestRemaining} (QUEUE $\ast$pqueue)
+\begin{CompactList}\small\item\em Simulates the Shortest Remaining Time scheduling algorithm. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_051d094213c5463271ef7f3f94e403ad}{print} (process $\ast$proc, int length)
+\begin{CompactList}\small\item\em Debug method for printing the unsorted array of processes, taken fro the input file. \item\end{CompactList}\item 
+QUEUE $\ast$ \hyperlink{reader_8c_12a02a9cebfa58fe341e41548c5d69ab}{sort} (process $\ast$$\ast$proc, int length)
+\begin{CompactList}\small\item\em Sorts the initial process array by start time,then enqueues the processes into the process queue. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{reader_8c_98532579e94e95f322df48029c36d600}{
+\index{reader.c@{reader.c}!firstCome@{firstCome}}
+\index{firstCome@{firstCome}!reader.c@{reader.c}}
+\subsubsection[{firstCome}]{\setlength{\rightskip}{0pt plus 5cm}void firstCome (QUEUE $\ast$ {\em pqueue})}}
+\label{reader_8c_98532579e94e95f322df48029c36d600}
+
+
+Simulates the First-Come First-Serve scheduling algorithm. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \end{description}
+\end{Desc}
+\hypertarget{reader_8c_914892adfd28425e112c0152754aa9f5}{
+\index{reader.c@{reader.c}!getReady@{getReady}}
+\index{getReady@{getReady}!reader.c@{reader.c}}
+\subsubsection[{getReady}]{\setlength{\rightskip}{0pt plus 5cm}void getReady (QUEUE $\ast$ {\em pqueue}, \/  QUEUE $\ast$ {\em ready}, \/  int {\em time\_\-cycle})}}
+\label{reader_8c_914892adfd28425e112c0152754aa9f5}
+
+
+Appends all available processes at the given time to the ready queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \item[{\em ready}]The queue of all ready processes \item[{\em time\_\-cycle}]The current time cycle of the processor \end{description}
+\end{Desc}
+\hypertarget{reader_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}{
+\index{reader.c@{reader.c}!output@{output}}
+\index{output@{output}!reader.c@{reader.c}}
+\subsubsection[{output}]{\setlength{\rightskip}{0pt plus 5cm}void output (process $\ast$ {\em proc})}}
+\label{reader_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}
+
+
+Writes the process's cpu access history to the output file. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The process that has just completed/terminated \end{description}
+\end{Desc}
+\hypertarget{reader_8c_051d094213c5463271ef7f3f94e403ad}{
+\index{reader.c@{reader.c}!print@{print}}
+\index{print@{print}!reader.c@{reader.c}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void print (process $\ast$ {\em proc}, \/  int {\em length})}}
+\label{reader_8c_051d094213c5463271ef7f3f94e403ad}
+
+
+Debug method for printing the unsorted array of processes, taken fro the input file. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The array of processes read from the input file \item[{\em length}]The number of processes \end{description}
+\end{Desc}
+\hypertarget{reader_8c_147ceda5f975cc44e1cc3c387b762ddf}{
+\index{reader.c@{reader.c}!printQueue@{printQueue}}
+\index{printQueue@{printQueue}!reader.c@{reader.c}}
+\subsubsection[{printQueue}]{\setlength{\rightskip}{0pt plus 5cm}void printQueue (QUEUE $\ast$ {\em queue})}}
+\label{reader_8c_147ceda5f975cc44e1cc3c387b762ddf}
+
+
+Debugging method that prints the contents of a given queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em queue}]The queue to be printed \end{description}
+\end{Desc}
+\hypertarget{reader_8c_d3993d1ecc5237fcd44975adc12cf745}{
+\index{reader.c@{reader.c}!readFile@{readFile}}
+\index{readFile@{readFile}!reader.c@{reader.c}}
+\subsubsection[{readFile}]{\setlength{\rightskip}{0pt plus 5cm}process$\ast$$\ast$ readFile (char $\ast$ {\em filename}, \/  int $\ast$ {\em length})}}
+\label{reader_8c_d3993d1ecc5237fcd44975adc12cf745}
+
+
+Reads the contents of the input file into an unsorted array of process structures. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The string representing the name of the input file \item[{\em length}]A counter that records the number of jobs present in the input file \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The array containing the process structures \end{Desc}
+\hypertarget{reader_8c_c447175fbc74e5ee285c58c27b14dc09}{
+\index{reader.c@{reader.c}!roundRobin@{roundRobin}}
+\index{roundRobin@{roundRobin}!reader.c@{reader.c}}
+\subsubsection[{roundRobin}]{\setlength{\rightskip}{0pt plus 5cm}void roundRobin (QUEUE $\ast$ {\em pqueue}, \/  int {\em quantum})}}
+\label{reader_8c_c447175fbc74e5ee285c58c27b14dc09}
+
+
+Simulates the Round Robin scheduling algorithm for the given time quantum. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \item[{\em quantum}]The time quantum \end{description}
+\end{Desc}
+\hypertarget{reader_8c_2856d7db6abdc36f9c1ecb2b3765230f}{
+\index{reader.c@{reader.c}!shortestNext@{shortestNext}}
+\index{shortestNext@{shortestNext}!reader.c@{reader.c}}
+\subsubsection[{shortestNext}]{\setlength{\rightskip}{0pt plus 5cm}void shortestNext (QUEUE $\ast$ {\em pqueue})}}
+\label{reader_8c_2856d7db6abdc36f9c1ecb2b3765230f}
+
+
+Simulates the Shortest Process Next scheduling algorithm. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \end{description}
+\end{Desc}
+\hypertarget{reader_8c_c3ad972b83b741b5eb78b48820883c1d}{
+\index{reader.c@{reader.c}!shortestRemaining@{shortestRemaining}}
+\index{shortestRemaining@{shortestRemaining}!reader.c@{reader.c}}
+\subsubsection[{shortestRemaining}]{\setlength{\rightskip}{0pt plus 5cm}void shortestRemaining (QUEUE $\ast$ {\em pqueue})}}
+\label{reader_8c_c3ad972b83b741b5eb78b48820883c1d}
+
+
+Simulates the Shortest Remaining Time scheduling algorithm. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \end{description}
+\end{Desc}
+\hypertarget{reader_8c_12a02a9cebfa58fe341e41548c5d69ab}{
+\index{reader.c@{reader.c}!sort@{sort}}
+\index{sort@{sort}!reader.c@{reader.c}}
+\subsubsection[{sort}]{\setlength{\rightskip}{0pt plus 5cm}QUEUE$\ast$ sort (process $\ast$$\ast$ {\em proc}, \/  int {\em length})}}
+\label{reader_8c_12a02a9cebfa58fe341e41548c5d69ab}
+
+
+Sorts the initial process array by start time,then enqueues the processes into the process queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The array of processes read from the input file \item[{\em length}]The number of processes \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The (sorted) process queue \end{Desc}
+\hypertarget{reader_8c_9d92d5fd943184e547ba24fe47af8a55}{
+\index{reader.c@{reader.c}!sortSPN@{sortSPN}}
+\index{sortSPN@{sortSPN}!reader.c@{reader.c}}
+\subsubsection[{sortSPN}]{\setlength{\rightskip}{0pt plus 5cm}void sortSPN (QUEUE $\ast$ {\em ready})}}
+\label{reader_8c_9d92d5fd943184e547ba24fe47af8a55}
+
+
+Sorts the ready queue by process duration, shortest process first. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em ready}]The queue of ready processes \end{description}
+\end{Desc}
