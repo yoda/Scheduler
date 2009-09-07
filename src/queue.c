@@ -1,9 +1,17 @@
 #include "queue.h"
 
+/**	Checks whether the queue is empty
+	@param queue The queue to be checked
+	@return 1 if the queue is empty, 0 otherwise
+*/
 int isEmpty(QUEUE *queue) {
 	return(queue->start->next == queue->end);
 } 
 
+/** Initialises a new queue
+	@param queuename The desired name of the queue
+	@return The front of the queue
+*/
 QUEUE *init(char *queuename) {
 	QUEUE *newQueue;	
 	LINK *begin;
@@ -43,6 +51,12 @@ QUEUE *init(char *queuename) {
 	return newQueue;
 }
 
+/**	Inspects the first element of the queue, setting pointers to its location and size
+	@param queue The queue to be inspected
+	@param data Void pointer that will be store the location of the payload item
+	@param size Size pointer that will store the size of the link being looked at
+	@return 0 if the operation is successful, 1 if the queue is empty
+*/
 int peek(QUEUE *queue, void **data, size_t *size) {
 	if(isEmpty(queue)){return 1;}
 	*data = queue->start->next->payload;
@@ -50,6 +64,11 @@ int peek(QUEUE *queue, void **data, size_t *size) {
 	return 0;
 }
 
+/** Removes the first element from the queue, setting pointers to its location and size
+	@param data Void pointer that will be store the location of the payload
+	@param size Size pointer that will store the size of the payload being looked at
+	@return 0 if the operation is successful, 1 if the queue is empty
+*/
 int dequeue(QUEUE* queue, void** data, size_t *size) {
 	if(isEmpty(queue)) {return 1;}
 	*data = queue->start->next->payload;
@@ -66,6 +85,12 @@ int dequeue(QUEUE* queue, void** data, size_t *size) {
 	return 0;
 }
 
+/**	Adds an element to the back of the queue
+	@param queue The queue that will be added to
+	@param data Void pointer that holds the location of the payload item to be added
+	@param size Stores the size of the payload item to be added
+	@return 0 if the operation is successful, 1 otherwise
+*/
 int enqueue(QUEUE* queue, void* data, size_t size) {
 	LINK* newLink;
 	newLink = (LINK *) malloc(sizeof (LINK));
@@ -82,6 +107,11 @@ int enqueue(QUEUE* queue, void* data, size_t size) {
 	return 0;
 }
 
+/**	Debug method to test the basic operations of the queue
+	@param argc The number of arguments passed
+	@param argv The string aguments passed
+	@return 0 if successful, 1 otherwise
+*/
 #ifdef debug
 int main(int argc, char **argv) {
 

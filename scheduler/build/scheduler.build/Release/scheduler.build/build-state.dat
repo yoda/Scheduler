@@ -60,8 +60,8 @@ t1242688292
 s1604
 
 N/Users/yoda/Work/CITS2230/Scheduler/include/queue.h
-c000000004A96462C00000000000001DF
-t1251362348
+c000000004A9F2EEC00000000000001DF
+t1251946220
 s479
 i<stdlib.h>
 i<stdio.h>
@@ -70,26 +70,26 @@ i<string.h>
 i<stdbool.h>
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/cmdline.h
-c000000004A97521C0000000000001E76
-t1251430940
+c000000004A9F2EEC0000000000001E76
+t1251946220
 s7798
 i"config.h"
 i<stdio.h>
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/handler.h
-c000000004A977D76000000000000002F
-t1251442038
-s47
+c000000004A9F2EEC000000000000003B
+t1251946220
+s59
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/reader.h
-c000000004A9785D900000000000002AB
-t1251444185
-s683
+c000000004A9F2EEC0000000000000315
+t1251946220
+s789
 i"queue.h"
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c
-c000000004A9749D60000000000004FFE
-t1251428822
+c000000004A9F2EEC0000000000004FFE
+t1251946220
 s20478
 i"config.h"
 i<stdio.h>
@@ -99,31 +99,31 @@ i"getopt.h"
 i"cmdline.h"
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c
-c000000004A97889400000000000002D8
-t1251444884
-s728
+c000000004A9F2EEC00000000000005AB
+t1251946220
+s1451
 i"reader.h"
 i"handler.h"
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c
-c000000004A9789350000000000000445
-t1251445045
-s1093
+c000000004A9F2EEC00000000000005D9
+t1251946220
+s1497
 i<stdlib.h>
 i<stdio.h>
 i"cmdline.h"
 i"handler.h"
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c
-c000000004A9645F50000000000000C90
-t1251362293
-s3216
+c000000004A9F2EEC00000000000011F3
+t1251946220
+s4595
 i"queue.h"
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c
-c000000004A978ECE0000000000002D28
-t1251446478
-s11560
+c000000004A9F2EEC0000000000004D2E
+t1251946220
+s19758
 i<stdio.h>
 i<stdlib.h>
 i<string.h>
@@ -131,7 +131,7 @@ i<stdbool.h>
 i"reader.h"
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler
-t1251685522
+t1251946220
 s79952
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler.dSYM
@@ -139,90 +139,90 @@ t1251685522
 s102
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/cmdline.o
-t1251685521
+t1251946220
 s23920
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/handler.o
-t1251685521
+t1251946220
 s5576
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/main.o
-t1251685521
+t1251946220
 s3688
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/queue.o
-t1251685521
+t1251946220
 s5740
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/reader.o
-t1251685521
+t1251946220
 s14664
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler
-t1251685521
+t1251946220
 s23100
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler.LinkFileList
-c000000004A9B3491000000000000025C
-t1251685521
+c000000004A9F2EEC000000000000025C
+t1251946220
 s604
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/cmdline.o
-t1251685522
+t1251946220
 s26400
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/handler.o
-t1251685522
+t1251946220
 s5864
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/main.o
-t1251685522
+t1251946220
 s3968
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/queue.o
-t1251685522
+t1251946220
 s5796
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/reader.o
-t1251685522
+t1251946220
 s15668
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler
-t1251685522
+t1251946220
 s22608
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler.LinkFileList
-c000000004A9B34910000000000000257
-t1251685521
+c000000004A9F2EEC0000000000000257
+t1251946220
 s599
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/cmdline.o
-t1251685521
+t1251946220
 s32648
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/handler.o
-t1251685521
+t1251946220
 s6520
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/main.o
-t1251685521
+t1251946220
 s4452
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/queue.o
-t1251685521
+t1251946220
 s7216
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/reader.o
-t1251685521
+t1251946220
 s18656
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler
-t1251685521
+t1251946220
 s28288
 
 N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler.LinkFileList
-c000000004A9B34910000000000000266
-t1251685521
+c000000004A9F2EEC0000000000000266
+t1251946220
 s614
 
 CCheck dependencies

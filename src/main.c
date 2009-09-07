@@ -4,7 +4,10 @@
 #include "handler.h"
 
 #define debug
-
+/**	Handles the command line input using the getopt() library
+	@param argc The number of arguments passed
+	@param argv The array of string arguments passed
+*/
 int main(int argc, char **argv) {
 
 	struct gengetopt_args_info args_info;
@@ -41,7 +44,9 @@ int main(int argc, char **argv) {
 	int *q; // Quantum
 	int *e; // Exit point
 	char **a; // Algorithm
-
+	int expire;
+	int mode;
+	
 	if(args_info.scheduler_given)
 	{
 #ifdef debug
@@ -50,8 +55,12 @@ int main(int argc, char **argv) {
 		q = &args_info.quantum_arg;
 		
 		a = &args_info.algorithm_arg;
+		
+		expire = -1;
+		
+		mode = 0;
 
-		scheduler(&args_info.input_arg, a, q);
+		scheduler(&args_info.input_arg, a, q, &expire, &mode);
 		
 	} 
 	else if(args_info.virtualmem_given)
@@ -59,6 +68,15 @@ int main(int argc, char **argv) {
 #ifdef debug
 		printf("Running virtualmem\n");
 #endif
+		q = &args_info.quantum_arg;
+		
+		a = &args_info.algorithm_arg;
+
+		expire = args_info.expire_arg;
+		
+		mode = 1;
+
+		scheduler(&args_info.input_arg, a, q, &expire, &mode);
 	}
 
 	cmdline_parser_free(&args_info);
