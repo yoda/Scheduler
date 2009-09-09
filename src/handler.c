@@ -28,28 +28,21 @@ void scheduler(char **inputfile, char **algorithm, int *quantum, int *expire,int
 	}
 	else if(strcmp(*algorithm, "RR") == 0)
 	{
-		roundRobin(pqueue, *quantum);
+		roundRobin(pqueue, *quantum,expire,mode);
 	}
 	else if(strcmp(*algorithm, "SRT") == 0)
 	{
-		shortestRemaining(pqueue);
+		shortestRemaining(pqueue,expire,mode);
 	}
 	else if(strcmp(*algorithm, "SPN") == 0)
 	{
-		shortestNext(pqueue);
+		shortestNext(pqueue,expire,mode);
 	}
 	
 	//prepare and print to the memory output file if the mode suggests to do so
 	if(*mode == 1) {
-		FILE *vfile;
-		//clears the file if it exists, else makes a new one
-		if((vfile = fopen("vout.file","w")) == NULL) {
-				printf("Failed to create/open the file\n");
-				return;
-		}
-		fclose(vfile);
-		//append all memeory data to the file
-		printPage(expire);
+		//append all virtual memory and page table data to the file
+		printPage();
 	}
 	
 	fclose(file);	

@@ -5,11 +5,51 @@
 #include "reader.h"
 
 int paget[200][2];		//the page table array
-int page[200];			//the virtual memory array
+char * page[200];		//the virtual memory array
 char *mem_out;			//virtual memory print string
 char *page_out;			//page table print string
-//char mode = 'v';		//the program execution mode. v indictates virtual memory mode.
-//int v_time = 23;		//the time at which the page table needs to be cloned
+
+int getName(process *proc) {
+	char *name = malloc(2*sizeof(char)+1);
+	int pid;
+	if(strlen(proc->name) == 4) {
+		name[0] = proc->name[3];
+		name[1] = '\0';		
+	}else if (strlen(proc->name) == 5) {
+		name[0] = proc->name[3];
+		name[1] = proc->name[4];
+		name[2] = '\0';	
+	}else{
+		printf("ERROR: Job Name '%s' Is Not In Valid Numerical Range (0 - 99)\n",proc->name);
+		exit(EXIT_FAILURE);
+	}
+	pid = atoi(name);
+	return pid;
+}
+
+/**	Generates the 4 digit, double concatenated process name (integer), to be stored in the page table and virtual memory.
+	@param proc The process with which to generate the name
+	@return The 4 digit integer representing the process id
+*/
+char * getNameQuad(process *proc) {
+	char *str = malloc(4*sizeof(char) +1);
+	int length = strlen(proc->name);
+
+	if(length == 4) {
+		str[0] = '0';
+		str[1] = proc->name[3];
+		str[2] = '0';
+		str[3] = proc->name[3];
+		str[4] = '\0';
+	}else if(length == 5) {
+		str[0] = proc->name[3];
+		str[1] = proc->name[4];
+		str[2] = proc->name[3];
+		str[3] = proc->name[4];
+		str[4] = '\0';
+	}
+	return str;
+} 
 
 void clonePage(int *expire) {
 	//malloc for the first part of the page table header
@@ -24,34 +64,47 @@ void clonePage(int *expire) {
 	char buffer[4*sizeof(int)+1];
 	sprintf(buffer,"%d",*expire);
 	
-	//realloc for time and end characters.
-	mem_out = (char*) realloc(mem_out, (strlen(mem_out)*sizeof(char)) + (strlen(buffer)*sizeof(char)) + 1 + 6);
+	//realloc for time and end characters. +7 for the string ' -->\n\n' and the nullbyte
+	mem_out = (char*) realloc(mem_out, (strlen(mem_out)*sizeof(char)) + (strlen(buffer)*sizeof(char)) + 7);
 	strcat(mem_out,buffer);
 	strcat(mem_out," -->\n\n");
 
-	page_out = (char*) realloc(page_out, (strlen(page_out)*sizeof(char)) + (strlen(buffer)*sizeof(char)) + 1 + 6);
+	//+7 for the string ' -->\n\n' and the nullbyte
+	page_out = (char*) realloc(page_out, (strlen(page_out)*sizeof(char)) + (strlen(buffer)*sizeof(char)) + 7);
 	strcat(page_out,buffer);
 	strcat(page_out," -->\n\n");
 	
 	
 	char i_buffer[4*sizeof(int)+1];
-	//ORIGINAL METHOD CONTENTS	
+	
 	for(int i=0;i<200;i++) {
 		if(i%4 == 0) {
-			//fill page table string
+			//convert the name and position into strings
 			sprintf(buffer,"%d\n",paget[i][0]);
 			sprintf(i_buffer,"%d",(i/4) +1);
-			page_out = (char*) realloc(page_out, (strlen(page_out)*sizeof(char)) + (strlen(buffer)*sizeof(char)) + (strlen(i_buffer)*sizeof(char)) + 7 + 1);
-			strcat(page_out,"Frame");
+			
+			//append to the page table string. +11 is for the strings "Frame " & " -- " and the nullbyte
+			page_out = (char*) realloc(page_out, (strlen(page_out)*sizeof(char)) + (strlen(i_buffer)*sizeof(char)) +11);
+			strcat(page_out,"Frame ");
 			strcat(page_out,i_buffer);
-			strcat(page_out," ");
-			strcat(page_out,buffer);
+			strcat(page_out," -- ");
+			
+			//if the page is used, print the job. +5 for the string "Job " plus the nullbyte
+			if(strcmp(buffer,"-1\n") != 0) {
+				page_out = (char*) realloc(page_out, (strlen(page_out)*sizeof(char)) + (strlen(buffer)*sizeof(char)) +5);
+				strcat(page_out,"Job ");
+				strcat(page_out,buffer);
+			}else{
+				//else page is empty, so print empty. +7 for the string "Empty\n" and the nullbyte
+				page_out = (char*) realloc(page_out, (strlen(page_out)*sizeof(char)) + 7);
+				strcat(page_out,"Empty\n");
+			}
 		}
 		
-		//fill memory string
-		sprintf(buffer,"%d\n",page[i]);
-		mem_out = (char*) realloc(mem_out, (strlen(mem_out)*sizeof(char)) + (strlen(buffer)*sizeof(char)) + 1);
-		strcat(mem_out,buffer);
+		//fill memory string. +2 for the newline and the nullbyte
+		mem_out = (char*) realloc(mem_out, (strlen(mem_out)*sizeof(char)) + (strlen(page[i])*sizeof(char)) + 2);
+		strcat(mem_out,page[i]);
+		strcat(mem_out,"\n");
 	}
 }
 
@@ -75,9 +128,12 @@ void printPage() {
 void initMemory() {
 	//set all pages in memory to zero, indicating 'free' status. also set "last-used" time to zero and adjust the page table accordingly.
 	for(int i=0;i<200;i++) {
-		page[i] = 0;
-		paget[i][0] = 0;
-		paget[i][1] = (int)NULL;
+		page[i] = malloc(4*sizeof(char) +1);
+		page[i][0] = '0';
+		page[i][1] = '\0';
+		
+		paget[i][0] = -1;
+		paget[i][1] = -1;
 	}
 }
 
@@ -87,7 +143,7 @@ void initMemory() {
 int findFree() {
 	int count = 0;
 	for(int i=0;i<200;i++) {
-		if(paget[i][0] == 0) {
+		if(paget[i][0] == -1) {
 			count++;
 		}
 	}
@@ -106,18 +162,20 @@ bool isCached(int pid) {
 	}
 	return false;
 }
+
 /**	Frees the pages of the memory frame found at the desired index
 	@param index The index representing the start of the frame in the virtual memory.
 */
 void freeFrame(int index) {
 	for(int i=index;i<(index+4);i++) {
 		//free the memory frame
-		page[i] = 0;
+		page[i][0] = '0';
+		page[i][1] = '\0';
 		//debug
 		printf("Freed page [%d] that was used by process %d\n",i,paget[i][0]);
 		//adjust the page table
-		paget[i][0] = 0;
-		paget[i][1] = (int)NULL;
+		paget[i][0] = -1;
+		paget[i][1] = -1;
 	}
 }
 
@@ -126,7 +184,7 @@ void freeFrame(int index) {
 int getFirstAge() {
 	int index = 0;
 	while(true) {
-		if(paget[index][1] != (int)NULL) {
+		if(paget[index][1] != -1) {
 			return paget[index][1];
 		}
 		index++;
@@ -137,68 +195,75 @@ int getFirstAge() {
 	@param num The number of frames to be cleared
 */
 void freeFrames(int num) {
-	int oldest = getFirstAge();		//initialise the age of the oldest process (youngest time_cycle value within the page table)
-	int old_proc = paget[0][0];		//initialise the name of the oldest process
-
+	int oldest = getFirstAge();				//initialise the age of the oldest process (youngest time_cycle value within the page table)
+	char *old_proc = malloc(4*sizeof(char)+1);
+	char buffer[4*sizeof(int)+1];
+	sprintf(old_proc,"%d",paget[0][0]);		//initialise the name of the oldest process
+				
 	while(num>0) {
 		//find oldest process
 		for(int i=0;i<200;i++) {
-			if(paget[i][1] < oldest) {
+			if(paget[i][1] != -1 && paget[i][1] < oldest) {
+			printf("%d\n",paget[i][1]);
 			 	oldest = paget[i][1];
-			 	old_proc = paget[i][0];
+				sprintf(old_proc,"%d",paget[i][0]);		//initialise the name of the oldest process
 			}
 		}
 
 		//free all frames relating to the oldest process, and adjust the page table accordingly
 		for(int i=0;i<200;i++) {
-			if(page[i] == old_proc) {
+			sprintf(buffer,"%d",paget[i][0]);
+			if(strcmp(buffer,old_proc) == 0) {
 				//free entire frame and adjust page table (ensures that the '1' value fragments get reset)
 				freeFrame(i);
 				//decrement frame counter
 				num--;
 				//jump to start of next frame (i+3 due to loop having i+1, thus finally i+4)
 				i=i+3;
-				//end case
-				if(num == 0) {
-					break;
-				}
 			}
 		}
+		//end case
+		if(num <= 0) {
+			break;
+		}
 		//reset for start of next loop
-		oldest = 1000;
-		old_proc = paget[0][0];
+		int oldest = getFirstAge();
+		sprintf(old_proc,"%d",paget[0][0]);
 	}
 }
 
-void fillFrames(process *proc,int time_cycle) {
+void fillFrames(process *proc,int pid,int time_cycle) {
 	//scan through memory, assigning the process to the first free frame, until the desired number is met
 	//any fragmentation in the last frame is distinguished by a value of 1. n.b. fragmentation = unused pages within the frame.
 	int pages_req = proc->pages;
-	int proc_id = 2020;
 	int frag_val = 4 - (proc->pages%4);	//the number of pages that will be unused in the last frame
 	if(frag_val == 4) frag_val = 0;
-	
+	char *pquad = getNameQuad(proc);
 	while(true) {
 		for(int i=0;i<200;i++) {
 			//fill the frame accordingly
-			if(page[i] == 0) {
+			if(strcmp(page[i],"0") == 0) {
 				//set page value
-				page[i] = (10*proc->start) +3;
+				strcpy(page[i],pquad);
+
 				//map to page table
-				paget[i][0] = (10*proc->start) +3;
+				paget[i][0] = pid;
 				paget[i][1] = time_cycle;
-				printf("filled page[%d] with %d at time %d\n",i,(10*proc->start) +3,time_cycle);
+				printf("Filled page[%d] with %s at time %d\n",i,page[i],time_cycle);
 				pages_req--;
 				//handle the spare pages within the last frame
 				if(pages_req == 0) {
 					//fill remaining pages in the current frame with value '1'. ie fragmented
 					for(frag_val;frag_val>0;frag_val--) {
 						//set page value
-						page[i+frag_val] = 1;
+						page[i+frag_val][0] = '-';
+						page[i+frag_val][1] = '1';
+						page[i+frag_val][2] = '0';
+						page[i+frag_val][3] = '\0';
 						//map to page table
-						paget[i+frag_val][0] = 1;
+						paget[i+frag_val][0] = -10;
 						paget[i+frag_val][1] = time_cycle;
-						printf("filled page[%d] with '1' at time %d\n",i+frag_val,time_cycle);
+						printf("Filled page[%d] with '%s' at time %d\n",i+frag_val,page[i+frag_val],time_cycle);
 					}
 					break;
 				}
@@ -277,6 +342,11 @@ process **readFile(char * filename,int *length,int *mode) {
 			if(sscanf(tempc,"%s%d%d%d",tempstr,&proc[*length]->start,&proc[*length]->duration,&proc[*length]->pages) != 4) {
 				break;
 			}else {
+				//if too much memory is required
+				if(proc[*length]->pages > 200 || proc[*length]->pages < 1) {
+					printf("Invalid Page Size For %s, Must Be Within The Range (1-200)\n",tempstr); 
+					exit(EXIT_FAILURE); 
+				}
 				//add the name to the structure. strdup automatically mallocs for the size of the string
 				proc[*length]->name = strdup(tempstr);
 			
@@ -362,7 +432,7 @@ void getReady(QUEUE *pqueue, QUEUE *ready, int time_cycle) {
 	@param pqueue The queue of all available processes
 	@param quantum The time quantum
 */
-void roundRobin(QUEUE *pqueue,int quantum) {
+void roundRobin(QUEUE *pqueue,int quantum,int *expire, int *mode) {
 	//initialise variables
 	void *temp;
 	size_t sizetemp = 0;
@@ -370,6 +440,8 @@ void roundRobin(QUEUE *pqueue,int quantum) {
 	int time_cycle = 0;
 	int counter = 0;	//records the count (relative to the quantum)
 	int *data;
+	int frames;
+	int pid;
 	
 	//simulate time cycles with a loop and for each cycle, queue the available processes in a new queue (ready queue)
 	while(!isEmpty(pqueue) || !isEmpty(ready)) {
@@ -381,6 +453,25 @@ void roundRobin(QUEUE *pqueue,int quantum) {
 			//peek and modify the duration until the time quantum expires or until the process terminates
 			peek(ready, &temp, &sizetemp);
 			process *proc = temp;
+			
+			//for memory			
+			if(*mode == 1) {
+				frames = proc->pages/4;
+				int rem = proc->pages%4;
+				if(rem>0) frames = frames+1;
+				int numfree = findFree();
+				pid = getName(proc);
+				printf("Need %d frames, have %d frames. Free %d frames\n",frames,numfree,frames-numfree);
+				if(!isCached(pid)) {
+					if(frames > numfree) {freeFrames(frames-numfree); }
+					fillFrames(proc,pid,time_cycle);
+				}
+				//backup the memory at the specified time
+				if(time_cycle+1 == *expire) {
+					clonePage(expire);
+				}
+			}
+			
 			proc->duration--;
 			counter++;
 			time_cycle++;
@@ -388,6 +479,7 @@ void roundRobin(QUEUE *pqueue,int quantum) {
 			
 			//if the process terminates, reset the count and dequeue the process
 			if(proc->duration == 0) {
+				printf("Completed  %s at t=%d\n",proc->name,time_cycle); 
 			   	//add the processing data to the 'run' queue in the current process structure
 				data = malloc(2*sizeof(int));
 				data[0] = time_cycle-counter;
@@ -418,6 +510,10 @@ void roundRobin(QUEUE *pqueue,int quantum) {
 			time_cycle++;
 		}
 	}
+	//if the expire time is larger than the required completion time, let the output string represent the final memory state
+	if(*mode == 1 && *expire > time_cycle) {
+		clonePage(expire);
+	}
 }
 
 /**	Simulates the First-Come First-Serve scheduling algorithm.
@@ -432,6 +528,7 @@ void firstCome(QUEUE *pqueue, int *expire, int *mode) {
 	int counter = 0;	//records the count (relative to the quantum)
 	int *data;
 	int frames;
+	int pid;
 	
 	//simulate time cycles with a loop and for each cycle, queue the available processes in a new queue (ready queue)
 	while(!isEmpty(pqueue) || !isEmpty(ready)) {
@@ -450,14 +547,11 @@ void firstCome(QUEUE *pqueue, int *expire, int *mode) {
 				int rem = proc->pages%4;
 				if(rem>0) frames = frames+1;
 				int numfree = findFree();
-				int pid = (10*proc->start) +3;
-				
-				
-				//int pid = getJobName();
+				pid = getName(proc);
 				
 				if(!isCached(pid)) {
-					if(frames > numfree) { freeFrames(frames-numfree); }
-					fillFrames(proc,time_cycle);
+					if(frames > numfree) {freeFrames(frames-numfree); }
+					fillFrames(proc,pid,time_cycle);
 				}
 				//backup the memory at the specified time
 				if(time_cycle+1 == *expire) {
@@ -472,6 +566,7 @@ void firstCome(QUEUE *pqueue, int *expire, int *mode) {
 			
 			//if the process terminates, reset the count and dequeue the process
 			if(proc->duration == 0) {
+				printf("Completed  %s at t=%d\n",proc->name,time_cycle); 
 				//add the processing data to the 'run' queue in the process structure
 				data = malloc(2*sizeof(int));
 				data[0] = time_cycle-counter;
@@ -487,20 +582,26 @@ void firstCome(QUEUE *pqueue, int *expire, int *mode) {
 			time_cycle++;
 		}
 	}
+	//if the expire time is larger than the required completion time, let the output string represent the final memory state
+	if(*mode == 1 && *expire > time_cycle) {
+		clonePage(expire);
+	}
 }
 
 /**	Simulates the Shortest Process Next scheduling algorithm.
 	@param pqueue The queue of all available processes
 */
-void shortestNext(QUEUE *pqueue) {
+void shortestNext(QUEUE *pqueue,int *expire, int *mode) {
 	//initialise variables
 	void *temp;
 	size_t sizetemp = 0;
 	QUEUE *ready = init("ready");
 	int time_cycle = 0;
 	int counter = 0;			//records the count (relative to the quantum)
-	bool running = true;		//flag that indicates whether a process is accessing the cpu. Dictates whether the ready queue is sorted. It does not need to be sorted every cycle.
+	bool running = true;		//flag that indicates whether a process is accessing the cpu. Dictates whether the ready queue is sorted. 
 	int *data;
+	int frames;
+	int pid;
 	
 	//simulate time cycles with a loop and for each cycle, queue the available processes in a new queue (ready queue)
 	while(!isEmpty(pqueue) || !isEmpty(ready)) {
@@ -519,6 +620,25 @@ void shortestNext(QUEUE *pqueue) {
 			//peek and modify the duration until the time quantum expires or until the process terminates
 			peek(ready, &temp, &sizetemp);
 			process *proc = temp;
+			
+			//for memory			
+			if(*mode == 1) {
+				frames = proc->pages/4;
+				int rem = proc->pages%4;
+				if(rem>0) frames = frames+1;
+				int numfree = findFree();
+				pid = getName(proc);
+				
+				if(!isCached(pid)) {
+					if(frames > numfree) {freeFrames(frames-numfree); }
+					fillFrames(proc,pid,time_cycle);
+				}
+				//backup the memory at the specified time
+				if(time_cycle+1 == *expire) {
+					clonePage(expire);
+				}
+			}
+			
 			proc->duration--;
 			counter++;
 			time_cycle++;
@@ -526,6 +646,7 @@ void shortestNext(QUEUE *pqueue) {
 			
 			//if the process terminates, reset the count and dequeue the process
 			if(proc->duration == 0) {
+				printf("Completed  %s at t=%d\n",proc->name,time_cycle); 
 				//add the processing data to the 'run' queue in the process structure
 				data = malloc(2*sizeof(int));
 				data[0] = time_cycle-counter;
@@ -542,12 +663,16 @@ void shortestNext(QUEUE *pqueue) {
 			time_cycle++;
 		}
 	}
+	//if the expire time is larger than the required completion time, let the output string represent the final memory state
+	if(*mode == 1 && *expire > time_cycle) {
+		clonePage(expire);
+	}
 }
 
 /**	Simulates the Shortest Remaining Time scheduling algorithm.
 	@param pqueue The queue of all available processes
 */
-void shortestRemaining(QUEUE *pqueue) {
+void shortestRemaining(QUEUE *pqueue,int *expire, int *mode) {
 	//initialise variables
 	void *temp;
 	size_t sizetemp = 0;
@@ -556,6 +681,8 @@ void shortestRemaining(QUEUE *pqueue) {
 	int counter = 0;			//records the count (relative to the quantum)
 	process *last = NULL;		//pos of the last process to access the cpu, when it changes it triggers a file write operation
 	int *data;
+	int frames;
+	int pid;
 	
 	//simulate time cycles with a loop and for each cycle, queue the available processes in a new queue (ready queue)
 	while(!isEmpty(pqueue) || !isEmpty(ready)) {
@@ -569,6 +696,25 @@ void shortestRemaining(QUEUE *pqueue) {
 			peek(ready, &temp, &sizetemp);
 			process *proc = temp;
 			
+			//for memory			
+			if(*mode == 1) {
+				frames = proc->pages/4;
+				int rem = proc->pages%4;
+				if(rem>0) frames = frames+1;
+				int numfree = findFree();
+				pid = getName(proc);
+				
+				if(!isCached(pid)) {
+					if(frames > numfree) {freeFrames(frames-numfree); }
+					fillFrames(proc,pid,time_cycle);
+				}
+				//backup the memory at the specified time
+				if(time_cycle+1 == *expire) {
+					clonePage(expire);
+				}
+			}
+			
+			//if the process using the cpu changes
 			if(last != NULL && last != proc && last->duration != 0) {
 				//add the processing data to the 'run' queue in the process structure
 				data = malloc(2*sizeof(int));
@@ -586,6 +732,7 @@ void shortestRemaining(QUEUE *pqueue) {
 			
 			//if the process terminates, reset the count and dequeue the process
 			if(proc->duration == 0) {
+				printf("Completed  %s at t=%d\n",proc->name,time_cycle); 
 				//add the processing data to the 'run' queue in the process structure
 				data = malloc(2*sizeof(int));
 				data[0] = time_cycle-counter;
@@ -604,6 +751,10 @@ void shortestRemaining(QUEUE *pqueue) {
 		}else{
 			time_cycle++;
 		}
+	}
+	//if the expire time is larger than the required completion time, let the output string represent the final memory state
+	if(*mode == 1 && *expire > time_cycle) {
+		clonePage(expire);
 	}
 }
 

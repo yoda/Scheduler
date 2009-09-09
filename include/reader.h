@@ -16,7 +16,7 @@ extern void output(process *proc);
 
 extern void getReady(QUEUE *pqueue, QUEUE *ready, int time_cycle);
 
-extern void roundRobin(QUEUE *pqueue, int quantum);
+extern void roundRobin(QUEUE *pqueue, int quantum, int *expire, int *mode);
 
 extern void firstCome(QUEUE *pqueue, int *expire, int *mode);
 
@@ -28,8 +28,8 @@ extern void printQueue(QUEUE *queue);
 
 extern void sortSPN(QUEUE *ready);
 
-extern void shortestNext(QUEUE *pqueue);
+extern void shortestNext(QUEUE *pqueue, int *expire, int *mode);
 
-extern void shortestRemaining(QUEUE *pqueue);
+extern void shortestRemaining(QUEUE *pqueue, int *expire, int *mode);
 
 extern void printPage();
