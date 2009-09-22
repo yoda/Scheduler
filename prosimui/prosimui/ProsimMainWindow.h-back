@@ -1,0 +1,22 @@
+/*
+ *  ProsimMainWindow.h
+ *  prosim
+ *
+ *  Created by yoda on 11/09/09.
+ *  Copyright 2009 __MyCompanyName__. All rights reserved.
+ *
+ */
+#include <QtGui>
+
+
+class ProsimMainWindow : public QMainWindow
+{
+	Q_OBJECT
+	
+public:
+	ProsimMainWindow(QMainWindow *parent = 0);
+	
+private:
+	QLineEdit *value;
+	QTextEdit *value2;
+};

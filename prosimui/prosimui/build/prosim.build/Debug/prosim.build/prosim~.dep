@@ -1,0 +1,11 @@
+250e5f72b19b4153975e1399b7c6a2d3 07fb32716f70babb433b56dae7c69645 ffffffffffffffffffffffffffffffff 102 /Users/yoda/Work/QtTesting/prosimui/prosim.app
+26dcc808db6c7445f5558d6e24b78b82 03d2977a6af73516620b9ef793712951 ffffffffffffffffffffffffffffffff 102 /Users/yoda/Work/QtTesting/prosimui/build/Debug/prosim.app
+b70c9aa6786e9d065ae6d40ef9a78ff0 91d052aea302e943afb35960dd100472 ffffffffffffffffffffffffffffffff 69784 /Users/yoda/Work/QtTesting/prosimui/build/Debug/prosim.app/Contents/MacOS/prosim
+00000000000000000000000000000000 7060c97357ef2ee25e3353415850c64e ffffffffffffffffffffffffffffffff 8 /Users/yoda/Work/QtTesting/prosimui/build/Debug/prosim.app/Contents/PkgInfo
+00000000000000000000000000000000 7060c97357ef2ee25e3353415850c64e ffffffffffffffffffffffffffffffff 568 /Users/yoda/Work/QtTesting/prosimui/build/Debug/prosim.app/Contents/Info.plist
+000000004ac849ff000000000000e745 07743a95f421ccb071a4502f5d1f2830 ffffffffffffffffffffffffffffffff 624796 /Users/yoda/Work/QtTesting/prosimui/build/prosim.build/Debug/prosim.build/Objects-normal/i386/ProsimMainWindow.o
+000000004ac849e2000000000000ef72 9754c32af9312283c1033566ea8efb65 ffffffffffffffffffffffffffffffff 588460 /Users/yoda/Work/QtTesting/prosimui/build/prosim.build/Debug/prosim.build/Objects-normal/i386/moc_ProsimMainWindow.o
+000000004a85f01a000000000001d83f 272c631975098b92ea41b1474d9848b9 ffffffffffffffffffffffffffffffff 896460 /Users/yoda/Work/QtTesting/prosimui/build/prosim.build/Debug/prosim.build/Objects-normal/i386/main.o
+000000004aa9b18300000000000000d5 92c3397852fe440e290d4b58984700e8 ffffffffffffffffffffffffffffffff 201140 /Users/yoda/Work/QtTesting/prosimui/build/prosim.build/Debug/prosim.build/Objects-normal/i386/ui_prosim.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/yoda/Work/QtTesting/prosimui/build/prosim.build/Debug/prosim.build/Objects-normal/i386/prosim_ui.o
+000000000061f614000000000000e511 0e8b683eaa9cda0b32307ea1cb0c32dc ffffffffffffffffffffffffffffffff 621284 /Users/yoda/Work/QtTesting/prosimui/build/prosim.build/Debug/prosim.build/Objects-normal/i386/Prosim.o

@@ -1,0 +1,3 @@
+/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':
+/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'
+/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'

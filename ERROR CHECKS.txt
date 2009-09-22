@@ -1,0 +1,17 @@
+CURRENTLY CHECKING/ HANDLING:
+
+- page count smaller than 1 or larger than 200	--	DONE
+- invalid job names. ie not in range (0-99)		--	DONE
+- if expire val is higher than completion time, it shows memory at end of run time.	--	DONE
+
+- need to update access times in the page table at each cycle not just as the processes are cached		--	 DONE
+
+- also need to timestamp update the fragments	--	NOT DONE, NOT NECESSARY. FRAGMENTS NEED HAVE NO ASSOCIATION
+
+- need to clear a process from memory when it completes	--	DONE
+
+- only save memeory information after the time cycle has completed. ie if a process has completed then memory will be empty	--	DONE
+
+!!!need to catch -1 for -q and -x BOUNDARY CASES - IN HANDLER?
+
+!!!need to modify the scheduler mode to append to one dynamic string rather than multiple fprintf's
