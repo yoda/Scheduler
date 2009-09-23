@@ -1,0 +1,350 @@
+<!DOCTYPE QtCreatorProject>
+<qtcreator>
+ <data>
+  <variable>RunConfiguration0-CommandLineArguments</variable>
+  <valuelist type="QVariantList" />
+ </data>
+ <data>
+  <variable>RunConfiguration0-ProFile</variable>
+  <value type="QString" >prosim.pro</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-RunConfiguration.name</variable>
+  <value type="QString" >prosim</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UseDyldImageSuffix</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UseTerminal</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserEnvironmentChanges</variable>
+  <valuelist type="QVariantList" />
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserSetName</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-type</variable>
+  <value type="QString" >Qt4ProjectManager.Qt4RunConfiguration</value>
+ </data>
+ <data>
+  <variable>activeRunConfiguration</variable>
+  <value type="int" >0</value>
+ </data>
+ <data>
+  <variable>activebuildconfiguration</variable>
+  <value type="QString" >Debug</value>
+ </data>
+ <data>
+  <variable>buildConfiguration-Debug</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
+   <value key="buildDirectory" type="QString" >/home/ug01/dallij01/Desktop/prosimui/prosimui</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-Release</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-aKzQL2xavn,guid=f23b14159934dc49d58ad5b24ab87b21</value>
+    <value type="QString" >DESKTOP_SESSION=gnome</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >GDMSESSION=gnome</value>
+    <value type="QString" >GDM_LANG=en_US.UTF-8</value>
+    <value type="QString" >GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
+    <value type="QString" >GNOME_KEYRING_PID=4936</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-UTFpWG/socket</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/ug01/dallij01/.gtkrc-1.2-gnome2</value>
+    <value type="QString" >G_BROKEN_FILENAMES=1</value>
+    <value type="QString" >HISTSIZE=1000</value>
+    <value type="QString" >HOME=/home/ug01/dallij01</value>
+    <value type="QString" >HOSTNAME=CSSE2325</value>
+    <value type="QString" >ISE_EIFFEL=/usr/local/Eiffel62</value>
+    <value type="QString" >ISE_PLATFORM=linux-x86</value>
+    <value type="QString" >JAVA_HOME=/usr/java/jdk</value>
+    <value type="QString" >KDEDIRS=/usr</value>
+    <value type="QString" >KDE_IS_PRELINKED=1</value>
+    <value type="QString" >LANG=en_US.UTF-8</value>
+    <value type="QString" >LATEX_MK_DIR=/usr/share/latex-mk</value>
+    <value type="QString" >LD_LIBRARY_PATH=/home/ug01/dallij01/Desktop/qtsdk-2009.03/lib/qtcreator:</value>
+    <value type="QString" >LEJOS_HOME=~/lejos</value>
+    <value type="QString" >LESSOPEN=|/usr/bin/lesspipe.sh %s</value>
+    <value type="QString" >LOADEDMODULES=</value>
+    <value type="QString" >LOGNAME=dallij01</value>
+    <value type="QString" >MAIL=/var/spool/mail/dallij01</value>
+    <value type="QString" >MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:</value>
+    <value type="QString" >MODULESHOME=/usr/share/Modules</value>
+    <value type="QString" >NXJ_HOME=/usr/local/lejos_nxj</value>
+    <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-dallij01</value>
+    <value type="QString" >PATH=/home/ug01/dallij01/Desktop/qtsdk-2009.03/qt/bin:/usr/lib/qt-3.3/bin:/usr/kerberos/bin:/usr/lib/ccache:/usr/local/bin:/usr/bin:/bin:/cslinux/bin:/usr/local/cuda/bin:/usr/local/studio5u1_se/bin:/usr/local/Eiffel62/studio/spec/linux-x86/bin:/usr/local/VTK/bin:/usr/java/jdk/bin:/usr/local/vw7/bin/linux86:/usr/local/ns-allinone/bin:/usr/local/ns-allinone/tcl8.4.18/unix:/usr/local/ns-allinone/tk8.4.18/unix:/home/ug01/dallij01/lejos/bin:/usr/local/vrippack/bin:/home/ug01/dallij01/bin:/usr/local/sbin:/usr/sbin:/sbin</value>
+    <value type="QString" >PWD=/home/ug01/dallij01/Desktop/qtsdk-2009.03/bin</value>
+    <value type="QString" >QTDIR=/home/ug01/dallij01/Desktop/qtsdk-2009.03/qt</value>
+    <value type="QString" >QTINC=/usr/lib/qt-3.3/include</value>
+    <value type="QString" >QTLIB=/usr/lib/qt-3.3/lib</value>
+    <value type="QString" >QT_PLUGIN_PATH=/home/ug01/dallij01/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString" >RCXTTY=/dev/legousbtower0</value>
+    <value type="QString" >RCX_PORT=usb</value>
+    <value type="QString" >SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/4938,unix/unix:/tmp/.ICE-unix/4938</value>
+    <value type="QString" >SHELL=/bin/zsh</value>
+    <value type="QString" >SHLVL=0</value>
+    <value type="QString" >SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-UTFpWG/ssh</value>
+    <value type="QString" >TCL_INCLUDE_PATH=/usr/include</value>
+    <value type="QString" >TCL_LIBRARY=/usr/share/tcl8.5</value>
+    <value type="QString" >TERM=dumb</value>
+    <value type="QString" >TK_INCLUDE_PATH=/usr/include</value>
+    <value type="QString" >TK_LIBRARY=/usr/share/tk8.5</value>
+    <value type="QString" >USER=dallij01</value>
+    <value type="QString" >VISUALWORKS=/usr/local/vw7</value>
+    <value type="QString" >VRIP_DIR=/usr/local/vrippack/src/vrip</value>
+    <value type="QString" >VRIP_TCL_LIBRARY=/usr/local/vrippack/lib/linux/tcl8.4</value>
+    <value type="QString" >VRIP_TK_LIBRARY=/usr/local/vrippack/lib/linux/tk8.4</value>
+    <value type="QString" >XAUTHORITY=/var/run/gdm/auth-for-dallij01-GzoY57/database</value>
+    <value type="QString" >XDG_SESSION_COOKIE=414084c1cdfd690dfcd369f14938d8cc-1253604129.443653-534764857</value>
+    <value type="QString" >XMODIFIERS=@im=imsettings</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >/home/ug01/dallij01/Desktop/prosimui/prosimui/prosim.pro</value>
+    <value type="QString" >-spec</value>
+    <value type="QString" >linux-g++</value>
+    <value type="QString" >-r</value>
+    <value type="QString" >CONFIG+=debug</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/home/ug01/dallij01/Desktop/qtsdk-2009.03/qt/bin/qmake</value>
+   <value key="abstractProcess.enabled" type="bool" >false</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/ug01/dallij01/Desktop/prosimui/prosimui</value>
+   <value key="buildConfiguration" type="int" >2</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-aKzQL2xavn,guid=f23b14159934dc49d58ad5b24ab87b21</value>
+    <value type="QString" >DESKTOP_SESSION=gnome</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >GDMSESSION=gnome</value>
+    <value type="QString" >GDM_LANG=en_US.UTF-8</value>
+    <value type="QString" >GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
+    <value type="QString" >GNOME_KEYRING_PID=4936</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-UTFpWG/socket</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/ug01/dallij01/.gtkrc-1.2-gnome2</value>
+    <value type="QString" >G_BROKEN_FILENAMES=1</value>
+    <value type="QString" >HISTSIZE=1000</value>
+    <value type="QString" >HOME=/home/ug01/dallij01</value>
+    <value type="QString" >HOSTNAME=CSSE2325</value>
+    <value type="QString" >ISE_EIFFEL=/usr/local/Eiffel62</value>
+    <value type="QString" >ISE_PLATFORM=linux-x86</value>
+    <value type="QString" >JAVA_HOME=/usr/java/jdk</value>
+    <value type="QString" >KDEDIRS=/usr</value>
+    <value type="QString" >KDE_IS_PRELINKED=1</value>
+    <value type="QString" >LANG=en_US.UTF-8</value>
+    <value type="QString" >LATEX_MK_DIR=/usr/share/latex-mk</value>
+    <value type="QString" >LD_LIBRARY_PATH=/home/ug01/dallij01/Desktop/qtsdk-2009.03/lib/qtcreator:</value>
+    <value type="QString" >LEJOS_HOME=~/lejos</value>
+    <value type="QString" >LESSOPEN=|/usr/bin/lesspipe.sh %s</value>
+    <value type="QString" >LOADEDMODULES=</value>
+    <value type="QString" >LOGNAME=dallij01</value>
+    <value type="QString" >MAIL=/var/spool/mail/dallij01</value>
+    <value type="QString" >MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:</value>
+    <value type="QString" >MODULESHOME=/usr/share/Modules</value>
+    <value type="QString" >NXJ_HOME=/usr/local/lejos_nxj</value>
+    <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-dallij01</value>
+    <value type="QString" >PATH=/home/ug01/dallij01/Desktop/qtsdk-2009.03/qt/bin:/usr/lib/qt-3.3/bin:/usr/kerberos/bin:/usr/lib/ccache:/usr/local/bin:/usr/bin:/bin:/cslinux/bin:/usr/local/cuda/bin:/usr/local/studio5u1_se/bin:/usr/local/Eiffel62/studio/spec/linux-x86/bin:/usr/local/VTK/bin:/usr/java/jdk/bin:/usr/local/vw7/bin/linux86:/usr/local/ns-allinone/bin:/usr/local/ns-allinone/tcl8.4.18/unix:/usr/local/ns-allinone/tk8.4.18/unix:/home/ug01/dallij01/lejos/bin:/usr/local/vrippack/bin:/home/ug01/dallij01/bin:/usr/local/sbin:/usr/sbin:/sbin</value>
+    <value type="QString" >PWD=/home/ug01/dallij01/Desktop/qtsdk-2009.03/bin</value>
+    <value type="QString" >QTDIR=/home/ug01/dallij01/Desktop/qtsdk-2009.03/qt</value>
+    <value type="QString" >QTINC=/usr/lib/qt-3.3/include</value>
+    <value type="QString" >QTLIB=/usr/lib/qt-3.3/lib</value>
+    <value type="QString" >QT_PLUGIN_PATH=/home/ug01/dallij01/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString" >RCXTTY=/dev/legousbtower0</value>
+    <value type="QString" >RCX_PORT=usb</value>
+    <value type="QString" >SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/4938,unix/unix:/tmp/.ICE-unix/4938</value>
+    <value type="QString" >SHELL=/bin/zsh</value>
+    <value type="QString" >SHLVL=0</value>
+    <value type="QString" >SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-UTFpWG/ssh</value>
+    <value type="QString" >TCL_INCLUDE_PATH=/usr/include</value>
+    <value type="QString" >TCL_LIBRARY=/usr/share/tcl8.5</value>
+    <value type="QString" >TERM=dumb</value>
+    <value type="QString" >TK_INCLUDE_PATH=/usr/include</value>
+    <value type="QString" >TK_LIBRARY=/usr/share/tk8.5</value>
+    <value type="QString" >USER=dallij01</value>
+    <value type="QString" >VISUALWORKS=/usr/local/vw7</value>
+    <value type="QString" >VRIP_DIR=/usr/local/vrippack/src/vrip</value>
+    <value type="QString" >VRIP_TCL_LIBRARY=/usr/local/vrippack/lib/linux/tcl8.4</value>
+    <value type="QString" >VRIP_TK_LIBRARY=/usr/local/vrippack/lib/linux/tk8.4</value>
+    <value type="QString" >XAUTHORITY=/var/run/gdm/auth-for-dallij01-GzoY57/database</value>
+    <value type="QString" >XDG_SESSION_COOKIE=414084c1cdfd690dfcd369f14938d8cc-1253604129.443653-534764857</value>
+    <value type="QString" >XMODIFIERS=@im=imsettings</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/ug01/dallij01/Desktop/prosimui/prosimui</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Debug-cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >CVS_RSH=ssh</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-sXE0Xn8yiT,guid=72a3ad6e105efd5953decbac4ab8332e</value>
+    <value type="QString" >DESKTOP_SESSION=gnome</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >GDMSESSION=gnome</value>
+    <value type="QString" >GDM_LANG=en_US.UTF-8</value>
+    <value type="QString" >GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
+    <value type="QString" >GNOME_KEYRING_PID=2880</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-S048Xw/socket</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/ug01/dallij01/.gtkrc-1.2-gnome2</value>
+    <value type="QString" >G_BROKEN_FILENAMES=1</value>
+    <value type="QString" >HISTSIZE=1000</value>
+    <value type="QString" >HOME=/home/ug01/dallij01</value>
+    <value type="QString" >HOSTNAME=CSSE2104</value>
+    <value type="QString" >ISE_EIFFEL=/usr/local/Eiffel62</value>
+    <value type="QString" >ISE_PLATFORM=linux-x86</value>
+    <value type="QString" >JAVA_HOME=/usr/java/jdk</value>
+    <value type="QString" >KDEDIRS=/usr</value>
+    <value type="QString" >KDE_IS_PRELINKED=1</value>
+    <value type="QString" >LANG=en_US.UTF-8</value>
+    <value type="QString" >LANGUAGE=</value>
+    <value type="QString" >LATEX_MK_DIR=/usr/share/latex-mk</value>
+    <value type="QString" >LD_LIBRARY_PATH=/home/ug01/dallij01/Desktop/qtsdk-2009.03/lib/qtcreator:</value>
+    <value type="QString" >LEJOS_HOME=~/lejos</value>
+    <value type="QString" >LESSOPEN=|/usr/bin/lesspipe.sh %s</value>
+    <value type="QString" >LOADEDMODULES=</value>
+    <value type="QString" >LOGNAME=dallij01</value>
+    <value type="QString" >MAIL=/var/spool/mail/dallij01</value>
+    <value type="QString" >MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles:</value>
+    <value type="QString" >MODULESHOME=/usr/share/Modules</value>
+    <value type="QString" >NXJ_HOME=/usr/local/lejos_nxj</value>
+    <value type="QString" >ORBIT_SOCKETDIR=/tmp/orbit-dallij01</value>
+    <value type="QString" >PATH=/home/ug01/dallij01/Desktop/qtsdk-2009.03/qt/bin:/usr/lib/qt-3.3/bin:/usr/kerberos/bin:/usr/lib/ccache:/usr/local/bin:/usr/bin:/bin:/cslinux/bin:/usr/local/cuda/bin:/usr/local/studio5u1_se/bin:/usr/local/Eiffel62/studio/spec/linux-x86/bin:/usr/local/VTK/bin:/usr/java/jdk/bin:/usr/local/vw7/bin/linux86:/usr/local/ns-allinone/bin:/usr/local/ns-allinone/tcl8.4.18/unix:/usr/local/ns-allinone/tk8.4.18/unix:/home/ug01/dallij01/lejos/bin:/usr/local/vrippack/bin:/home/ug01/dallij01/bin:/usr/local/sbin:/usr/sbin:/sbin</value>
+    <value type="QString" >PWD=/home/ug01/dallij01/Desktop/qtsdk-2009.03/bin</value>
+    <value type="QString" >QTDIR=/home/ug01/dallij01/Desktop/qtsdk-2009.03/qt</value>
+    <value type="QString" >QTINC=/usr/lib/qt-3.3/include</value>
+    <value type="QString" >QTLIB=/usr/lib/qt-3.3/lib</value>
+    <value type="QString" >QT_PLUGIN_PATH=/home/ug01/dallij01/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/</value>
+    <value type="QString" >RCXTTY=/dev/legousbtower0</value>
+    <value type="QString" >RCX_PORT=usb</value>
+    <value type="QString" >SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2882,unix/unix:/tmp/.ICE-unix/2882</value>
+    <value type="QString" >SHELL=/bin/zsh</value>
+    <value type="QString" >SHLVL=0</value>
+    <value type="QString" >SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/keyring-S048Xw/ssh</value>
+    <value type="QString" >TCL_INCLUDE_PATH=/usr/include</value>
+    <value type="QString" >TCL_LIBRARY=/usr/share/tcl8.5</value>
+    <value type="QString" >TERM=dumb</value>
+    <value type="QString" >TK_INCLUDE_PATH=/usr/include</value>
+    <value type="QString" >TK_LIBRARY=/usr/share/tk8.5</value>
+    <value type="QString" >USER=dallij01</value>
+    <value type="QString" >VISUALWORKS=/usr/local/vw7</value>
+    <value type="QString" >VRIP_DIR=/usr/local/vrippack/src/vrip</value>
+    <value type="QString" >VRIP_TCL_LIBRARY=/usr/local/vrippack/lib/linux/tcl8.4</value>
+    <value type="QString" >VRIP_TK_LIBRARY=/usr/local/vrippack/lib/linux/tk8.4</value>
+    <value type="QString" >XAUTHORITY=/var/run/gdm/auth-for-dallij01-bsokfe/database</value>
+    <value type="QString" >XDG_SESSION_COOKIE=414084c1cdfd690dfcd369f14938d8cc-1253585710.323662-1551738618</value>
+    <value type="QString" >XMODIFIERS=@im=imsettings</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >clean</value>
+    <value type="QString" >-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/ug01/dallij01/Desktop/prosimui/prosimui</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+   <value key="buildConfiguration" type="int" >0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-Release-cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >Release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfigurations</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >Debug</value>
+   <value type="QString" >Release</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="mkspec" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildsteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.qmake</value>
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="clean" type="bool" >true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>cleansteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>defaultFileEncoding</variable>
+  <value type="QByteArray" >System</value>
+ </data>
+ <data>
+  <variable>project</variable>
+  <valuemap type="QVariantMap" />
+ </data>
+</qtcreator>

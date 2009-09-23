@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	118FCBAABA162BA17933C789 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 999}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 180}";
+			sepNavWindowFrame = "{{15, 50}, {1083, 1127}}";
+		};
+	};
+	32AE95DC278F2720751B5268 /* ui_prosim.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 3653}}";
+			sepNavSelRange = "{660, 0}";
+			sepNavVisRange = "{229, 2237}";
+			sepNavWindowFrame = "{{779, -20}, {1083, 1127}}";
+		};
+	};
+	33198AC24BD7EAE2B7E28CE4 /* ProsimMainWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 999}}";
+			sepNavSelRange = "{1632, 0}";
+			sepNavVisRange = "{0, 1660}";
+			sepNavWindowFrame = "{{777, 50}, {1083, 1127}}";
+		};
+	};
+	898417E868888582AB1DB006 /* prosim */ = {
+		activeExec = 0;
+		executables = (
+			D51722731059EB1F00216AE7 /* prosim */,
+		);
+	};
+	91B15E841AA80083484172DE /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D51722731059EB1F00216AE7 /* prosim */;
+		activeTarget = 898417E868888582AB1DB006 /* prosim */;
+		addToTargets = (
+			898417E868888582AB1DB006 /* prosim */,
+		);
+		codeSenseManager = D51722981059EB3C00216AE7 /* Code sense */;
+		executables = (
+			D51722731059EB1F00216AE7 /* prosim */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 274592227;
+			PBXWorkspaceStateSaveDate = 274592227;
+		};
+		perUserProjectItems = {
+			D51722DF1059F21000216AE7 /* PBXTextBookmark */ = D51722DF1059F21000216AE7 /* PBXTextBookmark */;
+			D51723301059F67700216AE7 /* PBXTextBookmark */ = D51723301059F67700216AE7 /* PBXTextBookmark */;
+			D517236C1059F73200216AE7 /* PBXTextBookmark */ = D517236C1059F73200216AE7 /* PBXTextBookmark */;
+			D5611C1F105E948100462C5C /* PBXTextBookmark */ = D5611C1F105E948100462C5C /* PBXTextBookmark */;
+			D5611C22105E948100462C5C /* PBXTextBookmark */ = D5611C22105E948100462C5C /* PBXTextBookmark */;
+			D5611C23105E948100462C5C /* PBXTextBookmark */ = D5611C23105E948100462C5C /* PBXTextBookmark */;
+			D58B8BDD105DEB58001BD57F /* PBXTextBookmark */ = D58B8BDD105DEB58001BD57F /* PBXTextBookmark */;
+			D58B8BDE105DEB58001BD57F /* PBXTextBookmark */ = D58B8BDE105DEB58001BD57F /* PBXTextBookmark */;
+			D58B8BDF105DEB58001BD57F /* PBXTextBookmark */ = D58B8BDF105DEB58001BD57F /* PBXTextBookmark */;
+			D58B8BE1105DEB58001BD57F /* PBXTextBookmark */ = D58B8BE1105DEB58001BD57F /* PBXTextBookmark */;
+			D58B8BE5105DEB58001BD57F /* PBXTextBookmark */ = D58B8BE5105DEB58001BD57F /* PBXTextBookmark */;
+			D58B8BE7105DEB58001BD57F /* PBXTextBookmark */ = D58B8BE7105DEB58001BD57F /* PBXTextBookmark */;
+		};
+		sourceControlManager = D51722971059EB3C00216AE7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D51722731059EB1F00216AE7 /* prosim */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = prosim;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D51722971059EB3C00216AE7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D51722981059EB3C00216AE7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D51722C71059F01F00216AE7 /* ProsimMainWindow.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 3003}}";
+			sepNavSelRange = "{3223, 0}";
+			sepNavVisRange = "{2829, 2123}";
+			sepNavWindowFrame = "{{15, 50}, {1083, 1127}}";
+		};
+	};
+	D51722DF1059F21000216AE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 118FCBAABA162BA17933C789 /* main.cpp */;
+		name = "main.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 0;
+	};
+	D51723301059F67700216AE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D51723311059F67700216AE7 /* ui_prosim.cpp */;
+		name = "ui_prosim.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 213;
+		vrLoc = 0;
+	};
+	D51723311059F67700216AE7 /* ui_prosim.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ui_prosim.cpp;
+		path = /Users/yoda/Work/QtTesting/prosimui/ui_prosim.cpp;
+		sourceTree = "<absolute>";
+	};
+	D517236C1059F73200216AE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F3398025A958113FE7EBA39A /* moc_ProsimMainWindow.cpp */;
+		name = "moc_ProsimMainWindow.cpp: 78";
+		rLen = 0;
+		rLoc = 2494;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 0;
+	};
+	D5611C1F105E948100462C5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC00BCAE2F8455CF892ECF98 /* prosim.ui */;
+		name = "prosim.ui: 55";
+		rLen = 0;
+		rLoc = 1285;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 1023;
+	};
+	D5611C22105E948100462C5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D51722C71059F01F00216AE7 /* ProsimMainWindow.cpp */;
+		name = "ProsimMainWindow.cpp: 167";
+		rLen = 0;
+		rLoc = 3223;
+		rType = 0;
+		vrLen = 2123;
+		vrLoc = 2829;
+	};
+	D5611C23105E948100462C5C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 33198AC24BD7EAE2B7E28CE4 /* ProsimMainWindow.h */;
+		name = "ProsimMainWindow.h: 43";
+		rLen = 0;
+		rLoc = 1632;
+		rType = 0;
+		vrLen = 1660;
+		vrLoc = 0;
+	};
+	D58B8BDD105DEB58001BD57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32AE95DC278F2720751B5268 /* ui_prosim.h */;
+		name = "ui_prosim.h: 262";
+		rLen = 0;
+		rLoc = 10693;
+		rType = 0;
+		vrLen = 1176;
+		vrLoc = 8547;
+	};
+	D58B8BDE105DEB58001BD57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D51722C71059F01F00216AE7 /* ProsimMainWindow.cpp */;
+		name = "ProsimMainWindow.cpp: 145";
+		rLen = 0;
+		rLoc = 4960;
+		rType = 0;
+		vrLen = 279;
+		vrLoc = 2277;
+	};
+	D58B8BDF105DEB58001BD57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 33198AC24BD7EAE2B7E28CE4 /* ProsimMainWindow.h */;
+		name = "ProsimMainWindow.h: 35";
+		rLen = 0;
+		rLoc = 1448;
+		rType = 0;
+		vrLen = 815;
+		vrLoc = 607;
+	};
+	D58B8BE1105DEB58001BD57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = EC00BCAE2F8455CF892ECF98 /* prosim.ui */;
+		name = "prosim.ui: 55";
+		rLen = 0;
+		rLoc = 1285;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 1023;
+	};
+	D58B8BE5105DEB58001BD57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 33198AC24BD7EAE2B7E28CE4 /* ProsimMainWindow.h */;
+		name = "ProsimMainWindow.h: 43";
+		rLen = 0;
+		rLoc = 1632;
+		rType = 0;
+		vrLen = 1660;
+		vrLoc = 0;
+	};
+	D58B8BE7105DEB58001BD57F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D51722C71059F01F00216AE7 /* ProsimMainWindow.cpp */;
+		name = "ProsimMainWindow.cpp: 216";
+		rLen = 0;
+		rLoc = 4889;
+		rType = 0;
+		vrLen = 2045;
+		vrLoc = 2679;
+	};
+	EC00BCAE2F8455CF892ECF98 /* prosim.ui */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 3419}}";
+			sepNavSelRange = "{1285, 0}";
+			sepNavVisRange = "{1023, 509}";
+			sepNavWindowFrame = "{{15, 50}, {1083, 1127}}";
+		};
+	};
+	F3398025A958113FE7EBA39A /* moc_ProsimMainWindow.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 1391}}";
+			sepNavSelRange = "{2526, 0}";
+			sepNavVisRange = "{0, 2591}";
+			sepNavWindowFrame = "{{15, 50}, {1083, 1127}}";
+		};
+	};
+}
