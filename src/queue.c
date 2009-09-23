@@ -65,6 +65,7 @@ int peek(QUEUE *queue, void **data, size_t *size) {
 }
 
 /** Removes the first element from the queue, setting pointers to its location and size
+	@param queue The queue on which to perform the dequeue
 	@param data Void pointer that will be store the location of the payload
 	@param size Size pointer that will store the size of the payload being looked at
 	@return 0 if the operation is successful, 1 if the queue is empty

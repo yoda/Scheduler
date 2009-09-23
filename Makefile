@@ -1,5 +1,5 @@
 # Executable name
-EXENAME = prosim
+EXENAME = prosimmain
 # Includes directory
 IDIR =./include
 # Objects directory

@@ -1,0 +1,106 @@
+\hypertarget{readertemp_07dep_08_8c}{
+\section{src/readertemp(dep).c File Reference}
+\label{readertemp_07dep_08_8c}\index{src/readertemp(dep).c@{src/readertemp(dep).c}}
+}
+{\tt \#include $<$stdio.h$>$}\par
+{\tt \#include $<$stdlib.h$>$}\par
+{\tt \#include $<$string.h$>$}\par
+{\tt \#include $<$stdbool.h$>$}\par
+{\tt \#include \char`\"{}process.h\char`\"{}}\par
+{\tt \#include \char`\"{}queue.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+char $\ast$ \hyperlink{readertemp_07dep_08_8c_2c4f14c424a31db9c57fd046c3b9f0df}{strdup} (const char $\ast$str)
+\item 
+void \hyperlink{readertemp_07dep_08_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}{output} (process $\ast$proc)
+\item 
+process $\ast$$\ast$ \hyperlink{readertemp_07dep_08_8c_3f026f59cf8d16f2c5fd4931c3c32ebb}{readFile} (int $\ast$length)
+\item 
+void \hyperlink{readertemp_07dep_08_8c_147ceda5f975cc44e1cc3c387b762ddf}{printQueue} (QUEUE $\ast$queue)
+\item 
+void \hyperlink{readertemp_07dep_08_8c_914892adfd28425e112c0152754aa9f5}{getReady} (QUEUE $\ast$pqueue, QUEUE $\ast$ready, int time\_\-cycle)
+\item 
+void \hyperlink{readertemp_07dep_08_8c_c447175fbc74e5ee285c58c27b14dc09}{roundRobin} (QUEUE $\ast$pqueue, int quantum)
+\item 
+void \hyperlink{readertemp_07dep_08_8c_98532579e94e95f322df48029c36d600}{firstCome} (QUEUE $\ast$pqueue)
+\item 
+void \hyperlink{readertemp_07dep_08_8c_051d094213c5463271ef7f3f94e403ad}{print} (process $\ast$proc, int length)
+\item 
+QUEUE $\ast$ \hyperlink{readertemp_07dep_08_8c_12a02a9cebfa58fe341e41548c5d69ab}{sort} (process $\ast$$\ast$proc, int length)
+\item 
+int \hyperlink{readertemp_07dep_08_8c_3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{readertemp_07dep_08_8c_98532579e94e95f322df48029c36d600}{
+\index{readertemp(dep).c@{readertemp(dep).c}!firstCome@{firstCome}}
+\index{firstCome@{firstCome}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{firstCome}]{\setlength{\rightskip}{0pt plus 5cm}void firstCome (QUEUE $\ast$ {\em pqueue})}}
+\label{readertemp_07dep_08_8c_98532579e94e95f322df48029c36d600}
+
+
+\hypertarget{readertemp_07dep_08_8c_914892adfd28425e112c0152754aa9f5}{
+\index{readertemp(dep).c@{readertemp(dep).c}!getReady@{getReady}}
+\index{getReady@{getReady}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{getReady}]{\setlength{\rightskip}{0pt plus 5cm}void getReady (QUEUE $\ast$ {\em pqueue}, \/  QUEUE $\ast$ {\em ready}, \/  int {\em time\_\-cycle})}}
+\label{readertemp_07dep_08_8c_914892adfd28425e112c0152754aa9f5}
+
+
+\hypertarget{readertemp_07dep_08_8c_3c04138a5bfe5d72780bb7e82a18e627}{
+\index{readertemp(dep).c@{readertemp(dep).c}!main@{main}}
+\index{main@{main}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (int {\em argc}, \/  char $\ast$$\ast$ {\em argv})}}
+\label{readertemp_07dep_08_8c_3c04138a5bfe5d72780bb7e82a18e627}
+
+
+\hypertarget{readertemp_07dep_08_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}{
+\index{readertemp(dep).c@{readertemp(dep).c}!output@{output}}
+\index{output@{output}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{output}]{\setlength{\rightskip}{0pt plus 5cm}void output (process $\ast$ {\em proc})}}
+\label{readertemp_07dep_08_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}
+
+
+\hypertarget{readertemp_07dep_08_8c_051d094213c5463271ef7f3f94e403ad}{
+\index{readertemp(dep).c@{readertemp(dep).c}!print@{print}}
+\index{print@{print}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void print (process $\ast$ {\em proc}, \/  int {\em length})}}
+\label{readertemp_07dep_08_8c_051d094213c5463271ef7f3f94e403ad}
+
+
+\hypertarget{readertemp_07dep_08_8c_147ceda5f975cc44e1cc3c387b762ddf}{
+\index{readertemp(dep).c@{readertemp(dep).c}!printQueue@{printQueue}}
+\index{printQueue@{printQueue}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{printQueue}]{\setlength{\rightskip}{0pt plus 5cm}void printQueue (QUEUE $\ast$ {\em queue})}}
+\label{readertemp_07dep_08_8c_147ceda5f975cc44e1cc3c387b762ddf}
+
+
+\hypertarget{readertemp_07dep_08_8c_3f026f59cf8d16f2c5fd4931c3c32ebb}{
+\index{readertemp(dep).c@{readertemp(dep).c}!readFile@{readFile}}
+\index{readFile@{readFile}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{readFile}]{\setlength{\rightskip}{0pt plus 5cm}process$\ast$$\ast$ readFile (int $\ast$ {\em length})}}
+\label{readertemp_07dep_08_8c_3f026f59cf8d16f2c5fd4931c3c32ebb}
+
+
+\hypertarget{readertemp_07dep_08_8c_c447175fbc74e5ee285c58c27b14dc09}{
+\index{readertemp(dep).c@{readertemp(dep).c}!roundRobin@{roundRobin}}
+\index{roundRobin@{roundRobin}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{roundRobin}]{\setlength{\rightskip}{0pt plus 5cm}void roundRobin (QUEUE $\ast$ {\em pqueue}, \/  int {\em quantum})}}
+\label{readertemp_07dep_08_8c_c447175fbc74e5ee285c58c27b14dc09}
+
+
+\hypertarget{readertemp_07dep_08_8c_12a02a9cebfa58fe341e41548c5d69ab}{
+\index{readertemp(dep).c@{readertemp(dep).c}!sort@{sort}}
+\index{sort@{sort}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{sort}]{\setlength{\rightskip}{0pt plus 5cm}QUEUE$\ast$ sort (process $\ast$$\ast$ {\em proc}, \/  int {\em length})}}
+\label{readertemp_07dep_08_8c_12a02a9cebfa58fe341e41548c5d69ab}
+
+
+\hypertarget{readertemp_07dep_08_8c_2c4f14c424a31db9c57fd046c3b9f0df}{
+\index{readertemp(dep).c@{readertemp(dep).c}!strdup@{strdup}}
+\index{strdup@{strdup}!readertemp(dep).c@{readertemp(dep).c}}
+\subsubsection[{strdup}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ strdup (const char $\ast$ {\em str})}}
+\label{readertemp_07dep_08_8c_2c4f14c424a31db9c57fd046c3b9f0df}
+
+

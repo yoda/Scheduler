@@ -4,6 +4,8 @@
 	@param	inputfile The name of the input file containing the processes
 	@param	algorithm The desired schedulaing algorithm
 	@param	quantum	The desired time quantum (for round robin scheduling only)
+	@param 	expire The time at which the memory state is cloned for printing to the output file
+	@param 	mode The program mode. 0 represents Scheduler mode, 1 represents Virtual Memory mode	
 */
 void scheduler(char **inputfile, char **algorithm, int *quantum, int *expire,int *mode) {
 	int length;
