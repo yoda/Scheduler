@@ -1,490 +1,0 @@
-Tscheduler
-v7
-r0
-t273378322.670376
-cCheck dependencies
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal x86_64 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal i386 c com.apple.compilers.gcc.4_2
-cLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler normal x86_64
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal i386 c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal ppc c com.apple.compilers.gcc.4_2
-cLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler normal i386
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal ppc c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal ppc c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal ppc c com.apple.compilers.gcc.4_2
-cCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal ppc c com.apple.compilers.gcc.4_2
-cLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler normal ppc
-cCreateUniversalBinary /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler normal "x86_64 i386 ppc"
-cGenerateDSYMFile /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler.dSYM /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004A769DAB00000000000000EE
-t1249287595
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
-c000000004A5C14A60000000000002C18
-t1247548582
-s11288
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/getopt.h
-c000000004A5C14A60000000000000CBC
-t1247548582
-s3260
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004A5C14A70000000000004174
-t1247548583
-s16756
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004A5C14A70000000000002DF5
-t1247548583
-s11765
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004A5C14A70000000000001731
-t1247548583
-s5937
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
-c000000004A11EB240000000000000644
-t1242688292
-s1604
-
-N/Users/yoda/Work/CITS2230/Scheduler/include/queue.h
-c000000004A96462C00000000000001DF
-t1251362348
-s479
-i<stdlib.h>
-i<stdio.h>
-i<ctype.h>
-i<string.h>
-i<stdbool.h>
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/cmdline.h
-c000000004A97521C0000000000001E76
-t1251430940
-s7798
-i"config.h"
-i<stdio.h>
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/handler.h
-c000000004A977D76000000000000002F
-t1251442038
-s47
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../include/reader.h
-c000000004A9785D900000000000002AB
-t1251444185
-s683
-i"queue.h"
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c
-c000000004A9749D60000000000004FFE
-t1251428822
-s20478
-i"config.h"
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i"getopt.h"
-i"cmdline.h"
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c
-c000000004A97889400000000000002D8
-t1251444884
-s728
-i"reader.h"
-i"handler.h"
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c
-c000000004A9789350000000000000445
-t1251445045
-s1093
-i<stdlib.h>
-i<stdio.h>
-i"cmdline.h"
-i"handler.h"
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c
-c000000004A9645F50000000000000C90
-t1251362293
-s3216
-i"queue.h"
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c
-c000000004A978ECE0000000000002D28
-t1251446478
-s11560
-i<stdio.h>
-i<stdlib.h>
-i<string.h>
-i<stdbool.h>
-i"reader.h"
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler
-t1251685522
-s79952
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler.dSYM
-t1251685522
-s102
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/cmdline.o
-t1251685521
-s23920
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/handler.o
-t1251685521
-s5576
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/main.o
-t1251685521
-s3688
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/queue.o
-t1251685521
-s5740
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/reader.o
-t1251685521
-s14664
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler
-t1251685521
-s23100
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler.LinkFileList
-c000000004A9B3491000000000000025C
-t1251685521
-s604
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/cmdline.o
-t1251685522
-s26400
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/handler.o
-t1251685522
-s5864
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/main.o
-t1251685522
-s3968
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/queue.o
-t1251685522
-s5796
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/reader.o
-t1251685522
-s15668
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler
-t1251685522
-s22608
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler.LinkFileList
-c000000004A9B34910000000000000257
-t1251685521
-s599
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/cmdline.o
-t1251685521
-s32648
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/handler.o
-t1251685521
-s6520
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/main.o
-t1251685521
-s4452
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/queue.o
-t1251685521
-s7216
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/reader.o
-t1251685521
-s18656
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler
-t1251685521
-s28288
-
-N/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler.LinkFileList
-c000000004A9B34910000000000000266
-t1251685521
-s614
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies273378321#273378321#0(0"0(0#1#0"4300882208#0"0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal i386 c com.apple.compilers.gcc.4_2
-s273378321.538513
-e273378321.719640
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/i386/cmdline.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c273378321#273378321#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c4300882208#1426"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/i386 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/cmdline.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal i386 c com.apple.compilers.gcc.4_2
-s273378321.646146
-e273378321.689409
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/i386/handler.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c273378321#273378321#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c4300882208#1426"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/i386 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/handler.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal i386 c com.apple.compilers.gcc.4_2
-s273378321.689504
-e273378321.743848
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/i386/main.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'
-lSLF07#2@67"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273378321#273378321#0(174"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'1(22@19"Unused variable 'e'273378321#81#93#0(6@59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273137845#42#0#42#0#19"unused variable '*'0(0#0#59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c4300882208#1420"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/i386 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/main.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal i386 c com.apple.compilers.gcc.4_2
-s273378321.719760
-e273378321.781646
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/i386/queue.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c273378321#273378321#0(0"0(0#0#60"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c4300882208#1422"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/i386 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/queue.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/i386/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal i386 c com.apple.compilers.gcc.4_2
-s273378321.743946
-e273378321.868048
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/i386/reader.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c
-xnormal
-xi386
-xc
-xcom.apple.compilers.gcc.4_2
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'
-lSLF07#2@69"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273378321#273378321#0(289"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'2(22@26"Unused variable 'sizetemp'273378321#89#102#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#70#0#70#0#19"unused variable '*'0(22@22"Unused variable 'temp'273378321#191#98#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#69#0#69#0#19"unused variable '*'0(0#0#61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c4300882208#1424"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/i386 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/reader.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal ppc c com.apple.compilers.gcc.4_2
-s273378321.781735
-e273378322.424740
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/ppc/cmdline.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c273378321#273378322#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c4300882208#1420"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/ppc -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/cmdline.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal ppc c com.apple.compilers.gcc.4_2
-s273378321.942412
-e273378322.231414
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/ppc/handler.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c273378321#273378322#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c4300882208#1420"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/ppc -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/handler.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal ppc c com.apple.compilers.gcc.4_2
-s273378322.231502
-e273378322.278888
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/ppc/main.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_2
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'
-lSLF07#2@67"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273378322#273378322#0(174"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'1(22@19"Unused variable 'e'273378322#81#93#0(6@59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273137845#42#0#42#0#19"unused variable '*'0(0#0#59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c4300882208#1414"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/ppc -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/main.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal ppc c com.apple.compilers.gcc.4_2
-s273378322.278977
-e273378322.375026
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/ppc/queue.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c273378322#273378322#0(0"0(0#0#60"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c4300882208#1416"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/ppc -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/queue.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal ppc c com.apple.compilers.gcc.4_2
-s273378322.375108
-e273378322.501859
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/ppc/reader.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c
-xnormal
-xppc
-xc
-xcom.apple.compilers.gcc.4_2
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'
-lSLF07#2@69"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273378322#273378322#0(289"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'2(22@26"Unused variable 'sizetemp'273378322#89#102#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#70#0#70#0#19"unused variable '*'0(22@22"Unused variable 'temp'273378322#191#98#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#69#0#69#0#19"unused variable '*'0(0#0#61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c4300882208#1418"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/ppc -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/reader.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/cmdline.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c normal x86_64 c com.apple.compilers.gcc.4_2
-s273378321.338227
-e273378321.538381
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/cmdline.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c273378321#273378321#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c4300882208#1432"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/cmdline.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/cmdline.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/handler.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c normal x86_64 c com.apple.compilers.gcc.4_2
-s273378321.339176
-e273378321.389721
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/handler.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c273378321#273378321#0(0"0(0#0#62"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c4300882208#1432"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/handler.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/handler.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/main.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c normal x86_64 c com.apple.compilers.gcc.4_2
-s273378321.389815
-e273378321.430030
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/main.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'
-lSLF07#2@67"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273378321#273378321#0(174"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c: In function 'main':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c:42: warning: unused variable 'e'1(22@19"Unused variable 'e'273378321#81#93#0(6@59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c273137845#42#0#42#0#19"unused variable '*'0(0#0#59"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c4300882208#1426"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/main.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/main.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/queue.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c normal x86_64 c com.apple.compilers.gcc.4_2
-s273378321.430117
-e273378321.490238
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/queue.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c273378321#273378321#0(0"0(0#0#60"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c4300882208#1428"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/queue.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/queue.o0#
-
-CCompileC build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/reader.o /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c normal x86_64 c com.apple.compilers.gcc.4_2
-s273378321.490325
-e273378321.629409
-r1
-xCompileC
-xbuild/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/reader.o
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'
-o/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'
-lSLF07#2@69"Compile /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273378321#273378321#0(289"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c: In function 'printQueue':/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:70: warning: unused variable 'sizetemp'/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c:69: warning: unused variable 'temp'2(22@26"Unused variable 'sizetemp'273378321#89#102#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#70#0#70#0#19"unused variable '*'0(22@22"Unused variable 'temp'273378321#191#98#0(6@61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c273139278#69#0#69#0#19"unused variable '*'0(0#0#61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c4300882208#1430"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-generated-files.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-own-target-headers.hmap -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-all-target-headers.hmap -iquote /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/scheduler-project-headers.hmap -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/include -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources/x86_64 -I/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/DerivedSources -c /Users/yoda/Work/CITS2230/Scheduler/scheduler/../src/reader.c -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/reader.o0#
-
-CCreateUniversalBinary /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler normal "x86_64 i386 ppc"
-s273378322.585624
-e273378322.626931
-r1
-xCreateUniversalBinary
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler
-xnormal
-xx86_64 i386 ppc
-lSLF07#2@70"CreateUniversalBinary build/Release/scheduler normal "x86_64 i386 ppc"273378322#273378322#0(0"0(0#0#61"/Users/yoda/Work/CITS2230/Scheduler/scheduler/x86_64 i386 ppc4300882208#524"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    /usr/bin/lipo -create /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler -output /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler0#
-
-CGenerateDSYMFile /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler.dSYM /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler
-s273378322.627018
-e273378322.670327
-r1
-xGenerateDSYMFile
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler.dSYM
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler
-lSLF07#2@69"GenerateDSYMFile build/Release/scheduler.dSYM build/Release/scheduler273378322#273378322#0(0"0(0#0#69"/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler4300882208#233"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    /Developer/usr/bin/dsymutil /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release/scheduler.dSYM0#
-
-CLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler normal i386
-s273378321.868136
-e273378321.942318
-r1
-xLd
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler
-xnormal
-xi386
-lSLF07#2@126"Link /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler273378321#273378321#0(0"0(0#0#0"4300882208#597"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -filelist /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler.LinkFileList -mmacosx-version-min=10.6 -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/i386/scheduler0#
-
-CLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler normal ppc
-s273378322.501932
-e273378322.585534
-r1
-xLd
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler
-xnormal
-xppc
-lSLF07#2@125"Link /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler273378322#273378322#0(0"0(0#0#0"4300882208#594"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -filelist /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler.LinkFileList -mmacosx-version-min=10.6 -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/ppc/scheduler0#
-
-CLd /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler normal x86_64
-s273378321.629608
-e273378321.646044
-r1
-xLd
-x/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler
-xnormal
-xx86_64
-lSLF07#2@128"Link /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler273378321#273378321#0(0"0(0#0#0"4300882208#603"    cd /Users/yoda/Work/CITS2230/Scheduler/scheduler    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -F/Users/yoda/Work/CITS2230/Scheduler/scheduler/build/Release -filelist /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler.LinkFileList -mmacosx-version-min=10.6 -o /Users/yoda/Work/CITS2230/Scheduler/scheduler/build/scheduler.build/Release/scheduler.build/Objects-normal/x86_64/scheduler0#
-
