@@ -1,0 +1,28 @@
+\hypertarget{handler_8c}{
+\section{src/handler.c File Reference}
+\label{handler_8c}\index{src/handler.c@{src/handler.c}}
+}
+{\tt \#include \char`\"{}reader.h\char`\"{}}\par
+{\tt \#include \char`\"{}handler.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{handler_8c_c0f81075ef4874ce2e3c9c57b2feae15}{scheduler} (char $\ast$$\ast$inputfile, char $\ast$$\ast$algorithm, int $\ast$quantum, int $\ast$expire, int $\ast$mode)
+\begin{CompactList}\small\item\em Handles the algorithm selection, depending on which scheduling method was specified via the command line. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{handler_8c_c0f81075ef4874ce2e3c9c57b2feae15}{
+\index{handler.c@{handler.c}!scheduler@{scheduler}}
+\index{scheduler@{scheduler}!handler.c@{handler.c}}
+\subsubsection[{scheduler}]{\setlength{\rightskip}{0pt plus 5cm}void scheduler (char $\ast$$\ast$ {\em inputfile}, \/  char $\ast$$\ast$ {\em algorithm}, \/  int $\ast$ {\em quantum}, \/  int $\ast$ {\em expire}, \/  int $\ast$ {\em mode})}}
+\label{handler_8c_c0f81075ef4874ce2e3c9c57b2feae15}
+
+
+Handles the algorithm selection, depending on which scheduling method was specified via the command line. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em inputfile}]The name of the input file containing the processes \item[{\em algorithm}]The desired schedulaing algorithm \item[{\em quantum}]The desired time quantum (for round robin scheduling only) \item[{\em expire}]The time at which the memory state is cloned for printing to the output file \item[{\em mode}]The program mode. 0 represents Scheduler mode, 1 represents Virtual Memory mode \end{description}
+\end{Desc}

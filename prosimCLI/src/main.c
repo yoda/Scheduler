@@ -1,0 +1,96 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "cmdline.h"
+#include "handler.h"
+
+#define debug
+/**	Handles the command line input using the getopt() library
+	@param argc The number of arguments passed
+	@param argv The array of string arguments passed
+*/
+int main(int argc, char **argv) {
+
+	struct gengetopt_args_info args_info;
+
+	printf("Prosim simulator\n");
+	
+	if(cmdline_parser(argc, argv, &args_info) != 0)
+	{	
+		exit(1);
+	}
+
+#ifdef debug	
+	if( args_info.input_given)
+	{
+		printf("Input filename: %s\n", args_info.input_arg);
+	}
+	
+	if(args_info.quantum_given)
+	{
+		printf("Quantum specified: %d\n", args_info.quantum_arg);
+	}
+
+	if(args_info.expire_given)
+	{
+		printf("Expire specified: %d\n", args_info.expire_arg);
+	}
+
+	if(args_info.algorithm_given)
+	{
+		printf("Algorithm specified: %s\n", args_info.algorithm_arg);
+	}
+#endif
+	
+	int *q; // Quantum
+	int *e; // Exit point
+	char **a; // Algorithm
+	int expire;
+	int mode;
+
+	if(args_info.scheduler_given)
+	{
+#ifdef debug
+		printf("Running scheduler\n");
+#endif
+		q = &args_info.quantum_arg;
+		
+		a = &args_info.algorithm_arg;
+		
+		expire = -1;
+		
+		mode = 0;
+
+		if( *q <= 0) {
+			printf("q out of range: -h for usage\n");
+			return 1;
+		}	
+
+		scheduler(&args_info.input_arg, a, q, &expire, &mode);
+		
+	} 
+	else if(args_info.virtualmem_given)
+	{
+#ifdef debug
+		printf("Running virtualmem\n");
+#endif
+		q = &args_info.quantum_arg;
+		
+		a = &args_info.algorithm_arg;
+
+		expire = args_info.expire_arg;
+		
+		mode = 1;
+
+		if(*q <= 0 || expire <= 0) {
+			printf("x or q out of range: -h for usage\n");
+			return 1;
+		}
+
+		scheduler(&args_info.input_arg, a, q, &expire, &mode);
+	}
+
+	cmdline_parser_free(&args_info);
+
+	return 0;
+
+}

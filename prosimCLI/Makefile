@@ -1,5 +1,5 @@
 # Executable name
-EXENAME = prosim
+EXENAME = prosimmain
 # Includes directory
 IDIR =./include
 # Objects directory
@@ -34,4 +34,4 @@ $(EXENAME): $(OBJ)
 .PHONY: clean
 
 clean:
-	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~
+	rm -f $(ODIR)/*.o *~ $(EXENAME) $(INCDIR)/*~

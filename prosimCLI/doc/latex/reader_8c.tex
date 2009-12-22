@@ -1,0 +1,459 @@
+\hypertarget{reader_8c}{
+\section{src/reader.c File Reference}
+\label{reader_8c}\index{src/reader.c@{src/reader.c}}
+}
+{\tt \#include $<$stdio.h$>$}\par
+{\tt \#include $<$stdlib.h$>$}\par
+{\tt \#include $<$string.h$>$}\par
+{\tt \#include $<$stdbool.h$>$}\par
+{\tt \#include \char`\"{}reader.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+int \hyperlink{reader_8c_b2d9f4b491bf882bf1537ea9ee063000}{getName} (process $\ast$proc)
+\begin{CompactList}\small\item\em Generates the process name (integer), to be stored in the page table. \item\end{CompactList}\item 
+char $\ast$ \hyperlink{reader_8c_f281592c5b655ec81b482afc0cfbd913}{getNameQuad} (process $\ast$proc)
+\begin{CompactList}\small\item\em Generates the 4 digit, double concatenated process name (integer), to be stored in the virtual memory. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_6f457a5bec9c9dfd5a7f71a5024d2a52}{clonePage} (int $\ast$expire)
+\begin{CompactList}\small\item\em Copies the current memory and page table states to respective strings for printing at endtime. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_b8c2f9787d6e4f1c94b7a49c2b7883eb}{updateTime} (int $\ast$pid, int $\ast$time\_\-cycle)
+\begin{CompactList}\small\item\em Updates the time stamp within the page table for the desired process. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_2563f796a4ae3056b4cba9e3b0c7ae4b}{printPage} ()
+\begin{CompactList}\small\item\em Prints the page table and the page contents to the memory output file. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_bedb61b9cdc4851be401438c7ae465a2}{initMemory} ()
+\begin{CompactList}\small\item\em Initialises an empty virtual memory block, with each slot having space for four characters. \item\end{CompactList}\item 
+int \hyperlink{reader_8c_08ce97f20f301306b2891cf76c9d809f}{findFree} ()
+\begin{CompactList}\small\item\em Returns the number of free/unused frames within virtual memory, by scanning the page table. \item\end{CompactList}\item 
+bool \hyperlink{reader_8c_61ab57de87ff0361208dede96872908c}{isCached} (int pid)
+\begin{CompactList}\small\item\em Checks whether the indicated process is currently in memory by scanning the page table. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_0253eaa873d2dcd2ec7969f61385fb57}{freeFrame} (int index)
+\begin{CompactList}\small\item\em Frees the pages of the memory frame found at the desired index. \item\end{CompactList}\item 
+int \hyperlink{reader_8c_2ba9b75207654ca1062eb58edbc37b5c}{getFirstAge} ()
+\begin{CompactList}\small\item\em Gets the access time of the first valid process listed. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_97451af2f2a314cfe74f37a308b3878b}{freeFrames} (int num)
+\begin{CompactList}\small\item\em Frees the desired number of memory frames, oldest first. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_8afc915f77928b20f878c1d417e31cfd}{fillFrames} (process $\ast$proc, int pid, int time\_\-cycle)
+\begin{CompactList}\small\item\em Fills the free pages of memory with the desired process. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}{output} (process $\ast$proc)
+\begin{CompactList}\small\item\em Writes the process's cpu access history to the output file. \item\end{CompactList}\item 
+process $\ast$$\ast$ \hyperlink{reader_8c_35ce96d36eb6094b4f4e76a05e6801a4}{readFile} (char $\ast$filename, int $\ast$length, int $\ast$mode)
+\begin{CompactList}\small\item\em Reads the contents of the input file into an unsorted array of process structures. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_147ceda5f975cc44e1cc3c387b762ddf}{printQueue} (QUEUE $\ast$queue)
+\begin{CompactList}\small\item\em Debugging method that prints the contents of a given queue. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_9d92d5fd943184e547ba24fe47af8a55}{sortSPN} (QUEUE $\ast$ready)
+\begin{CompactList}\small\item\em Sorts the ready queue by process duration, shortest process first. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_914892adfd28425e112c0152754aa9f5}{getReady} (QUEUE $\ast$pqueue, QUEUE $\ast$ready, int time\_\-cycle)
+\begin{CompactList}\small\item\em Appends all available processes at the given time to the ready queue. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_81ec9a2751e3fcc618a01418ba67f386}{cache} (process $\ast$proc, int $\ast$pid, int $\ast$time\_\-cycle)
+\begin{CompactList}\small\item\em Stores the given process in virtual memory, freeing pages if required. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_608d236425445be4a71574883c51d220}{freeProc} (int $\ast$pid)
+\begin{CompactList}\small\item\em Removes the process (specified by the process id) from the virtual memory. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_ac4c517e2a4646902a0b63f5e8d17385}{roundRobin} (QUEUE $\ast$pqueue, int quantum, int $\ast$expire, int $\ast$mode)
+\begin{CompactList}\small\item\em Simulates the Round Robin scheduling algorithm for the given time quantum. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_4ee32872f7f00b00e20681dbae876980}{firstCome} (QUEUE $\ast$pqueue, int $\ast$expire, int $\ast$mode)
+\begin{CompactList}\small\item\em Simulates the First-Come First-Serve scheduling algorithm. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_70eefc5a71f8d920d550b09d620e297d}{shortestNext} (QUEUE $\ast$pqueue, int $\ast$expire, int $\ast$mode)
+\begin{CompactList}\small\item\em Simulates the Shortest Process Next scheduling algorithm. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_2e4de25d21b2f761e497a1f03ae1c580}{shortestRemaining} (QUEUE $\ast$pqueue, int $\ast$expire, int $\ast$mode)
+\begin{CompactList}\small\item\em Simulates the Shortest Remaining Time scheduling algorithm. \item\end{CompactList}\item 
+void \hyperlink{reader_8c_051d094213c5463271ef7f3f94e403ad}{print} (process $\ast$proc, int length)
+\begin{CompactList}\small\item\em Debug method for printing the unsorted array of processes, taken fro the input file. \item\end{CompactList}\item 
+QUEUE $\ast$ \hyperlink{reader_8c_12a02a9cebfa58fe341e41548c5d69ab}{sort} (process $\ast$$\ast$proc, int length)
+\begin{CompactList}\small\item\em Sorts the initial process array by start time,then enqueues the processes into the process queue. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Variables}
+\begin{CompactItemize}
+\item 
+int \hyperlink{reader_8c_cba32cd99531972f2bf2c386a4b3ee8f}{paget} \mbox{[}200\mbox{]}\mbox{[}2\mbox{]}
+\begin{CompactList}\small\item\em The page table array. \item\end{CompactList}\item 
+char $\ast$ \hyperlink{reader_8c_ed490b9fdbba4896588dd629730b0127}{page} \mbox{[}200\mbox{]}
+\begin{CompactList}\small\item\em The virtual memory array. \item\end{CompactList}\item 
+char $\ast$ \hyperlink{reader_8c_6863de986ce999160e8b73506eb163fc}{mem\_\-out}
+\begin{CompactList}\small\item\em The virtual memory print string. \item\end{CompactList}\item 
+char $\ast$ \hyperlink{reader_8c_7f8c1ec556f032fe7bb1829539cac958}{page\_\-out}
+\begin{CompactList}\small\item\em The page table print string. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{reader_8c_81ec9a2751e3fcc618a01418ba67f386}{
+\index{reader.c@{reader.c}!cache@{cache}}
+\index{cache@{cache}!reader.c@{reader.c}}
+\subsubsection[{cache}]{\setlength{\rightskip}{0pt plus 5cm}void cache (process $\ast$ {\em proc}, \/  int $\ast$ {\em pid}, \/  int $\ast$ {\em time\_\-cycle})}}
+\label{reader_8c_81ec9a2751e3fcc618a01418ba67f386}
+
+
+Stores the given process in virtual memory, freeing pages if required. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The Process to be cached \item[{\em pid}]The ID of the process to be cached \item[{\em time\_\-cycle}]The current time cycle of the processor \end{description}
+\end{Desc}
+\hypertarget{reader_8c_6f457a5bec9c9dfd5a7f71a5024d2a52}{
+\index{reader.c@{reader.c}!clonePage@{clonePage}}
+\index{clonePage@{clonePage}!reader.c@{reader.c}}
+\subsubsection[{clonePage}]{\setlength{\rightskip}{0pt plus 5cm}void clonePage (int $\ast$ {\em expire})}}
+\label{reader_8c_6f457a5bec9c9dfd5a7f71a5024d2a52}
+
+
+Copies the current memory and page table states to respective strings for printing at endtime. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em expire}]The time at which the memory clone is taking place. Used for time stamping the output file. \end{description}
+\end{Desc}
+\hypertarget{reader_8c_8afc915f77928b20f878c1d417e31cfd}{
+\index{reader.c@{reader.c}!fillFrames@{fillFrames}}
+\index{fillFrames@{fillFrames}!reader.c@{reader.c}}
+\subsubsection[{fillFrames}]{\setlength{\rightskip}{0pt plus 5cm}void fillFrames (process $\ast$ {\em proc}, \/  int {\em pid}, \/  int {\em time\_\-cycle})}}
+\label{reader_8c_8afc915f77928b20f878c1d417e31cfd}
+
+
+Fills the free pages of memory with the desired process. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The process to be added to memory \item[{\em pid}]The name of the process \item[{\em time\_\-cycle}]The current cpu time cycle \end{description}
+\end{Desc}
+\hypertarget{reader_8c_08ce97f20f301306b2891cf76c9d809f}{
+\index{reader.c@{reader.c}!findFree@{findFree}}
+\index{findFree@{findFree}!reader.c@{reader.c}}
+\subsubsection[{findFree}]{\setlength{\rightskip}{0pt plus 5cm}int findFree ()}}
+\label{reader_8c_08ce97f20f301306b2891cf76c9d809f}
+
+
+Returns the number of free/unused frames within virtual memory, by scanning the page table. 
+
+\begin{Desc}
+\item[Returns:]The number of free/unused frames \end{Desc}
+\hypertarget{reader_8c_4ee32872f7f00b00e20681dbae876980}{
+\index{reader.c@{reader.c}!firstCome@{firstCome}}
+\index{firstCome@{firstCome}!reader.c@{reader.c}}
+\subsubsection[{firstCome}]{\setlength{\rightskip}{0pt plus 5cm}void firstCome (QUEUE $\ast$ {\em pqueue}, \/  int $\ast$ {\em expire}, \/  int $\ast$ {\em mode})}}
+\label{reader_8c_4ee32872f7f00b00e20681dbae876980}
+
+
+Simulates the First-Come First-Serve scheduling algorithm. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \item[{\em expire}]The time at which the memory state is cloned for printing to the output file \item[{\em mode}]The program mode. 0 represents Scheduler mode, 1 represents Virtual Memory mode \end{description}
+\end{Desc}
+\hypertarget{reader_8c_0253eaa873d2dcd2ec7969f61385fb57}{
+\index{reader.c@{reader.c}!freeFrame@{freeFrame}}
+\index{freeFrame@{freeFrame}!reader.c@{reader.c}}
+\subsubsection[{freeFrame}]{\setlength{\rightskip}{0pt plus 5cm}void freeFrame (int {\em index})}}
+\label{reader_8c_0253eaa873d2dcd2ec7969f61385fb57}
+
+
+Frees the pages of the memory frame found at the desired index. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em index}]The index representing the start of the frame in the virtual memory array. \end{description}
+\end{Desc}
+\hypertarget{reader_8c_97451af2f2a314cfe74f37a308b3878b}{
+\index{reader.c@{reader.c}!freeFrames@{freeFrames}}
+\index{freeFrames@{freeFrames}!reader.c@{reader.c}}
+\subsubsection[{freeFrames}]{\setlength{\rightskip}{0pt plus 5cm}void freeFrames (int {\em num})}}
+\label{reader_8c_97451af2f2a314cfe74f37a308b3878b}
+
+
+Frees the desired number of memory frames, oldest first. 
+
+Each process has its corresponding frames entirely cleared, not partially. \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em num}]The number of frames to be cleared \end{description}
+\end{Desc}
+\hypertarget{reader_8c_608d236425445be4a71574883c51d220}{
+\index{reader.c@{reader.c}!freeProc@{freeProc}}
+\index{freeProc@{freeProc}!reader.c@{reader.c}}
+\subsubsection[{freeProc}]{\setlength{\rightskip}{0pt plus 5cm}void freeProc (int $\ast$ {\em pid})}}
+\label{reader_8c_608d236425445be4a71574883c51d220}
+
+
+Removes the process (specified by the process id) from the virtual memory. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pid}]The ID of the process to be removed from memory \end{description}
+\end{Desc}
+\hypertarget{reader_8c_2ba9b75207654ca1062eb58edbc37b5c}{
+\index{reader.c@{reader.c}!getFirstAge@{getFirstAge}}
+\index{getFirstAge@{getFirstAge}!reader.c@{reader.c}}
+\subsubsection[{getFirstAge}]{\setlength{\rightskip}{0pt plus 5cm}int getFirstAge ()}}
+\label{reader_8c_2ba9b75207654ca1062eb58edbc37b5c}
+
+
+Gets the access time of the first valid process listed. 
+
+\begin{Desc}
+\item[Returns:]The access time of the first valid process within the page table \end{Desc}
+\hypertarget{reader_8c_b2d9f4b491bf882bf1537ea9ee063000}{
+\index{reader.c@{reader.c}!getName@{getName}}
+\index{getName@{getName}!reader.c@{reader.c}}
+\subsubsection[{getName}]{\setlength{\rightskip}{0pt plus 5cm}int getName (process $\ast$ {\em proc})}}
+\label{reader_8c_b2d9f4b491bf882bf1537ea9ee063000}
+
+
+Generates the process name (integer), to be stored in the page table. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The process with which to generate the name \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The integer representing the process id \end{Desc}
+\hypertarget{reader_8c_f281592c5b655ec81b482afc0cfbd913}{
+\index{reader.c@{reader.c}!getNameQuad@{getNameQuad}}
+\index{getNameQuad@{getNameQuad}!reader.c@{reader.c}}
+\subsubsection[{getNameQuad}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ getNameQuad (process $\ast$ {\em proc})}}
+\label{reader_8c_f281592c5b655ec81b482afc0cfbd913}
+
+
+Generates the 4 digit, double concatenated process name (integer), to be stored in the virtual memory. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The process with which to generate the name \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The 4 digit integer representing the process id \end{Desc}
+\hypertarget{reader_8c_914892adfd28425e112c0152754aa9f5}{
+\index{reader.c@{reader.c}!getReady@{getReady}}
+\index{getReady@{getReady}!reader.c@{reader.c}}
+\subsubsection[{getReady}]{\setlength{\rightskip}{0pt plus 5cm}void getReady (QUEUE $\ast$ {\em pqueue}, \/  QUEUE $\ast$ {\em ready}, \/  int {\em time\_\-cycle})}}
+\label{reader_8c_914892adfd28425e112c0152754aa9f5}
+
+
+Appends all available processes at the given time to the ready queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \item[{\em ready}]The queue of all ready processes \item[{\em time\_\-cycle}]The current time cycle of the processor \end{description}
+\end{Desc}
+\hypertarget{reader_8c_bedb61b9cdc4851be401438c7ae465a2}{
+\index{reader.c@{reader.c}!initMemory@{initMemory}}
+\index{initMemory@{initMemory}!reader.c@{reader.c}}
+\subsubsection[{initMemory}]{\setlength{\rightskip}{0pt plus 5cm}void initMemory ()}}
+\label{reader_8c_bedb61b9cdc4851be401438c7ae465a2}
+
+
+Initialises an empty virtual memory block, with each slot having space for four characters. 
+
+\hypertarget{reader_8c_61ab57de87ff0361208dede96872908c}{
+\index{reader.c@{reader.c}!isCached@{isCached}}
+\index{isCached@{isCached}!reader.c@{reader.c}}
+\subsubsection[{isCached}]{\setlength{\rightskip}{0pt plus 5cm}bool isCached (int {\em pid})}}
+\label{reader_8c_61ab57de87ff0361208dede96872908c}
+
+
+Checks whether the indicated process is currently in memory by scanning the page table. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pid}]The name of the process \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]true if the process is found in memory, false otherwise \end{Desc}
+\hypertarget{reader_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}{
+\index{reader.c@{reader.c}!output@{output}}
+\index{output@{output}!reader.c@{reader.c}}
+\subsubsection[{output}]{\setlength{\rightskip}{0pt plus 5cm}void output (process $\ast$ {\em proc})}}
+\label{reader_8c_01655ab6ef1200ea1e4405dc4fbb6a9c}
+
+
+Writes the process's cpu access history to the output file. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The process that has just completed/terminated \end{description}
+\end{Desc}
+\hypertarget{reader_8c_051d094213c5463271ef7f3f94e403ad}{
+\index{reader.c@{reader.c}!print@{print}}
+\index{print@{print}!reader.c@{reader.c}}
+\subsubsection[{print}]{\setlength{\rightskip}{0pt plus 5cm}void print (process $\ast$ {\em proc}, \/  int {\em length})}}
+\label{reader_8c_051d094213c5463271ef7f3f94e403ad}
+
+
+Debug method for printing the unsorted array of processes, taken fro the input file. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The array of processes read from the input file \item[{\em length}]The number of processes \end{description}
+\end{Desc}
+\hypertarget{reader_8c_2563f796a4ae3056b4cba9e3b0c7ae4b}{
+\index{reader.c@{reader.c}!printPage@{printPage}}
+\index{printPage@{printPage}!reader.c@{reader.c}}
+\subsubsection[{printPage}]{\setlength{\rightskip}{0pt plus 5cm}void printPage ()}}
+\label{reader_8c_2563f796a4ae3056b4cba9e3b0c7ae4b}
+
+
+Prints the page table and the page contents to the memory output file. 
+
+\hypertarget{reader_8c_147ceda5f975cc44e1cc3c387b762ddf}{
+\index{reader.c@{reader.c}!printQueue@{printQueue}}
+\index{printQueue@{printQueue}!reader.c@{reader.c}}
+\subsubsection[{printQueue}]{\setlength{\rightskip}{0pt plus 5cm}void printQueue (QUEUE $\ast$ {\em queue})}}
+\label{reader_8c_147ceda5f975cc44e1cc3c387b762ddf}
+
+
+Debugging method that prints the contents of a given queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em queue}]The queue to be printed \end{description}
+\end{Desc}
+\hypertarget{reader_8c_35ce96d36eb6094b4f4e76a05e6801a4}{
+\index{reader.c@{reader.c}!readFile@{readFile}}
+\index{readFile@{readFile}!reader.c@{reader.c}}
+\subsubsection[{readFile}]{\setlength{\rightskip}{0pt plus 5cm}process$\ast$$\ast$ readFile (char $\ast$ {\em filename}, \/  int $\ast$ {\em length}, \/  int $\ast$ {\em mode})}}
+\label{reader_8c_35ce96d36eb6094b4f4e76a05e6801a4}
+
+
+Reads the contents of the input file into an unsorted array of process structures. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The string representing the name of the input file \item[{\em length}]A counter that records the number of jobs present in the input file \item[{\em mode}]The program mode. 0 represents Scheduler mode, 1 represents Virtual Memory mode \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The array of a processes \end{Desc}
+\hypertarget{reader_8c_ac4c517e2a4646902a0b63f5e8d17385}{
+\index{reader.c@{reader.c}!roundRobin@{roundRobin}}
+\index{roundRobin@{roundRobin}!reader.c@{reader.c}}
+\subsubsection[{roundRobin}]{\setlength{\rightskip}{0pt plus 5cm}void roundRobin (QUEUE $\ast$ {\em pqueue}, \/  int {\em quantum}, \/  int $\ast$ {\em expire}, \/  int $\ast$ {\em mode})}}
+\label{reader_8c_ac4c517e2a4646902a0b63f5e8d17385}
+
+
+Simulates the Round Robin scheduling algorithm for the given time quantum. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \item[{\em quantum}]The time quantum \item[{\em expire}]The time at which the memory state is cloned for printing to the output file \item[{\em mode}]The program mode. 0 represents Scheduler mode, 1 represents Virtual Memory mode \end{description}
+\end{Desc}
+\hypertarget{reader_8c_70eefc5a71f8d920d550b09d620e297d}{
+\index{reader.c@{reader.c}!shortestNext@{shortestNext}}
+\index{shortestNext@{shortestNext}!reader.c@{reader.c}}
+\subsubsection[{shortestNext}]{\setlength{\rightskip}{0pt plus 5cm}void shortestNext (QUEUE $\ast$ {\em pqueue}, \/  int $\ast$ {\em expire}, \/  int $\ast$ {\em mode})}}
+\label{reader_8c_70eefc5a71f8d920d550b09d620e297d}
+
+
+Simulates the Shortest Process Next scheduling algorithm. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \item[{\em expire}]The time at which the memory state is cloned for printing to the output file \item[{\em mode}]The program mode. 0 represents Scheduler mode, 1 represents Virtual Memory mode \end{description}
+\end{Desc}
+\hypertarget{reader_8c_2e4de25d21b2f761e497a1f03ae1c580}{
+\index{reader.c@{reader.c}!shortestRemaining@{shortestRemaining}}
+\index{shortestRemaining@{shortestRemaining}!reader.c@{reader.c}}
+\subsubsection[{shortestRemaining}]{\setlength{\rightskip}{0pt plus 5cm}void shortestRemaining (QUEUE $\ast$ {\em pqueue}, \/  int $\ast$ {\em expire}, \/  int $\ast$ {\em mode})}}
+\label{reader_8c_2e4de25d21b2f761e497a1f03ae1c580}
+
+
+Simulates the Shortest Remaining Time scheduling algorithm. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pqueue}]The queue of all available processes \item[{\em expire}]The time at which the memory state is cloned for printing to the output file \item[{\em mode}]The program mode. 0 represents Scheduler mode, 1 represents Virtual Memory mode \end{description}
+\end{Desc}
+\hypertarget{reader_8c_12a02a9cebfa58fe341e41548c5d69ab}{
+\index{reader.c@{reader.c}!sort@{sort}}
+\index{sort@{sort}!reader.c@{reader.c}}
+\subsubsection[{sort}]{\setlength{\rightskip}{0pt plus 5cm}QUEUE$\ast$ sort (process $\ast$$\ast$ {\em proc}, \/  int {\em length})}}
+\label{reader_8c_12a02a9cebfa58fe341e41548c5d69ab}
+
+
+Sorts the initial process array by start time,then enqueues the processes into the process queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em proc}]The array of processes read from the input file \item[{\em length}]The number of processes \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The (sorted) process queue \end{Desc}
+\hypertarget{reader_8c_9d92d5fd943184e547ba24fe47af8a55}{
+\index{reader.c@{reader.c}!sortSPN@{sortSPN}}
+\index{sortSPN@{sortSPN}!reader.c@{reader.c}}
+\subsubsection[{sortSPN}]{\setlength{\rightskip}{0pt plus 5cm}void sortSPN (QUEUE $\ast$ {\em ready})}}
+\label{reader_8c_9d92d5fd943184e547ba24fe47af8a55}
+
+
+Sorts the ready queue by process duration, shortest process first. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em ready}]The queue of ready processes \end{description}
+\end{Desc}
+\hypertarget{reader_8c_b8c2f9787d6e4f1c94b7a49c2b7883eb}{
+\index{reader.c@{reader.c}!updateTime@{updateTime}}
+\index{updateTime@{updateTime}!reader.c@{reader.c}}
+\subsubsection[{updateTime}]{\setlength{\rightskip}{0pt plus 5cm}void updateTime (int $\ast$ {\em pid}, \/  int $\ast$ {\em time\_\-cycle})}}
+\label{reader_8c_b8c2f9787d6e4f1c94b7a49c2b7883eb}
+
+
+Updates the time stamp within the page table for the desired process. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em pid}]The process id of the process to be modified within the page table \item[{\em time\_\-cycle}]The new access time \end{description}
+\end{Desc}
+
+
+\subsection{Variable Documentation}
+\hypertarget{reader_8c_6863de986ce999160e8b73506eb163fc}{
+\index{reader.c@{reader.c}!mem\_\-out@{mem\_\-out}}
+\index{mem\_\-out@{mem\_\-out}!reader.c@{reader.c}}
+\subsubsection[{mem\_\-out}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ {\bf mem\_\-out}}}
+\label{reader_8c_6863de986ce999160e8b73506eb163fc}
+
+
+The virtual memory print string. 
+
+\hypertarget{reader_8c_ed490b9fdbba4896588dd629730b0127}{
+\index{reader.c@{reader.c}!page@{page}}
+\index{page@{page}!reader.c@{reader.c}}
+\subsubsection[{page}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ {\bf page}\mbox{[}200\mbox{]}}}
+\label{reader_8c_ed490b9fdbba4896588dd629730b0127}
+
+
+The virtual memory array. 
+
+\hypertarget{reader_8c_7f8c1ec556f032fe7bb1829539cac958}{
+\index{reader.c@{reader.c}!page\_\-out@{page\_\-out}}
+\index{page\_\-out@{page\_\-out}!reader.c@{reader.c}}
+\subsubsection[{page\_\-out}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ {\bf page\_\-out}}}
+\label{reader_8c_7f8c1ec556f032fe7bb1829539cac958}
+
+
+The page table print string. 
+
+\hypertarget{reader_8c_cba32cd99531972f2bf2c386a4b3ee8f}{
+\index{reader.c@{reader.c}!paget@{paget}}
+\index{paget@{paget}!reader.c@{reader.c}}
+\subsubsection[{paget}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf paget}\mbox{[}200\mbox{]}\mbox{[}2\mbox{]}}}
+\label{reader_8c_cba32cd99531972f2bf2c386a4b3ee8f}
+
+
+The page table array. 
+

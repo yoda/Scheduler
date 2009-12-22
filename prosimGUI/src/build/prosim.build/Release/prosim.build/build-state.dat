@@ -1,0 +1,4250 @@
+Tprosim
+v7
+r0
+t277795644.532961
+cCheck dependencies
+cProcessInfoPlistFile /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/Info.plist Info.plist
+cPhaseScriptExecution "Qt Qmake" /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-D7BA7D76DAB5DD13389D6332.sh
+cPhaseScriptExecution "Qt Preprocessors" /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-A0A52A2ADF7A1E2A99738674.sh
+cCompileC build/prosim.build/Release/prosim.build/Objects-normal/i386/main.o /Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/prosim.build/Release/prosim.build/Objects-normal/i386/ProsimMainWindow.o /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/prosim.build/Release/prosim.build/Objects-normal/i386/moc_ProsimMainWindow.o /Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/MacOS/prosim normal i386
+cTouch /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app
+cPBXCp prosim.app build/Release/prosim.app
+
+N/Library/Frameworks/Qt3Support.framework/Headers/q3cstring.h
+c000000004A3DE2CF00000000000027A5
+t1245569743
+s10149
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/Qt3Support.framework/Headers/q3valuelist.h
+c000000004A3DE2CF0000000000002091
+t1245569743
+s8337
+i<QtCore/qalgorithms.h>
+i<QtCore/qdatastream.h>
+i<QtCore/qlinkedlist.h>
+i<QtCore/qlist.h>
+i<iterator>
+i<list>
+
+N/Library/Frameworks/QtCore.framework/Headers/QIODevice
+c000000004A3DE2CE0000000000000017
+t1245569742
+s23
+i"qiodevice.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QList
+c000000004A3DE2CE0000000000000013
+t1245569742
+s19
+i"qlist.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QPoint
+c000000004A3DE2CE0000000000000014
+t1245569742
+s20
+i"qpoint.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QPointF
+c000000004A3DE2CE0000000000000014
+t1245569742
+s20
+i"qpoint.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QString
+c000000004A3DE2CE0000000000000015
+t1245569742
+s21
+i"qstring.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QVariant
+c000000004A3DE2CE0000000000000016
+t1245569742
+s22
+i"qvariant.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QVector
+c000000004A3DE2CE0000000000000015
+t1245569742
+s21
+i"qvector.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/QtCore
+c000000004A3DE2CE0000000000000BB8
+t1245569742
+s3000
+i"qtextcodec.h"
+i"qtextcodecplugin.h"
+i"qfuture.h"
+i"qfutureinterface.h"
+i"qfuturesynchronizer.h"
+i"qfuturewatcher.h"
+i"qrunnable.h"
+i"qtconcurrentcompilertest.h"
+i"qtconcurrentexception.h"
+i"qtconcurrentfilter.h"
+i"qtconcurrentfilterkernel.h"
+i"qtconcurrentfunctionwrappers.h"
+i"qtconcurrentiteratekernel.h"
+i"qtconcurrentmap.h"
+i"qtconcurrentmapkernel.h"
+i"qtconcurrentmedian.h"
+i"qtconcurrentreducekernel.h"
+i"qtconcurrentresultstore.h"
+i"qtconcurrentrun.h"
+i"qtconcurrentrunbase.h"
+i"qtconcurrentstoredfunctioncall.h"
+i"qtconcurrentthreadengine.h"
+i"qthreadpool.h"
+i"qendian.h"
+i"qfeatures.h"
+i"qglobal.h"
+i"qlibraryinfo.h"
+i"qnamespace.h"
+i"qnumeric.h"
+i"qabstractfileengine.h"
+i"qbuffer.h"
+i"qdatastream.h"
+i"qdebug.h"
+i"qdir.h"
+i"qdiriterator.h"
+i"qfile.h"
+i"qfileinfo.h"
+i"qfilesystemwatcher.h"
+i"qfsfileengine.h"
+i"qiodevice.h"
+i"qprocess.h"
+i"qresource.h"
+i"qsettings.h"
+i"qtemporaryfile.h"
+i"qtextstream.h"
+i"qurl.h"
+i"qabstracteventdispatcher.h"
+i"qabstractitemmodel.h"
+i"qbasictimer.h"
+i"qcoreapplication.h"
+i"qcoreevent.h"
+i"qeventloop.h"
+i"qmath.h"
+i"qmetaobject.h"
+i"qmetatype.h"
+i"qmimedata.h"
+i"qobject.h"
+i"qobjectcleanuphandler.h"
+i"qobjectdefs.h"
+i"qpointer.h"
+i"qsharedmemory.h"
+i"qsignalmapper.h"
+i"qsocketnotifier.h"
+i"qsystemsemaphore.h"
+i"qtimer.h"
+i"qtranslator.h"
+i"qvariant.h"
+i"qfactoryinterface.h"
+i"qlibrary.h"
+i"qplugin.h"
+i"qpluginloader.h"
+i"quuid.h"
+i"qatomic.h"
+i"qbasicatomic.h"
+i"qmutex.h"
+i"qreadwritelock.h"
+i"qsemaphore.h"
+i"qthread.h"
+i"qthreadstorage.h"
+i"qwaitcondition.h"
+i"qalgorithms.h"
+i"qbitarray.h"
+i"qbytearray.h"
+i"qbytearraymatcher.h"
+i"qcache.h"
+i"qchar.h"
+i"qcontainerfwd.h"
+i"qcryptographichash.h"
+i"qdatetime.h"
+i"qhash.h"
+i"qiterator.h"
+i"qline.h"
+i"qlinkedlist.h"
+i"qlist.h"
+i"qlocale.h"
+i"qmap.h"
+i"qpair.h"
+i"qpoint.h"
+i"qqueue.h"
+i"qrect.h"
+i"qregexp.h"
+i"qset.h"
+i"qshareddata.h"
+i"qsharedpointer.h"
+i"qsize.h"
+i"qstack.h"
+i"qstring.h"
+i"qstringlist.h"
+i"qstringmatcher.h"
+i"qtextboundaryfinder.h"
+i"qtimeline.h"
+i"qvarlengtharray.h"
+i"qvector.h"
+i"qxmlstream.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/qabstracteventdispatcher.h
+c000000004A3DE2CE0000000000000E8A
+t1245569742
+s3722
+i<QtCore/qobject.h>
+i<QtCore/qeventloop.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qabstractfileengine.h
+c000000004A3DE2CE0000000000001E7E
+t1245569742
+s7806
+i<QtCore/qdir.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qabstractitemmodel.h
+c000000004A3DE2CE0000000000003C57
+t1245569742
+s15447
+i<QtCore/qvariant.h>
+i<QtCore/qobject.h>
+i<QtCore/qhash.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qalgorithms.h
+c000000004A3DE2CE000000000000431F
+t1245569742
+s17183
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic.h
+c000000004A3DE2CE0000000000001AC4
+t1245569742
+s6852
+i<QtCore/qglobal.h>
+i<QtCore/qbasicatomic.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_alpha.h
+c000000004A3DE2CE00000000000065D3
+t1245569742
+s26067
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_arch.h
+c000000004A3DE2CE0000000000000D47
+t1245569742
+s3399
+i"QtCore/qglobal.h"
+i"QtCore/qatomic_alpha.h"
+i"QtCore/qatomic_arm.h"
+i"QtCore/qatomic_armv6.h"
+i"QtCore/qatomic_avr32.h"
+i"QtCore/qatomic_bfin.h"
+i"QtCore/qatomic_generic.h"
+i"QtCore/qatomic_i386.h"
+i"QtCore/qatomic_ia64.h"
+i"QtCore/qatomic_macosx.h"
+i"QtCore/qatomic_mips.h"
+i"QtCore/qatomic_parisc.h"
+i"QtCore/qatomic_powerpc.h"
+i"QtCore/qatomic_s390.h"
+i"QtCore/qatomic_sparc.h"
+i"QtCore/qatomic_windows.h"
+i"QtCore/qatomic_windowsce.h"
+i"QtCore/qatomic_x86_64.h"
+i"QtCore/qatomic_sh.h"
+i"QtCore/qatomic_sh4a.h"
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_arm.h
+c000000004A3DE2CE0000000000002D5E
+t1245569742
+s11614
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_armv6.h
+c000000004A3DE2CE0000000000002DE1
+t1245569742
+s11745
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_avr32.h
+c000000004A3DE2CE0000000000001D49
+t1245569742
+s7497
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_bfin.h
+c000000004A3DE2CE0000000000002757
+t1245569742
+s10071
+i<asm/fixed_code.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_bootstrap.h
+c000000004A3DE2CE0000000000000C2D
+t1245569742
+s3117
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_generic.h
+c000000004A3DE2CE000000000000220C
+t1245569742
+s8716
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_i386.h
+c000000004A3DE2CE0000000000002AD2
+t1245569742
+s10962
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_ia64.h
+c000000004A3DE2CE00000000000064E0
+t1245569742
+s25824
+i<ia64intrin.h>
+i<ia64/sys/inline.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_macosx.h
+c000000004A3DE2CE00000000000008F8
+t1245569742
+s2296
+i<QtCore/qatomic_x86_64.h>
+i<QtCore/qatomic_i386.h>
+i<QtCore/qatomic_powerpc.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_mips.h
+c000000004A3DE2CE0000000000006E48
+t1245569742
+s28232
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_parisc.h
+c000000004A3DE2CE00000000000020DD
+t1245569742
+s8413
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_powerpc.h
+c000000004A3DE2CE00000000000059A1
+t1245569742
+s22945
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_s390.h
+c000000004A3DE2CE00000000000038BC
+t1245569742
+s14524
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_sh.h
+c000000004A3DE2CE0000000000002416
+t1245569742
+s9238
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_sh4a.h
+c000000004A3DE2CE000000000000461D
+t1245569742
+s17949
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_sparc.h
+c000000004A3DE2CE000000000000425F
+t1245569742
+s16991
+
+N/Library/Frameworks/QtCore.framework/Headers/qatomic_x86_64.h
+c000000004A3DE2CE0000000000002AF7
+t1245569742
+s10999
+
+N/Library/Frameworks/QtCore.framework/Headers/qbasicatomic.h
+c000000004A3DE2CE000000000000170E
+t1245569742
+s5902
+i<QtCore/qglobal.h>
+i<QtCore/qatomic_bootstrap.h>
+i<QtCore/qatomic_arch.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbasictimer.h
+c000000004A3DE2CE00000000000009CC
+t1245569742
+s2508
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbitarray.h
+c000000004A3DE2CE0000000000001850
+t1245569742
+s6224
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbuffer.h
+c000000004A3DE2CE0000000000000D23
+t1245569742
+s3363
+i<QtCore/qiodevice.h>
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbytearray.h
+c000000004A3DE2CE0000000000005A6B
+t1245569742
+s23147
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<string.h>
+i<stdarg.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qbytearraymatcher.h
+c000000004A3DE2CE0000000000000CAE
+t1245569742
+s3246
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qcache.h
+c000000004A3DE2CE00000000000017C1
+t1245569742
+s6081
+i<QtCore/qhash.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qchar.h
+c000000004A3DE2CE0000000000003204
+t1245569742
+s12804
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qconfig.h
+c000000004A3DE2CE0000000000000FCC
+t1245569742
+s4044
+
+N/Library/Frameworks/QtCore.framework/Headers/qcontainerfwd.h
+c000000004A3DE2CE0000000000000A7A
+t1245569742
+s2682
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qcoreapplication.h
+c000000004A3DE2CE0000000000002756
+t1245569742
+s10070
+i<QtCore/qobject.h>
+i<QtCore/qcoreevent.h>
+i<QtCore/qeventloop.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qcoreevent.h
+c000000004A3DE2CE0000000000003CE8
+t1245569742
+s15592
+i<QtCore/qnamespace.h>
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qcryptographichash.h
+c000000004A3DE2CE0000000000000A6A
+t1245569742
+s2666
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qdatastream.h
+c000000004A3DE2CE0000000000002B4B
+t1245569742
+s11083
+i<QtCore/qiodevice.h>
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qdatetime.h
+c000000004A3DE2CE0000000000002C32
+t1245569742
+s11314
+i<QtCore/qstring.h>
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qdebug.h
+c000000004A3DE2CE00000000000024E7
+t1245569742
+s9447
+i<QtCore/qalgorithms.h>
+i<QtCore/qhash.h>
+i<QtCore/qlist.h>
+i<QtCore/qmap.h>
+i<QtCore/qpair.h>
+i<QtCore/qtextstream.h>
+i<QtCore/qstring.h>
+i<QtCore/qvector.h>
+i<QtCore/qset.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qdir.h
+c000000004A3DE2CE0000000000002578
+t1245569742
+s9592
+i<QtCore/qstring.h>
+i<QtCore/qfileinfo.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qdiriterator.h
+c000000004A3DE2CE0000000000000C9B
+t1245569742
+s3227
+i<QtCore/qdir.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qendian.h
+c000000004A3DE2CE0000000000002DCF
+t1245569742
+s11727
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qeventloop.h
+c000000004A3DE2CE0000000000000C7D
+t1245569742
+s3197
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfactoryinterface.h
+c000000004A3DE2CE000000000000095D
+t1245569742
+s2397
+i<QtCore/qobject.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfeatures.h
+c000000004A3DE2CE000000000000509F
+t1245569742
+s20639
+
+N/Library/Frameworks/QtCore.framework/Headers/qfile.h
+c000000004A3DE2CE00000000000018E5
+t1245569742
+s6373
+i<QtCore/qiodevice.h>
+i<QtCore/qstring.h>
+i<stdio.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfileinfo.h
+c000000004A3DE2CE000000000000178D
+t1245569742
+s6029
+i<QtCore/qfile.h>
+i<QtCore/qlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfilesystemwatcher.h
+c000000004A3DE2CE0000000000000BFC
+t1245569742
+s3068
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfsfileengine.h
+c000000004A3DE2CE00000000000010AA
+t1245569742
+s4266
+i<QtCore/qabstractfileengine.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfuture.h
+c000000004A3DE2CE0000000000002368
+t1245569742
+s9064
+i<QtCore/qglobal.h>
+i<QtCore/qfutureinterface.h>
+i<QtCore/qstring.h>
+i<QtCore/qtconcurrentcompilertest.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfutureinterface.h
+c000000004A3DE2CE00000000000025F4
+t1245569742
+s9716
+i<QtCore/qglobal.h>
+i<QtCore/qrunnable.h>
+i<QtCore/qmutex.h>
+i<QtCore/qtconcurrentexception.h>
+i<QtCore/qtconcurrentresultstore.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfuturesynchronizer.h
+c000000004A3DE2CE0000000000000D86
+t1245569742
+s3462
+i<QtCore/qfuture.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qfuturewatcher.h
+c000000004A3DE2CE0000000000001897
+t1245569742
+s6295
+i<QtCore/qfuture.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qglobal.h
+c000000004A3DE2CE00000000000125BD
+t1245569742
+s75197
+i<stddef.h>
+i<QtCore/qconfig.h>
+i<AvailabilityMacros.h>
+i<QtCore/qfeatures.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qhash.h
+c000000004A3DE2CE00000000000072CD
+t1245569742
+s29389
+i<QtCore/qatomic.h>
+i<QtCore/qchar.h>
+i<QtCore/qiterator.h>
+i<QtCore/qlist.h>
+i<QtCore/qpair.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qiodevice.h
+c000000004A3DE2CE0000000000002086
+t1245569742
+s8326
+i<QtCore/qobject.h>
+i<QtCore/qobjectdefs.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qiterator.h
+c000000004A3DE2CE000000000000230A
+t1245569742
+s8970
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qlibrary.h
+c000000004A3DE2CE0000000000001002
+t1245569742
+s4098
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qlibraryinfo.h
+c000000004A3DE2CE0000000000000ABD
+t1245569742
+s2749
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qline.h
+c000000004A3DE2CE00000000000026C4
+t1245569742
+s9924
+i<QtCore/qpoint.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qlinkedlist.h
+c000000004A3DE2CE0000000000003A81
+t1245569742
+s14977
+i<QtCore/qiterator.h>
+i<QtCore/qatomic.h>
+i<iterator>
+i<list>
+
+N/Library/Frameworks/QtCore.framework/Headers/qlist.h
+c000000004A3DE2CE0000000000005D0B
+t1245569742
+s23819
+i<QtCore/qiterator.h>
+i<QtCore/qatomic.h>
+i<QtCore/qalgorithms.h>
+i<iterator>
+i<list>
+i<new>
+
+N/Library/Frameworks/QtCore.framework/Headers/qlocale.h
+c000000004A3DE2CE0000000000004C0B
+t1245569742
+s19467
+i<QtCore/qstring.h>
+i<QtCore/qobjectdefs.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmap.h
+c000000004A3DE2CE0000000000007A43
+t1245569742
+s31299
+i<QtCore/qatomic.h>
+i<QtCore/qiterator.h>
+i<QtCore/qlist.h>
+i<map>
+i<new>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmath.h
+c000000004A3DE2CE0000000000000DA7
+t1245569742
+s3495
+i<math.h>
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmetaobject.h
+c000000004A3DE2CE0000000000002230
+t1245569742
+s8752
+i<QtCore/qobjectdefs.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmetatype.h
+c000000004A3DE2CE0000000000002BF4
+t1245569742
+s11252
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmimedata.h
+c000000004A3DE2CE0000000000000CF3
+t1245569742
+s3315
+i<QtCore/qvariant.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qmutex.h
+c000000004A3DE2CE00000000000012E6
+t1245569742
+s4838
+i<QtCore/qglobal.h>
+i<new>
+
+N/Library/Frameworks/QtCore.framework/Headers/qnamespace.h
+c000000004A3DE2CE000000000000BA14
+t1245569742
+s47636
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qnumeric.h
+c000000004A3DE2CE0000000000000A24
+t1245569742
+s2596
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qobject.h
+c000000004A3DE2CE0000000000003D7D
+t1245569742
+s15741
+i<QtCore/qobjectdefs.h>
+i<QtCore/qstring.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qlist.h>
+i<QtCore/qcoreevent.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qobjectcleanuphandler.h
+c000000004A3DE2CE0000000000000A03
+t1245569742
+s2563
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qobjectdefs.h
+c000000004A3DE2CE00000000000040F5
+t1245569742
+s16629
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qpair.h
+c000000004A3DE2CE0000000000000F3C
+t1245569742
+s3900
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qplugin.h
+c000000004A3DE2CE000000000000131B
+t1245569742
+s4891
+i<QtCore/qobject.h>
+i<QtCore/qpointer.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qpluginloader.h
+c000000004A3DE2CE0000000000000C57
+t1245569742
+s3159
+i<QtCore/qlibrary.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qpoint.h
+c000000004A3DE2CE00000000000024AB
+t1245569742
+s9387
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qpointer.h
+c000000004A3DE2CE0000000000001485
+t1245569742
+s5253
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qprocess.h
+c000000004A3DE2CE00000000000018A2
+t1245569742
+s6306
+i<QtCore/qiodevice.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qqueue.h
+c000000004A3DE2CE00000000000009A7
+t1245569742
+s2471
+i<QtCore/qlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qreadwritelock.h
+c000000004A3DE2CE00000000000018BB
+t1245569742
+s6331
+i<QtCore/qglobal.h>
+i<limits.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qrect.h
+c000000004A3DE2CE00000000000056E8
+t1245569742
+s22248
+i<QtCore/qsize.h>
+i<QtCore/qpoint.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qregexp.h
+c000000004A3DE2CE0000000000001503
+t1245569742
+s5379
+i<QtCore/qstring.h>
+i<new>
+
+N/Library/Frameworks/QtCore.framework/Headers/qresource.h
+c000000004A3DE2CE0000000000000D8D
+t1245569742
+s3469
+i<QtCore/qstring.h>
+i<QtCore/qlocale.h>
+i<QtCore/qstringlist.h>
+i<QtCore/qlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qrunnable.h
+c000000004A3DE2CE00000000000009B1
+t1245569742
+s2481
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsemaphore.h
+c000000004A3DE2CE00000000000009EF
+t1245569742
+s2543
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qset.h
+c000000004A3DE2CE0000000000003472
+t1245569742
+s13426
+i<QtCore/qhash.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsettings.h
+c000000004A3DE2CE00000000000027F2
+t1245569742
+s10226
+i<QtCore/qobject.h>
+i<QtCore/qvariant.h>
+i<QtCore/qstring.h>
+i<QtCore/qstringlist.h>
+i<ctype.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qshareddata.h
+c000000004A3DE2CE0000000000001BF0
+t1245569742
+s7152
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsharedmemory.h
+c000000004A3DE2CE0000000000000CD5
+t1245569742
+s3285
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsharedpointer.h
+c000000004A3DE2CE00000000000015A5
+t1245569742
+s5541
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<QtCore/qshareddata.h>
+i<QtCore/qsharedpointer_impl.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsharedpointer_impl.h
+c000000004A3DE2CE000000000000496B
+t1245569742
+s18795
+
+N/Library/Frameworks/QtCore.framework/Headers/qsignalmapper.h
+c000000004A3DE2CE0000000000000CB9
+t1245569742
+s3257
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsize.h
+c000000004A3DE2CE000000000000285F
+t1245569742
+s10335
+i<QtCore/qnamespace.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsocketnotifier.h
+c000000004A3DE2CE0000000000000B55
+t1245569742
+s2901
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstack.h
+c000000004A3DE2CE0000000000000AD1
+t1245569742
+s2769
+i<QtCore/qvector.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstring.h
+c000000004A3DE2CE000000000000E561
+t1245569742
+s58721
+i<QtCore/qchar.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qatomic.h>
+i<QtCore/qnamespace.h>
+i<Qt3Support/q3cstring.h>
+i<string>
+i<string>
+i<stdarg.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstringlist.h
+c000000004A3DE2CE000000000000264B
+t1245569742
+s9803
+i<QtCore/qalgorithms.h>
+i<QtCore/qdatastream.h>
+i<QtCore/qlist.h>
+i<QtCore/qregexp.h>
+i<QtCore/qstring.h>
+i<QtCore/qstringmatcher.h>
+i<Qt3Support/q3valuelist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qstringmatcher.h
+c000000004A3DE2CE0000000000000CEB
+t1245569742
+s3307
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qsystemsemaphore.h
+c000000004A3DE2CE0000000000000BAC
+t1245569742
+s2988
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentcompilertest.h
+c000000004A3DE2CE0000000000000976
+t1245569742
+s2422
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentexception.h
+c000000004A3DE2CE0000000000000D50
+t1245569742
+s3408
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<exception>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentfilter.h
+c000000004A3DE2CE000000000000736D
+t1245569742
+s29549
+i<QtCore/qglobal.h>
+i<QtCore/qtconcurrentfilterkernel.h>
+i<QtCore/qtconcurrentfunctionwrappers.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentfilterkernel.h
+c000000004A3DE2CE0000000000002D9E
+t1245569742
+s11678
+i<QtCore/qglobal.h>
+i<QtCore/qtconcurrentiteratekernel.h>
+i<QtCore/qtconcurrentmapkernel.h>
+i<QtCore/qtconcurrentreducekernel.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentfunctionwrappers.h
+c000000004A3DE2CE0000000000001243
+t1245569742
+s4675
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentiteratekernel.h
+c000000004A3DE2CE00000000000026AA
+t1245569742
+s9898
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<QtCore/qtconcurrentmedian.h>
+i<QtCore/qtconcurrentthreadengine.h>
+i<iterator>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentmap.h
+c000000004A3DE2CE0000000000007EC1
+t1245569742
+s32449
+i<QtCore/qglobal.h>
+i<QtCore/qtconcurrentmapkernel.h>
+i<QtCore/qtconcurrentreducekernel.h>
+i<QtCore/qtconcurrentfunctionwrappers.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentmapkernel.h
+c000000004A3DE2CE000000000000251D
+t1245569742
+s9501
+i<QtCore/qglobal.h>
+i<QtCore/qtconcurrentiteratekernel.h>
+i<QtCore/qtconcurrentreducekernel.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentmedian.h
+c000000004A3DE2CE0000000000000EC9
+t1245569742
+s3785
+i<QtCore/qglobal.h>
+i<QtCore/qvector.h>
+i<QtCore/qalgorithms.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentreducekernel.h
+c000000004A3DE2CE0000000000001D94
+t1245569742
+s7572
+i<QtCore/qglobal.h>
+i<QtCore/qatomic.h>
+i<QtCore/qlist.h>
+i<QtCore/qmap.h>
+i<QtCore/qmutex.h>
+i<QtCore/qthread.h>
+i<QtCore/qthreadpool.h>
+i<QtCore/qvector.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentresultstore.h
+c000000004A3DE2CE0000000000001D32
+t1245569742
+s7474
+i<QtCore/qglobal.h>
+i<QtCore/qmap.h>
+i<QtCore/qdebug.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentrun.h
+c000000004A3DE2CE0000000000004956
+t1245569742
+s18774
+i<QtCore/qglobal.h>
+i<QtCore/qtconcurrentrunbase.h>
+i<QtCore/qtconcurrentstoredfunctioncall.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentrunbase.h
+c000000004A3DE2CE0000000000000E3D
+t1245569742
+s3645
+i<QtCore/qglobal.h>
+i<QtCore/qfuture.h>
+i<QtCore/qrunnable.h>
+i<QtCore/qthreadpool.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentstoredfunctioncall.h
+c000000004A3DE2CE000000000000DB5A
+t1245569742
+s56154
+i<QtCore/qglobal.h>
+i<QtCore/qtconcurrentrunbase.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtconcurrentthreadengine.h
+c000000004A3DE2CE00000000000021A6
+t1245569742
+s8614
+i<QtCore/qglobal.h>
+i<QtCore/qthreadpool.h>
+i<QtCore/qfuture.h>
+i<QtCore/qdebug.h>
+i<QtCore/qtconcurrentexception.h>
+i<QtCore/qwaitcondition.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtemporaryfile.h
+c000000004A3DE2CE0000000000000D39
+t1245569742
+s3385
+i<QtCore/qiodevice.h>
+i<QtCore/qfile.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtextboundaryfinder.h
+c000000004A3DE2CE0000000000000D79
+t1245569742
+s3449
+i<QtCore/qchar.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtextcodec.h
+c000000004A3DE2CE0000000000001A03
+t1245569742
+s6659
+i<QtCore/qstring.h>
+i<QtCore/qlist.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtextcodecplugin.h
+c000000004A3DE2CE0000000000000CB1
+t1245569742
+s3249
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+i<QtCore/qlist.h>
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtextstream.h
+c000000004A3DE2CE000000000000338D
+t1245569742
+s13197
+i<QtCore/qiodevice.h>
+i<QtCore/qstring.h>
+i<QtCore/qchar.h>
+i<QtCore/qlocale.h>
+i<QtCore/qtextcodec.h>
+i<stdio.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qthread.h
+c000000004A3DE2CE00000000000010E1
+t1245569742
+s4321
+i<QtCore/qobject.h>
+i<limits.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qthreadpool.h
+c000000004A3DE2CE0000000000000C16
+t1245569742
+s3094
+i<QtCore/qglobal.h>
+i<QtCore/qthread.h>
+i<QtCore/qrunnable.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qthreadstorage.h
+c000000004A3DE2CE000000000000108D
+t1245569742
+s4237
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtimeline.h
+c000000004A3DE2CE000000000000106A
+t1245569742
+s4202
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtimer.h
+c000000004A3DE2CE0000000000000DE8
+t1245569742
+s3560
+i<QtCore/qbasictimer.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qtranslator.h
+c000000004A3DE2CE0000000000000D33
+t1245569742
+s3379
+i<QtCore/qobject.h>
+i<QtCore/qbytearray.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qurl.h
+c000000004A3DE2CE00000000000026DE
+t1245569742
+s9950
+i<QtCore/qbytearray.h>
+i<QtCore/qobjectdefs.h>
+i<QtCore/qpair.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/quuid.h
+c000000004A3DE2CE0000000000001472
+t1245569742
+s5234
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qvariant.h
+c000000004A3DE2CE00000000000045C1
+t1245569742
+s17857
+i<QtCore/qatomic.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qlist.h>
+i<QtCore/qmetatype.h>
+i<QtCore/qmap.h>
+i<QtCore/qhash.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qvarlengtharray.h
+c000000004A3DE2CE0000000000001AEA
+t1245569742
+s6890
+i<QtCore/qcontainerfwd.h>
+i<QtCore/qglobal.h>
+i<new>
+
+N/Library/Frameworks/QtCore.framework/Headers/qvector.h
+c000000004A3DE2CE0000000000006173
+t1245569742
+s24947
+i<QtCore/qiterator.h>
+i<QtCore/qatomic.h>
+i<QtCore/qalgorithms.h>
+i<QtCore/qlist.h>
+i<iterator>
+i<vector>
+i<stdlib.h>
+i<string.h>
+i<QtCore/QPointF>
+i<QtCore/QPoint>
+
+N/Library/Frameworks/QtCore.framework/Headers/qwaitcondition.h
+c000000004A3DE2CE0000000000000B6F
+t1245569742
+s2927
+i<QtCore/qglobal.h>
+i<limits.h>
+
+N/Library/Frameworks/QtCore.framework/Headers/qxmlstream.h
+c000000004A3DE2CE00000000000046BB
+t1245569742
+s18107
+i<QtCore/QIODevice>
+i<QtCore/QString>
+i<QtCore/QVector>
+
+N/Library/Frameworks/QtCore.framework/QtCore
+c000000004A3DE2F100000000004CED60
+t1245569777
+s5041504
+
+N/Library/Frameworks/QtCore.framework/Versions/4/Headers/QList
+c000000004A3DE2CE0000000000000013
+t1245569742
+s19
+i"qlist.h"
+
+N/Library/Frameworks/QtCore.framework/Versions/4/Headers/QtDebug
+c000000004A3DE2CE0000000000000014
+t1245569742
+s20
+i"qdebug.h"
+
+N/Library/Frameworks/QtCore.framework/Versions/4/Headers/qdebug.h
+c000000004A3DE2CE00000000000024E7
+t1245569742
+s9447
+i<QtCore/qalgorithms.h>
+i<QtCore/qhash.h>
+i<QtCore/qlist.h>
+i<QtCore/qmap.h>
+i<QtCore/qpair.h>
+i<QtCore/qtextstream.h>
+i<QtCore/qstring.h>
+i<QtCore/qvector.h>
+i<QtCore/qset.h>
+
+N/Library/Frameworks/QtCore.framework/Versions/4/Headers/qlist.h
+c000000004A3DE2CE0000000000005D0B
+t1245569742
+s23819
+i<QtCore/qiterator.h>
+i<QtCore/qatomic.h>
+i<QtCore/qalgorithms.h>
+i<iterator>
+i<list>
+i<new>
+
+N/Library/Frameworks/QtGui.framework/Headers/QAction
+c000000004A3DE2CE0000000000000015
+t1245569742
+s21
+i"qaction.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QApplication
+c000000004A3DE2CE000000000000001A
+t1245569742
+s26
+i"qapplication.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QButtonGroup
+c000000004A3DE2CE000000000000001A
+t1245569742
+s26
+i"qbuttongroup.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QCleanlooksStyle
+c000000004A3DE2CE000000000000001E
+t1245569742
+s30
+i"qcleanlooksstyle.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QComboBox
+c000000004A3DE2CE0000000000000017
+t1245569742
+s23
+i"qcombobox.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QFont
+c000000004A3DE2CE0000000000000013
+t1245569742
+s19
+i"qfont.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QFrame
+c000000004A3DE2CE0000000000000014
+t1245569742
+s20
+i"qframe.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QGraphicsView
+c000000004A3DE2CE000000000000001B
+t1245569742
+s27
+i"qgraphicsview.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QGridLayout
+c000000004A3DE2CE0000000000000019
+t1245569742
+s25
+i"qgridlayout.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QHBoxLayout
+c000000004A3DE2CE0000000000000018
+t1245569742
+s24
+i"qboxlayout.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QHeaderView
+c000000004A3DE2CE0000000000000019
+t1245569742
+s25
+i"qheaderview.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QLabel
+c000000004A3DE2CE0000000000000014
+t1245569742
+s20
+i"qlabel.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QLayout
+c000000004A3DE2CE0000000000000015
+t1245569742
+s21
+i"qlayout.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QLineEdit
+c000000004A3DE2CE0000000000000017
+t1245569742
+s23
+i"qlineedit.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QMainWindow
+c000000004A3DE2CE0000000000000019
+t1245569742
+s25
+i"qmainwindow.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QPalette
+c000000004A3DE2CE0000000000000016
+t1245569742
+s22
+i"qpalette.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QPlainTextEdit
+c000000004A3DE2CE000000000000001C
+t1245569742
+s28
+i"qplaintextedit.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QPrinter
+c000000004A3DE2CE0000000000000016
+t1245569742
+s22
+i"qprinter.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QPushButton
+c000000004A3DE2CE0000000000000019
+t1245569742
+s25
+i"qpushbutton.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QSpinBox
+c000000004A3DE2CE0000000000000016
+t1245569742
+s22
+i"qspinbox.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QToolButton
+c000000004A3DE2CE0000000000000019
+t1245569742
+s25
+i"qtoolbutton.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/QWidget
+c000000004A3DE2CE0000000000000015
+t1245569742
+s21
+i"qwidget.h"
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractbutton.h
+c000000004A3DE2CE0000000000001746
+t1245569742
+s5958
+i<QtGui/qicon.h>
+i<QtGui/qkeysequence.h>
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractitemdelegate.h
+c000000004A3DE2CE00000000000011D9
+t1245569742
+s4569
+i<QtCore/qobject.h>
+i<QtGui/qstyleoption.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractitemview.h
+c000000004A3DE2CE00000000000033B9
+t1245569742
+s13241
+i<QtGui/qabstractscrollarea.h>
+i<QtCore/qabstractitemmodel.h>
+i<QtGui/qitemselectionmodel.h>
+i<QtGui/qabstractitemdelegate.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractpagesetupdialog.h
+c000000004A3DE2CE0000000000000AE8
+t1245569742
+s2792
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractprintdialog.h
+c000000004A3DE2CE0000000000000F51
+t1245569742
+s3921
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractproxymodel.h
+c000000004A3DE2CE0000000000000E64
+t1245569742
+s3684
+i<QtCore/qabstractitemmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractscrollarea.h
+c000000004A3DE2CE00000000000012A2
+t1245569742
+s4770
+i<QtGui/qframe.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractslider.h
+c000000004A3DE2CE0000000000001768
+t1245569742
+s5992
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstractspinbox.h
+c000000004A3DE2CE0000000000001784
+t1245569742
+s6020
+i<QtGui/qwidget.h>
+i<QtGui/qvalidator.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qabstracttextdocumentlayout.h
+c000000004A3DE2CE00000000000014B1
+t1245569742
+s5297
+i<QtCore/qobject.h>
+i<QtGui/qtextlayout.h>
+i<QtGui/qtextdocument.h>
+i<QtGui/qtextcursor.h>
+i<QtGui/qpalette.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qaccessible.h
+c000000004A3DE2CE0000000000003723
+t1245569742
+s14115
+i<QtCore/qglobal.h>
+i<QtCore/qobject.h>
+i<QtCore/qrect.h>
+i<QtCore/qset.h>
+i<QtCore/qvector.h>
+i<QtCore/qvariant.h>
+i<QtGui/qcolor.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qaccessibleobject.h
+c000000004A3DE2CE00000000000010BA
+t1245569742
+s4282
+i<QtGui/qaccessible.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qaction.h
+c000000004A3DE2CE0000000000001FEA
+t1245569742
+s8170
+i<QtGui/qkeysequence.h>
+i<QtCore/qstring.h>
+i<QtGui/qwidget.h>
+i<QtCore/qvariant.h>
+i<QtGui/qicon.h>
+i<QtGui/qactiongroup.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qactiongroup.h
+c000000004A3DE2CE0000000000000E7F
+t1245569742
+s3711
+i<QtGui/qaction.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qapplication.h
+c000000004A3DE2CE00000000000035D8
+t1245569742
+s13784
+i<QtCore/qcoreapplication.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qpoint.h>
+i<QtCore/qsize.h>
+i<QtGui/qcursor.h>
+i<QtGui/qdesktopwidget.h>
+i<QtGui/qwidget.h>
+i<QtGui/qpalette.h>
+i<QtGui/qrgb.h>
+i<QtGui/qtransportauth_qws.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qboxlayout.h
+c000000004A3DE2CE00000000000015FD
+t1245569742
+s5629
+i<QtGui/qlayout.h>
+i<QtGui/qwidget.h>
+i<limits.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qbrush.h
+c000000004A3DE2CE00000000000023FD
+t1245569742
+s9213
+i<QtCore/qpair.h>
+i<QtCore/qpoint.h>
+i<QtCore/qvector.h>
+i<QtGui/qcolor.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qtransform.h>
+i<QtGui/qimage.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qbuttongroup.h
+c000000004A3DE2CE0000000000000DCD
+t1245569742
+s3533
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qcleanlooksstyle.h
+c000000004A3DE2CE0000000000001362
+t1245569742
+s4962
+i<QtGui/qwindowsstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qcolor.h
+c000000004A3DE2CE0000000000001E93
+t1245569742
+s7827
+i<QtGui/qrgb.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qcombobox.h
+c000000004A3DE2CE00000000000032BD
+t1245569742
+s12989
+i<QtGui/qwidget.h>
+i<QtGui/qabstractitemdelegate.h>
+i<QtCore/qabstractitemmodel.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qcommonstyle.h
+c000000004A3DE2CE00000000000010CA
+t1245569742
+s4298
+i<QtGui/qstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qcursor.h
+c000000004A3DE2CE0000000000001214
+t1245569742
+s4628
+i<QtCore/qpoint.h>
+i<QtGui/qwindowdefs.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qdesktopwidget.h
+c000000004A3DE2CE0000000000000D4A
+t1245569742
+s3402
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qdialog.h
+c000000004A3DE2CE0000000000000F8E
+t1245569742
+s3982
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qdrag.h
+c000000004A3DE2CE0000000000000CAE
+t1245569742
+s3246
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qdrawutil.h
+c000000004A3DE2CE0000000000001688
+t1245569742
+s5768
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qevent.h
+c000000004A3DE2CE0000000000005807
+t1245569742
+s22535
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtGui/qregion.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtGui/qkeysequence.h>
+i<QtCore/qcoreevent.h>
+i<QtGui/qmime.h>
+i<QtGui/qdrag.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfileiconprovider.h
+c000000004A3DE2CE0000000000000AC6
+t1245569742
+s2758
+i<QtGui/qicon.h>
+i<QtCore/qfileinfo.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfont.h
+c000000004A3DE2CE000000000000263F
+t1245569742
+s9791
+i<QtGui/qwindowdefs.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfontdatabase.h
+c000000004A3DE2CE00000000000015DC
+t1245569742
+s5596
+i<QtGui/qwindowdefs.h>
+i<QtCore/qstring.h>
+i<QtGui/qfont.h>
+i<QtCore/qstringlist.h>
+i<QtCore/qlist.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfontinfo.h
+c000000004A3DE2CE0000000000000AF4
+t1245569742
+s2804
+i<QtGui/qfont.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qfontmetrics.h
+c000000004A3DE2CE00000000000019FD
+t1245569742
+s6653
+i<QtGui/qfont.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qframe.h
+c000000004A3DE2CE0000000000001231
+t1245569742
+s4657
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qgraphicsitem.h
+c000000004A3DE2CE0000000000008B5D
+t1245569742
+s35677
+i<QtCore/qglobal.h>
+i<QtCore/qobject.h>
+i<QtCore/qvariant.h>
+i<QtCore/qrect.h>
+i<QtGui/qpainterpath.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qgraphicslayout.h
+c000000004A3DE2CE0000000000000C56
+t1245569742
+s3158
+i<QtGui/qgraphicslayoutitem.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qgraphicslayoutitem.h
+c000000004A3DE2CE0000000000001669
+t1245569742
+s5737
+i<QtGui/qsizepolicy.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qgraphicsscene.h
+c000000004A3DE2CE0000000000002F0B
+t1245569742
+s12043
+i<QtCore/qobject.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+i<QtGui/qbrush.h>
+i<QtGui/qfont.h>
+i<QtGui/qtransform.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qpen.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qgraphicsview.h
+c000000004A3DE2CE0000000000003205
+t1245569742
+s12805
+i<QtCore/qmetatype.h>
+i<QtGui/qpainter.h>
+i<QtGui/qscrollarea.h>
+i<QtGui/qgraphicsscene.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qgraphicswidget.h
+c000000004A3DE2CE0000000000002441
+t1245569742
+s9281
+i<QtGui/qfont.h>
+i<QtGui/qgraphicslayoutitem.h>
+i<QtGui/qgraphicsitem.h>
+i<QtGui/qpalette.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qgridlayout.h
+c000000004A3DE2CE0000000000001C9B
+t1245569742
+s7323
+i<QtGui/qlayout.h>
+i<QtGui/qwidget.h>
+i<limits.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qheaderview.h
+c000000004A3DE2CE0000000000002382
+t1245569742
+s9090
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qicon.h
+c000000004A3DE2CE0000000000001515
+t1245569742
+s5397
+i<QtCore/qglobal.h>
+i<QtCore/qsize.h>
+i<QtCore/qlist.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qimage.h
+c000000004A3DE2CE000000000000360C
+t1245569742
+s13836
+i<QtGui/qtransform.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qrgb.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qrect.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qimageiohandler.h
+c000000004A3DE2CE00000000000012FB
+t1245569742
+s4859
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qimagereader.h
+c000000004A3DE2CE00000000000010CA
+t1245569742
+s4298
+i<QtCore/qbytearray.h>
+i<QtGui/qimage.h>
+i<QtGui/qimageiohandler.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qitemselectionmodel.h
+c000000004A3DE2CE000000000000227B
+t1245569742
+s8827
+i<QtCore/qset.h>
+i<QtCore/qvector.h>
+i<QtCore/qlist.h>
+i<QtCore/qabstractitemmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qkeysequence.h
+c000000004A3DE2CE00000000000019F7
+t1245569742
+s6647
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qlabel.h
+c000000004A3DE2CE00000000000016E9
+t1245569742
+s5865
+i<QtGui/qframe.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qlayout.h
+c000000004A3DE2CE0000000000001DF2
+t1245569742
+s7666
+i<QtCore/qobject.h>
+i<QtGui/qlayoutitem.h>
+i<QtGui/qsizepolicy.h>
+i<QtCore/qrect.h>
+i<limits.h>
+i<QtGui/qboxlayout.h>
+i<QtGui/qgridlayout.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qlayoutitem.h
+c000000004A3DE2CE0000000000001560
+t1245569742
+s5472
+i<QtGui/qsizepolicy.h>
+i<QtCore/qrect.h>
+i<limits.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qlineedit.h
+c000000004A3DE2CE00000000000025DE
+t1245569742
+s9694
+i<QtGui/qframe.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qlistview.h
+c000000004A3DE2CE0000000000001AC0
+t1245569742
+s6848
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmacdefines_mac.h
+c000000004A3DE2CE00000000000019D8
+t1245569742
+s6616
+i<QtCore/qglobal.h>
+i<Cocoa/Cocoa.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmainwindow.h
+c000000004A3DE2CE0000000000001C4A
+t1245569742
+s7242
+i<QtGui/qwidget.h>
+i<QtGui/qtabwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmatrix.h
+c000000004A3DE2CE0000000000001782
+t1245569742
+s6018
+i<QtGui/qpolygon.h>
+i<QtGui/qregion.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qline.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+i<QtGui/qwmatrix.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmenu.h
+c000000004A3DE2CE0000000000003C26
+t1245569742
+s15398
+i<QtGui/qwidget.h>
+i<QtCore/qstring.h>
+i<QtGui/qicon.h>
+i<QtGui/qaction.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmime.h
+c000000004A3DE2CE00000000000018E9
+t1245569742
+s6377
+i<QtCore/qmimedata.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qmotifstyle.h
+c000000004A3DE2CE0000000000001192
+t1245569742
+s4498
+i<QtGui/qcommonstyle.h>
+i<QtCore/qpointer.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpaintdevice.h
+c000000004A3DE2CE00000000000016CA
+t1245569742
+s5834
+i<QtGui/qwindowdefs.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpainter.h
+c000000004A3DE2CE0000000000007F1F
+t1245569742
+s32543
+i<QtCore/qnamespace.h>
+i<QtCore/qrect.h>
+i<QtCore/qpoint.h>
+i<QtGui/qpixmap.h>
+i<QtGui/qimage.h>
+i<QtGui/qtextoption.h>
+i<QtGui/qdrawutil.h>
+i<QtGui/qpolygon.h>
+i<QtGui/qpen.h>
+i<QtGui/qbrush.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qtransform.h>
+i<QtGui/qfontinfo.h>
+i<QtGui/qfontmetrics.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpainterpath.h
+c000000004A3DE2CE0000000000003483
+t1245569742
+s13443
+i<QtGui/qmatrix.h>
+i<QtCore/qglobal.h>
+i<QtCore/qrect.h>
+i<QtCore/qline.h>
+i<QtCore/qvector.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpalette.h
+c000000004A3DE2CE000000000000329F
+t1245569742
+s12959
+i<QtGui/qwindowdefs.h>
+i<QtGui/qcolor.h>
+i<QtGui/qbrush.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpen.h
+c000000004A3DE2CE0000000000001030
+t1245569742
+s4144
+i<QtGui/qcolor.h>
+i<QtGui/qbrush.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpixmap.h
+c000000004A3DE2CE0000000000002C18
+t1245569742
+s11288
+i<QtGui/qpaintdevice.h>
+i<QtGui/qcolor.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtGui/qimage.h>
+i<QtGui/qtransform.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qplaintextedit.h
+c000000004A3DE2CE0000000000002A57
+t1245569742
+s10839
+i<QtGui/qtextedit.h>
+i<QtGui/qabstractscrollarea.h>
+i<QtGui/qtextdocument.h>
+i<QtGui/qtextoption.h>
+i<QtGui/qtextcursor.h>
+i<QtGui/qtextformat.h>
+i<QtGui/qabstracttextdocumentlayout.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpolygon.h
+c000000004A3DE2CE0000000000001785
+t1245569742
+s6021
+i<QtCore/qvector.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qprinter.h
+c000000004A3DE2CE000000000000256D
+t1245569742
+s9581
+i<QtGui/qpaintdevice.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qpushbutton.h
+c000000004A3DE2CE0000000000001025
+t1245569742
+s4133
+i<QtGui/qabstractbutton.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qregion.h
+c000000004AA76A400000000000001FF4
+t1252485696
+s8180
+i<QtCore/qatomic.h>
+i<QtCore/qrect.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qrgb.h
+c000000004A3DE2CE0000000000000D34
+t1245569742
+s3380
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qrubberband.h
+c000000004A3DE2CE0000000000000D19
+t1245569742
+s3353
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qscrollarea.h
+c000000004A3DE2CE0000000000000D00
+t1245569742
+s3328
+i<QtGui/qabstractscrollarea.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qsizepolicy.h
+c000000004A3DE2CE0000000000001FE3
+t1245569742
+s8163
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qslider.h
+c000000004A3DE2CE0000000000001178
+t1245569742
+s4472
+i<QtGui/qabstractslider.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qspinbox.h
+c000000004A3DE2CE00000000000016F6
+t1245569742
+s5878
+i<QtGui/qabstractspinbox.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qstyle.h
+c000000004A3DE2CE0000000000006B95
+t1245569742
+s27541
+i<QtCore/qobject.h>
+i<QtCore/qrect.h>
+i<QtCore/qsize.h>
+i<QtGui/qicon.h>
+i<QtGui/qpixmap.h>
+i<QtGui/qpalette.h>
+i<QtGui/qsizepolicy.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qstyleoption.h
+c000000004A3DE2CE0000000000006DC0
+t1245569742
+s28096
+i<QtCore/qvariant.h>
+i<QtGui/qabstractspinbox.h>
+i<QtGui/qicon.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qslider.h>
+i<QtGui/qstyle.h>
+i<QtGui/qtabbar.h>
+i<QtGui/qtabwidget.h>
+i<QtGui/qrubberband.h>
+i<QtGui/qframe.h>
+i<QtCore/qabstractitemmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtabbar.h
+c000000004A3DE2CE0000000000001C5C
+t1245569742
+s7260
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtableview.h
+c000000004A3DE2CE0000000000001984
+t1245569742
+s6532
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtabwidget.h
+c000000004A3DE2CE0000000000002264
+t1245569742
+s8804
+i<QtGui/qwidget.h>
+i<QtGui/qicon.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextcursor.h
+c000000004A3DE2CE0000000000001B34
+t1245569742
+s6964
+i<QtCore/qstring.h>
+i<QtCore/qshareddata.h>
+i<QtGui/qtextformat.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextdocument.h
+c000000004A3DE2CE0000000000002309
+t1245569742
+s8969
+i<QtCore/qobject.h>
+i<QtCore/qsize.h>
+i<QtCore/qrect.h>
+i<QtGui/qfont.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextedit.h
+c000000004A3DE2CE0000000000003740
+t1245569742
+s14144
+i<QtGui/qabstractscrollarea.h>
+i<QtGui/qtextdocument.h>
+i<QtGui/qtextoption.h>
+i<QtGui/qtextcursor.h>
+i<QtGui/qtextformat.h>
+i<QtGui/qtextobject.h>
+i<QtGui/qtextlayout.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextformat.h
+c000000004A3DE2CE00000000000070F7
+t1245569742
+s28919
+i<QtGui/qcolor.h>
+i<QtGui/qfont.h>
+i<QtCore/qshareddata.h>
+i<QtCore/qvector.h>
+i<QtCore/qvariant.h>
+i<QtGui/qpen.h>
+i<QtGui/qbrush.h>
+i<QtGui/qtextoption.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextlayout.h
+c000000004A3DE2CE0000000000001BE7
+t1245569742
+s7143
+i<QtCore/qstring.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qrect.h>
+i<QtCore/qvector.h>
+i<QtGui/qcolor.h>
+i<QtCore/qobject.h>
+i<QtGui/qevent.h>
+i<QtGui/qtextformat.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextobject.h
+c000000004A3DE2CE0000000000002683
+t1245569742
+s9859
+i<QtCore/qobject.h>
+i<QtGui/qtextformat.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtextoption.h
+c000000004A3DE2CE0000000000001322
+t1245569742
+s4898
+i<QtCore/qnamespace.h>
+i<QtCore/qchar.h>
+i<QtCore/qmetatype.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtoolbutton.h
+c000000004A3DE2CE0000000000001B59
+t1245569742
+s7001
+i<QtGui/qabstractbutton.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtransform.h
+c000000004A3DE2CE0000000000002740
+t1245569742
+s10048
+i<QtGui/qmatrix.h>
+i<QtGui/qpainterpath.h>
+i<QtGui/qpolygon.h>
+i<QtGui/qregion.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qline.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtreeview.h
+c000000004A3DE2CE00000000000022E2
+t1245569742
+s8930
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qtreewidgetitemiterator.h
+c000000004A3DE2CE00000000000013AE
+t1245569742
+s5038
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qvalidator.h
+c000000004A3DE2CE00000000000017B9
+t1245569742
+s6073
+i<QtCore/qobject.h>
+i<QtCore/qstring.h>
+i<QtCore/qregexp.h>
+i<QtCore/qlocale.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwidget.h
+c000000004A3DE2CE00000000000091A0
+t1245569742
+s37280
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qpalette.h>
+i<QtGui/qfont.h>
+i<QtGui/qfontmetrics.h>
+i<QtGui/qfontinfo.h>
+i<QtGui/qsizepolicy.h>
+i<QtGui/qregion.h>
+i<QtGui/qbrush.h>
+i<QtGui/qcursor.h>
+i<QtGui/qkeysequence.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwindowdefs.h
+c000000004A3DE2CE0000000000000EA5
+t1245569742
+s3749
+i<QtCore/qobjectdefs.h>
+i<QtCore/qnamespace.h>
+i<QtGui/qmacdefines_mac.h>
+i<QtGui/qwindowdefs_win.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwindowsstyle.h
+c000000004A3DE2CE0000000000000FBA
+t1245569742
+s4026
+i<QtGui/qcommonstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwindowsxpstyle.h
+c000000004A3DE2CE0000000000001084
+t1245569742
+s4228
+i<QtGui/qwindowsstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Headers/qwmatrix.h
+c000000004A3DE2CE0000000000000890
+t1245569742
+s2192
+i<QtGui/qmatrix.h>
+
+N/Library/Frameworks/QtGui.framework/QtGui
+c000000004A3DE2F300000000015239D4
+t1245569779
+s22165972
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QAbstractScrollArea
+c000000004A3DE2CE0000000000000021
+t1245569742
+s33
+i"qabstractscrollarea.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QGraphicsItem
+c000000004A3DE2CE000000000000001B
+t1245569742
+s27
+i"qgraphicsitem.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QGraphicsRectItem
+c000000004A3DE2CE000000000000001B
+t1245569742
+s27
+i"qgraphicsitem.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/QtGui
+c000000004A3DE2CE000000000000150A
+t1245569742
+s5386
+i<QtCore/QtCore>
+i"qaccessible.h"
+i"qaccessible2.h"
+i"qaccessiblebridge.h"
+i"qaccessibleobject.h"
+i"qaccessibleplugin.h"
+i"qaccessiblewidget.h"
+i"qabstractpagesetupdialog.h"
+i"qabstractprintdialog.h"
+i"qcolordialog.h"
+i"qdialog.h"
+i"qerrormessage.h"
+i"qfiledialog.h"
+i"qfilesystemmodel.h"
+i"qfontdialog.h"
+i"qinputdialog.h"
+i"qmessagebox.h"
+i"qpagesetupdialog.h"
+i"qprintdialog.h"
+i"qprintpreviewdialog.h"
+i"qprogressdialog.h"
+i"qwizard.h"
+i"qgraphicsgridlayout.h"
+i"qgraphicsitem.h"
+i"qgraphicsitemanimation.h"
+i"qgraphicslayout.h"
+i"qgraphicslayoutitem.h"
+i"qgraphicslinearlayout.h"
+i"qgraphicsproxywidget.h"
+i"qgraphicsscene.h"
+i"qgraphicssceneevent.h"
+i"qgraphicsview.h"
+i"qgraphicswidget.h"
+i"qbitmap.h"
+i"qicon.h"
+i"qiconengine.h"
+i"qiconengineplugin.h"
+i"qimage.h"
+i"qimageiohandler.h"
+i"qimagereader.h"
+i"qimagewriter.h"
+i"qmovie.h"
+i"qpicture.h"
+i"qpictureformatplugin.h"
+i"qpixmap.h"
+i"qpixmapcache.h"
+i"qinputcontext.h"
+i"qinputcontextfactory.h"
+i"qinputcontextplugin.h"
+i"qabstractitemdelegate.h"
+i"qabstractitemview.h"
+i"qabstractproxymodel.h"
+i"qcolumnview.h"
+i"qdatawidgetmapper.h"
+i"qdirmodel.h"
+i"qfileiconprovider.h"
+i"qheaderview.h"
+i"qitemdelegate.h"
+i"qitemeditorfactory.h"
+i"qitemselectionmodel.h"
+i"qlistview.h"
+i"qlistwidget.h"
+i"qproxymodel.h"
+i"qsortfilterproxymodel.h"
+i"qstandarditemmodel.h"
+i"qstringlistmodel.h"
+i"qstyleditemdelegate.h"
+i"qtableview.h"
+i"qtablewidget.h"
+i"qtreeview.h"
+i"qtreewidget.h"
+i"qtreewidgetitemiterator.h"
+i"qaction.h"
+i"qactiongroup.h"
+i"qapplication.h"
+i"qboxlayout.h"
+i"qclipboard.h"
+i"qcursor.h"
+i"qdesktopwidget.h"
+i"qdrag.h"
+i"qevent.h"
+i"qformlayout.h"
+i"qgridlayout.h"
+i"qkeysequence.h"
+i"qlayout.h"
+i"qlayoutitem.h"
+i"qmime.h"
+i"qpalette.h"
+i"qsessionmanager.h"
+i"qshortcut.h"
+i"qsizepolicy.h"
+i"qsound.h"
+i"qstackedlayout.h"
+i"qtooltip.h"
+i"qwhatsthis.h"
+i"qwidget.h"
+i"qwidgetaction.h"
+i"qwindowdefs.h"
+i"qbrush.h"
+i"qcolor.h"
+i"qcolormap.h"
+i"qdrawutil.h"
+i"qmatrix.h"
+i"qpaintdevice.h"
+i"qpaintengine.h"
+i"qpainter.h"
+i"qpainterpath.h"
+i"qpen.h"
+i"qpolygon.h"
+i"qprintengine.h"
+i"qprinter.h"
+i"qprinterinfo.h"
+i"qregion.h"
+i"qrgb.h"
+i"qstylepainter.h"
+i"qtransform.h"
+i"qwmatrix.h"
+i"qcdestyle.h"
+i"qcleanlooksstyle.h"
+i"qcommonstyle.h"
+i"qgtkstyle.h"
+i"qmotifstyle.h"
+i"qplastiquestyle.h"
+i"qstyle.h"
+i"qstylefactory.h"
+i"qstyleoption.h"
+i"qstyleplugin.h"
+i"qwindowscestyle.h"
+i"qwindowsmobilestyle.h"
+i"qwindowsstyle.h"
+i"qwindowsvistastyle.h"
+i"qwindowsxpstyle.h"
+i"qabstracttextdocumentlayout.h"
+i"qfont.h"
+i"qfontdatabase.h"
+i"qfontinfo.h"
+i"qfontmetrics.h"
+i"qsyntaxhighlighter.h"
+i"qtextcursor.h"
+i"qtextdocument.h"
+i"qtextdocumentfragment.h"
+i"qtextdocumentwriter.h"
+i"qtextformat.h"
+i"qtextlayout.h"
+i"qtextlist.h"
+i"qtextobject.h"
+i"qtextoption.h"
+i"qtexttable.h"
+i"qcompleter.h"
+i"qdesktopservices.h"
+i"qsystemtrayicon.h"
+i"qundogroup.h"
+i"qundostack.h"
+i"qundoview.h"
+i"qabstractbutton.h"
+i"qabstractscrollarea.h"
+i"qabstractslider.h"
+i"qabstractspinbox.h"
+i"qbuttongroup.h"
+i"qcalendarwidget.h"
+i"qcheckbox.h"
+i"qcombobox.h"
+i"qcommandlinkbutton.h"
+i"qdatetimeedit.h"
+i"qdial.h"
+i"qdialogbuttonbox.h"
+i"qdockwidget.h"
+i"qfocusframe.h"
+i"qfontcombobox.h"
+i"qframe.h"
+i"qgroupbox.h"
+i"qlabel.h"
+i"qlcdnumber.h"
+i"qlineedit.h"
+i"qmainwindow.h"
+i"qmdiarea.h"
+i"qmdisubwindow.h"
+i"qmenu.h"
+i"qmenubar.h"
+i"qmenudata.h"
+i"qplaintextedit.h"
+i"qprintpreviewwidget.h"
+i"qprogressbar.h"
+i"qpushbutton.h"
+i"qradiobutton.h"
+i"qrubberband.h"
+i"qscrollarea.h"
+i"qscrollbar.h"
+i"qsizegrip.h"
+i"qslider.h"
+i"qspinbox.h"
+i"qsplashscreen.h"
+i"qsplitter.h"
+i"qstackedwidget.h"
+i"qstatusbar.h"
+i"qtabbar.h"
+i"qtabwidget.h"
+i"qtextbrowser.h"
+i"qtextedit.h"
+i"qtoolbar.h"
+i"qtoolbox.h"
+i"qtoolbutton.h"
+i"qvalidator.h"
+i"qworkspace.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractbutton.h
+c000000004A3DE2CE0000000000001746
+t1245569742
+s5958
+i<QtGui/qicon.h>
+i<QtGui/qkeysequence.h>
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractitemdelegate.h
+c000000004A3DE2CE00000000000011D9
+t1245569742
+s4569
+i<QtCore/qobject.h>
+i<QtGui/qstyleoption.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractitemview.h
+c000000004A3DE2CE00000000000033B9
+t1245569742
+s13241
+i<QtGui/qabstractscrollarea.h>
+i<QtCore/qabstractitemmodel.h>
+i<QtGui/qitemselectionmodel.h>
+i<QtGui/qabstractitemdelegate.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractpagesetupdialog.h
+c000000004A3DE2CE0000000000000AE8
+t1245569742
+s2792
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractprintdialog.h
+c000000004A3DE2CE0000000000000F51
+t1245569742
+s3921
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractproxymodel.h
+c000000004A3DE2CE0000000000000E64
+t1245569742
+s3684
+i<QtCore/qabstractitemmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractscrollarea.h
+c000000004A3DE2CE00000000000012A2
+t1245569742
+s4770
+i<QtGui/qframe.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractslider.h
+c000000004A3DE2CE0000000000001768
+t1245569742
+s5992
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstractspinbox.h
+c000000004A3DE2CE0000000000001784
+t1245569742
+s6020
+i<QtGui/qwidget.h>
+i<QtGui/qvalidator.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qabstracttextdocumentlayout.h
+c000000004A3DE2CE00000000000014B1
+t1245569742
+s5297
+i<QtCore/qobject.h>
+i<QtGui/qtextlayout.h>
+i<QtGui/qtextdocument.h>
+i<QtGui/qtextcursor.h>
+i<QtGui/qpalette.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qaccessible.h
+c000000004A3DE2CE0000000000003723
+t1245569742
+s14115
+i<QtCore/qglobal.h>
+i<QtCore/qobject.h>
+i<QtCore/qrect.h>
+i<QtCore/qset.h>
+i<QtCore/qvector.h>
+i<QtCore/qvariant.h>
+i<QtGui/qcolor.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qaccessible2.h
+c000000004A3DE2CE00000000000020E5
+t1245569742
+s8421
+i<QtGui/qaccessible.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qaccessiblebridge.h
+c000000004A3DE2CE0000000000000CAC
+t1245569742
+s3244
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qaccessibleobject.h
+c000000004A3DE2CE00000000000010BA
+t1245569742
+s4282
+i<QtGui/qaccessible.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qaccessibleplugin.h
+c000000004A3DE2CE0000000000000C0B
+t1245569742
+s3083
+i<QtGui/qaccessible.h>
+i<QtCore/qfactoryinterface.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qaccessiblewidget.h
+c000000004A3DE2CE00000000000012BB
+t1245569742
+s4795
+i<QtGui/qaccessibleobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qaction.h
+c000000004A3DE2CE0000000000001FEA
+t1245569742
+s8170
+i<QtGui/qkeysequence.h>
+i<QtCore/qstring.h>
+i<QtGui/qwidget.h>
+i<QtCore/qvariant.h>
+i<QtGui/qicon.h>
+i<QtGui/qactiongroup.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qactiongroup.h
+c000000004A3DE2CE0000000000000E7F
+t1245569742
+s3711
+i<QtGui/qaction.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qapplication.h
+c000000004A3DE2CE00000000000035D8
+t1245569742
+s13784
+i<QtCore/qcoreapplication.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qpoint.h>
+i<QtCore/qsize.h>
+i<QtGui/qcursor.h>
+i<QtGui/qdesktopwidget.h>
+i<QtGui/qwidget.h>
+i<QtGui/qpalette.h>
+i<QtGui/qrgb.h>
+i<QtGui/qtransportauth_qws.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qbitmap.h
+c000000004A3DE2CE0000000000000ED9
+t1245569742
+s3801
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qboxlayout.h
+c000000004A3DE2CE00000000000015FD
+t1245569742
+s5629
+i<QtGui/qlayout.h>
+i<QtGui/qwidget.h>
+i<limits.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qbrush.h
+c000000004A3DE2CE00000000000023FD
+t1245569742
+s9213
+i<QtCore/qpair.h>
+i<QtCore/qpoint.h>
+i<QtCore/qvector.h>
+i<QtGui/qcolor.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qtransform.h>
+i<QtGui/qimage.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qbuttongroup.h
+c000000004A3DE2CE0000000000000DCD
+t1245569742
+s3533
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcalendarwidget.h
+c000000004A3DE2CE0000000000001C45
+t1245569742
+s7237
+i<QtGui/qwidget.h>
+i<QtCore/qdatetime.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcdestyle.h
+c000000004A3DE2CE0000000000000B9F
+t1245569742
+s2975
+i<QtGui/qmotifstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcheckbox.h
+c000000004A3DE2CE0000000000000E8B
+t1245569742
+s3723
+i<QtGui/qabstractbutton.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcleanlooksstyle.h
+c000000004A3DE2CE0000000000001362
+t1245569742
+s4962
+i<QtGui/qwindowsstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qclipboard.h
+c000000004A3DE2CE0000000000000F8F
+t1245569742
+s3983
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcolor.h
+c000000004A3DE2CE0000000000001E93
+t1245569742
+s7827
+i<QtGui/qrgb.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcolordialog.h
+c000000004A3DE2CE00000000000013DB
+t1245569742
+s5083
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcolormap.h
+c000000004A3DE2CE0000000000000B38
+t1245569742
+s2872
+i<QtCore/qatomic.h>
+i<QtGui/qrgb.h>
+i<QtCore/qvector.h>
+i<QtGui/qwindowdefs.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcolumnview.h
+c000000004A3DE2CE0000000000001123
+t1245569742
+s4387
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcombobox.h
+c000000004A3DE2CE00000000000032BD
+t1245569742
+s12989
+i<QtGui/qwidget.h>
+i<QtGui/qabstractitemdelegate.h>
+i<QtCore/qabstractitemmodel.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcommandlinkbutton.h
+c000000004A3DE2CE0000000000000BB5
+t1245569742
+s2997
+i<QtGui/qpushbutton.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcommonstyle.h
+c000000004A3DE2CE00000000000010CA
+t1245569742
+s4298
+i<QtGui/qstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcompleter.h
+c000000004A3DE2CE00000000000014EC
+t1245569742
+s5356
+i<QtCore/qobject.h>
+i<QtCore/qpoint.h>
+i<QtCore/qstring.h>
+i<QtCore/qabstractitemmodel.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qcursor.h
+c000000004A3DE2CE0000000000001214
+t1245569742
+s4628
+i<QtCore/qpoint.h>
+i<QtGui/qwindowdefs.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdatawidgetmapper.h
+c000000004A3DE2CE00000000000010F2
+t1245569742
+s4338
+i"QtCore/qobject.h"
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdatetimeedit.h
+c000000004A3DE2CE0000000000001FCE
+t1245569742
+s8142
+i<QtCore/qdatetime.h>
+i<QtCore/qvariant.h>
+i<QtGui/qabstractspinbox.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdesktopservices.h
+c000000004A3DE2CE0000000000000B70
+t1245569742
+s2928
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdesktopwidget.h
+c000000004A3DE2CE0000000000000D4A
+t1245569742
+s3402
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdial.h
+c000000004A3DE2CE0000000000000EA6
+t1245569742
+s3750
+i<QtGui/qabstractslider.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdialog.h
+c000000004A3DE2CE0000000000000F8E
+t1245569742
+s3982
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdialogbuttonbox.h
+c000000004A3DE2CE000000000000159C
+t1245569742
+s5532
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdirmodel.h
+c000000004A3DE2CE0000000000001571
+t1245569742
+s5489
+i<QtCore/qabstractitemmodel.h>
+i<QtCore/qdir.h>
+i<QtGui/qfileiconprovider.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdockwidget.h
+c000000004A3DE2CE00000000000013A8
+t1245569742
+s5032
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdrag.h
+c000000004A3DE2CE0000000000000CAE
+t1245569742
+s3246
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qdrawutil.h
+c000000004A3DE2CE0000000000001688
+t1245569742
+s5768
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qerrormessage.h
+c000000004A3DE2CE0000000000000AF7
+t1245569742
+s2807
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qevent.h
+c000000004A3DE2CE0000000000005807
+t1245569742
+s22535
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtGui/qregion.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtGui/qkeysequence.h>
+i<QtCore/qcoreevent.h>
+i<QtGui/qmime.h>
+i<QtGui/qdrag.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfiledialog.h
+c000000004A3DE2CE0000000000003686
+t1245569742
+s13958
+i<QtCore/qdir.h>
+i<QtCore/qstring.h>
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfileiconprovider.h
+c000000004A3DE2CE0000000000000AC6
+t1245569742
+s2758
+i<QtGui/qicon.h>
+i<QtCore/qfileinfo.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfilesystemmodel.h
+c000000004A3DE2CE0000000000001B35
+t1245569742
+s6965
+i<QtCore/qabstractitemmodel.h>
+i<QtCore/qpair.h>
+i<QtCore/qdir.h>
+i<QtGui/qicon.h>
+i<QtCore/qdiriterator.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfocusframe.h
+c000000004A3DE2CE0000000000000A4D
+t1245569742
+s2637
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfont.h
+c000000004A3DE2CE000000000000263F
+t1245569742
+s9791
+i<QtGui/qwindowdefs.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfontcombobox.h
+c000000004A3DE2CE0000000000000E29
+t1245569742
+s3625
+i<QtGui/qcombobox.h>
+i<QtGui/qfontdatabase.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfontdatabase.h
+c000000004A3DE2CE00000000000015DC
+t1245569742
+s5596
+i<QtGui/qwindowdefs.h>
+i<QtCore/qstring.h>
+i<QtGui/qfont.h>
+i<QtCore/qstringlist.h>
+i<QtCore/qlist.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfontdialog.h
+c000000004A3DE2CE000000000000131C
+t1245569742
+s4892
+i<QtGui/qwindowdefs.h>
+i<QtGui/qdialog.h>
+i<QtGui/qfont.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfontinfo.h
+c000000004A3DE2CE0000000000000AF4
+t1245569742
+s2804
+i<QtGui/qfont.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qfontmetrics.h
+c000000004A3DE2CE00000000000019FD
+t1245569742
+s6653
+i<QtGui/qfont.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qformlayout.h
+c000000004A3DE2CE00000000000016A0
+t1245569742
+s5792
+i<QtGui/QLayout>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qframe.h
+c000000004A3DE2CE0000000000001231
+t1245569742
+s4657
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicsgridlayout.h
+c000000004A3DE2CE00000000000014B3
+t1245569742
+s5299
+i<QtGui/qgraphicsitem.h>
+i<QtGui/qgraphicslayout.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicsitem.h
+c000000004A3DE2CE0000000000008B5D
+t1245569742
+s35677
+i<QtCore/qglobal.h>
+i<QtCore/qobject.h>
+i<QtCore/qvariant.h>
+i<QtCore/qrect.h>
+i<QtGui/qpainterpath.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicsitemanimation.h
+c000000004A3DE2CE0000000000000F7D
+t1245569742
+s3965
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicslayout.h
+c000000004A3DE2CE0000000000000C56
+t1245569742
+s3158
+i<QtGui/qgraphicslayoutitem.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicslayoutitem.h
+c000000004A3DE2CE0000000000001669
+t1245569742
+s5737
+i<QtGui/qsizepolicy.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicslinearlayout.h
+c000000004A3DE2CE0000000000000FCC
+t1245569742
+s4044
+i<QtGui/qgraphicsitem.h>
+i<QtGui/qgraphicslayout.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicsproxywidget.h
+c000000004A3DE2CE0000000000001331
+t1245569742
+s4913
+i<QtGui/qgraphicswidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicsscene.h
+c000000004A3DE2CE0000000000002F0B
+t1245569742
+s12043
+i<QtCore/qobject.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+i<QtGui/qbrush.h>
+i<QtGui/qfont.h>
+i<QtGui/qtransform.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qpen.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicssceneevent.h
+c000000004A3DE2CE0000000000002258
+t1245569742
+s8792
+i<QtCore/qcoreevent.h>
+i<QtCore/qpoint.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicsview.h
+c000000004A3DE2CE0000000000003205
+t1245569742
+s12805
+i<QtCore/qmetatype.h>
+i<QtGui/qpainter.h>
+i<QtGui/qscrollarea.h>
+i<QtGui/qgraphicsscene.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgraphicswidget.h
+c000000004A3DE2CE0000000000002441
+t1245569742
+s9281
+i<QtGui/qfont.h>
+i<QtGui/qgraphicslayoutitem.h>
+i<QtGui/qgraphicsitem.h>
+i<QtGui/qpalette.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgridlayout.h
+c000000004A3DE2CE0000000000001C9B
+t1245569742
+s7323
+i<QtGui/qlayout.h>
+i<QtGui/qwidget.h>
+i<limits.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgroupbox.h
+c000000004A3DE2CE0000000000000FD2
+t1245569742
+s4050
+i<QtGui/qframe.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qgtkstyle.h
+c000000004A3DE2CE000000000000122B
+t1245569742
+s4651
+i<QtGui/QCleanlooksStyle>
+i<QtGui/QPalette>
+i<QtGui/QFont>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qheaderview.h
+c000000004A3DE2CE0000000000002382
+t1245569742
+s9090
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qicon.h
+c000000004A3DE2CE0000000000001515
+t1245569742
+s5397
+i<QtCore/qglobal.h>
+i<QtCore/qsize.h>
+i<QtCore/qlist.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qiconengine.h
+c000000004A3DE2CE0000000000000EA5
+t1245569742
+s3749
+i<QtCore/qglobal.h>
+i<QtCore/qlist.h>
+i<QtGui/qicon.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qiconengineplugin.h
+c000000004A3DE2CE0000000000000E54
+t1245569742
+s3668
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qimage.h
+c000000004A3DE2CE000000000000360C
+t1245569742
+s13836
+i<QtGui/qtransform.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qrgb.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qrect.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qimageiohandler.h
+c000000004A3DE2CE00000000000012FB
+t1245569742
+s4859
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qimagereader.h
+c000000004A3DE2CE00000000000010CA
+t1245569742
+s4298
+i<QtCore/qbytearray.h>
+i<QtGui/qimage.h>
+i<QtGui/qimageiohandler.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qimagewriter.h
+c000000004A3DE2CE0000000000000DDF
+t1245569742
+s3551
+i<QtCore/qbytearray.h>
+i<QtCore/qlist.h>
+i<QtGui/qimageiohandler.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qinputcontext.h
+c000000004A3DE2CE00000000000010BE
+t1245569742
+s4286
+i<QtCore/qobject.h>
+i<QtCore/qglobal.h>
+i<QtGui/qevent.h>
+i<QtCore/qstring.h>
+i<QtCore/qlist.h>
+i<QtGui/qaction.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qinputcontextfactory.h
+c000000004A3DE2CE0000000000000C92
+t1245569742
+s3218
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qinputcontextplugin.h
+c000000004A3DE2CE0000000000000FC1
+t1245569742
+s4033
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qinputdialog.h
+c000000004A3DE2CE000000000000266E
+t1245569742
+s9838
+i<QtGui/qdialog.h>
+i<QtCore/qstring.h>
+i<QtGui/qlineedit.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qitemdelegate.h
+c000000004A3DE2CE0000000000001587
+t1245569742
+s5511
+i<QtGui/qabstractitemdelegate.h>
+i<QtCore/qstring.h>
+i<QtGui/qpixmap.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qitemeditorfactory.h
+c000000004A3DE2CE0000000000000F9E
+t1245569742
+s3998
+i<QtCore/qmetaobject.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qhash.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qitemselectionmodel.h
+c000000004A3DE2CE000000000000227B
+t1245569742
+s8827
+i<QtCore/qset.h>
+i<QtCore/qvector.h>
+i<QtCore/qlist.h>
+i<QtCore/qabstractitemmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qkeysequence.h
+c000000004A3DE2CE00000000000019F7
+t1245569742
+s6647
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qlabel.h
+c000000004A3DE2CE00000000000016E9
+t1245569742
+s5865
+i<QtGui/qframe.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qlayout.h
+c000000004A3DE2CE0000000000001DF2
+t1245569742
+s7666
+i<QtCore/qobject.h>
+i<QtGui/qlayoutitem.h>
+i<QtGui/qsizepolicy.h>
+i<QtCore/qrect.h>
+i<limits.h>
+i<QtGui/qboxlayout.h>
+i<QtGui/qgridlayout.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qlayoutitem.h
+c000000004A3DE2CE0000000000001560
+t1245569742
+s5472
+i<QtGui/qsizepolicy.h>
+i<QtCore/qrect.h>
+i<limits.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qlcdnumber.h
+c000000004A3DE2CE0000000000001118
+t1245569742
+s4376
+i<QtGui/qframe.h>
+i<QtCore/qbitarray.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qlineedit.h
+c000000004A3DE2CE00000000000025DE
+t1245569742
+s9694
+i<QtGui/qframe.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qlistview.h
+c000000004A3DE2CE0000000000001AC0
+t1245569742
+s6848
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qlistwidget.h
+c000000004A3DE2CE0000000000002FDC
+t1245569742
+s12252
+i<QtGui/qlistview.h>
+i<QtCore/qvariant.h>
+i<QtCore/qvector.h>
+i<QtGui/qitemselectionmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmainwindow.h
+c000000004A3DE2CE0000000000001C4A
+t1245569742
+s7242
+i<QtGui/qwidget.h>
+i<QtGui/qtabwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmatrix.h
+c000000004A3DE2CE0000000000001782
+t1245569742
+s6018
+i<QtGui/qpolygon.h>
+i<QtGui/qregion.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qline.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+i<QtGui/qwmatrix.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmdiarea.h
+c000000004A3DE2CE0000000000001550
+t1245569742
+s5456
+i<QtGui/qabstractscrollarea.h>
+i<QtGui/qtabwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmdisubwindow.h
+c000000004A3DE2CE0000000000001496
+t1245569742
+s5270
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmenu.h
+c000000004A3DE2CE0000000000003C26
+t1245569742
+s15398
+i<QtGui/qwidget.h>
+i<QtCore/qstring.h>
+i<QtGui/qicon.h>
+i<QtGui/qaction.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmenubar.h
+c000000004A3DE2CE000000000000364E
+t1245569742
+s13902
+i<QtGui/qmenu.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmenudata.h
+c000000004A3DE2CE00000000000009A4
+t1245569742
+s2468
+i<QtCore/qglobal.h>
+i<QtGui/qaction.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmessagebox.h
+c000000004A3DE2CE0000000000003956
+t1245569742
+s14678
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmime.h
+c000000004A3DE2CE00000000000018E9
+t1245569742
+s6377
+i<QtCore/qmimedata.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmotifstyle.h
+c000000004A3DE2CE0000000000001192
+t1245569742
+s4498
+i<QtGui/qcommonstyle.h>
+i<QtCore/qpointer.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qmovie.h
+c000000004A3DE2CE00000000000014F2
+t1245569742
+s5362
+i<QtCore/qobject.h>
+i<QtCore/qbytearray.h>
+i<QtCore/qlist.h>
+i<QtCore/qobject.h>
+i<QtGui/qimagereader.h>
+i<QtGui/qimage.h>
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpagesetupdialog.h
+c000000004A3DE2CE0000000000000E83
+t1245569742
+s3715
+i<QtGui/qabstractpagesetupdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpaintdevice.h
+c000000004A3DE2CE00000000000016CA
+t1245569742
+s5834
+i<QtGui/qwindowdefs.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpaintengine.h
+c000000004A3DE2CE0000000000002CD5
+t1245569742
+s11477
+i<QtCore/qnamespace.h>
+i<QtCore/qobjectdefs.h>
+i<QtGui/qpainter.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpainter.h
+c000000004A3DE2CE0000000000007F1F
+t1245569742
+s32543
+i<QtCore/qnamespace.h>
+i<QtCore/qrect.h>
+i<QtCore/qpoint.h>
+i<QtGui/qpixmap.h>
+i<QtGui/qimage.h>
+i<QtGui/qtextoption.h>
+i<QtGui/qdrawutil.h>
+i<QtGui/qpolygon.h>
+i<QtGui/qpen.h>
+i<QtGui/qbrush.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qtransform.h>
+i<QtGui/qfontinfo.h>
+i<QtGui/qfontmetrics.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpainterpath.h
+c000000004A3DE2CE0000000000003483
+t1245569742
+s13443
+i<QtGui/qmatrix.h>
+i<QtCore/qglobal.h>
+i<QtCore/qrect.h>
+i<QtCore/qline.h>
+i<QtCore/qvector.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpalette.h
+c000000004A3DE2CE000000000000329F
+t1245569742
+s12959
+i<QtGui/qwindowdefs.h>
+i<QtGui/qcolor.h>
+i<QtGui/qbrush.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpen.h
+c000000004A3DE2CE0000000000001030
+t1245569742
+s4144
+i<QtGui/qcolor.h>
+i<QtGui/qbrush.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpicture.h
+c000000004A3DE2CE000000000000174C
+t1245569742
+s5964
+i<QtGui/qpaintdevice.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpictureformatplugin.h
+c000000004A3DE2CE0000000000000D55
+t1245569742
+s3413
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpixmap.h
+c000000004A3DE2CE0000000000002C18
+t1245569742
+s11288
+i<QtGui/qpaintdevice.h>
+i<QtGui/qcolor.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qstring.h>
+i<QtGui/qimage.h>
+i<QtGui/qtransform.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpixmapcache.h
+c000000004A3DE2CE00000000000009B3
+t1245569742
+s2483
+i<QtGui/qpixmap.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qplaintextedit.h
+c000000004A3DE2CE0000000000002A57
+t1245569742
+s10839
+i<QtGui/qtextedit.h>
+i<QtGui/qabstractscrollarea.h>
+i<QtGui/qtextdocument.h>
+i<QtGui/qtextoption.h>
+i<QtGui/qtextcursor.h>
+i<QtGui/qtextformat.h>
+i<QtGui/qabstracttextdocumentlayout.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qplastiquestyle.h
+c000000004A3DE2CE00000000000012CA
+t1245569742
+s4810
+i<QtGui/qwindowsstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpolygon.h
+c000000004A3DE2CE0000000000001785
+t1245569742
+s6021
+i<QtCore/qvector.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprintdialog.h
+c000000004A3DE2CE0000000000001589
+t1245569742
+s5513
+i<QtGui/qabstractprintdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprintengine.h
+c000000004A3DE2CE0000000000000DD2
+t1245569742
+s3538
+i<QtCore/qvariant.h>
+i<QtGui/qprinter.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprinter.h
+c000000004A3DE2CE000000000000256D
+t1245569742
+s9581
+i<QtGui/qpaintdevice.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprinterinfo.h
+c000000004A3DE2CE0000000000000B0B
+t1245569742
+s2827
+i<QtGui/QPrinter>
+i<QtCore/QList>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprintpreviewdialog.h
+c000000004A3DE2CE0000000000000DDC
+t1245569742
+s3548
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprintpreviewwidget.h
+c000000004A3DE2CE0000000000000F15
+t1245569742
+s3861
+i<QtGui/qwidget.h>
+i<QtGui/qprinter.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprogressbar.h
+c000000004A3DE2CE00000000000010A8
+t1245569742
+s4264
+i<QtGui/qframe.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qprogressdialog.h
+c000000004A3DE2CE00000000000011A2
+t1245569742
+s4514
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qproxymodel.h
+c000000004A3DE2CE00000000000014F0
+t1245569742
+s5360
+i<QtCore/qabstractitemmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qpushbutton.h
+c000000004A3DE2CE0000000000001025
+t1245569742
+s4133
+i<QtGui/qabstractbutton.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qradiobutton.h
+c000000004A3DE2CE0000000000000B7C
+t1245569742
+s2940
+i<QtGui/qabstractbutton.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qregion.h
+c000000004AA76A400000000000001FF4
+t1252485696
+s8180
+i<QtCore/qatomic.h>
+i<QtCore/qrect.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qrgb.h
+c000000004A3DE2CE0000000000000D34
+t1245569742
+s3380
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qrubberband.h
+c000000004A3DE2CE0000000000000D19
+t1245569742
+s3353
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qscrollarea.h
+c000000004A3DE2CE0000000000000D00
+t1245569742
+s3328
+i<QtGui/qabstractscrollarea.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qscrollbar.h
+c000000004A3DE2CE0000000000000DE5
+t1245569742
+s3557
+i<QtGui/qwidget.h>
+i<QtGui/qabstractslider.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsessionmanager.h
+c000000004A3DE2CE0000000000000DA4
+t1245569742
+s3492
+i<QtCore/qobject.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qstring.h>
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qshortcut.h
+c000000004A3DE2CE0000000000000DB9
+t1245569742
+s3513
+i<QtGui/qwidget.h>
+i<QtGui/qkeysequence.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsizegrip.h
+c000000004A3DE2CE0000000000000C06
+t1245569742
+s3078
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsizepolicy.h
+c000000004A3DE2CE0000000000001FE3
+t1245569742
+s8163
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qslider.h
+c000000004A3DE2CE0000000000001178
+t1245569742
+s4472
+i<QtGui/qabstractslider.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsortfilterproxymodel.h
+c000000004A3DE2CE0000000000002199
+t1245569742
+s8601
+i<QtGui/qabstractproxymodel.h>
+i<QtCore/qregexp.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsound.h
+c000000004A3DE2CE0000000000000B48
+t1245569742
+s2888
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qspinbox.h
+c000000004A3DE2CE00000000000016F6
+t1245569742
+s5878
+i<QtGui/qabstractspinbox.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsplashscreen.h
+c000000004A3DE2CE0000000000000D2B
+t1245569742
+s3371
+i<QtGui/qpixmap.h>
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsplitter.h
+c000000004A3DE2CE0000000000001776
+t1245569742
+s6006
+i<QtGui/qframe.h>
+i<QtGui/qsizepolicy.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstackedlayout.h
+c000000004A3DE2CE0000000000000E2C
+t1245569742
+s3628
+i<QtGui/qlayout.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstackedwidget.h
+c000000004A3DE2CE0000000000000C0A
+t1245569742
+s3082
+i<QtGui/qframe.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstandarditemmodel.h
+c000000004A3DE2CE0000000000003E5F
+t1245569742
+s15967
+i<QtCore/qabstractitemmodel.h>
+i<QtGui/qbrush.h>
+i<QtGui/qfont.h>
+i<QtGui/qicon.h>
+i<QtCore/qdatastream.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstatusbar.h
+c000000004A3DE2CE0000000000000EDC
+t1245569742
+s3804
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstringlistmodel.h
+c000000004A3DE2CE0000000000000C84
+t1245569742
+s3204
+i<QtCore/qstringlist.h>
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstyle.h
+c000000004A3DE2CE0000000000006B95
+t1245569742
+s27541
+i<QtCore/qobject.h>
+i<QtCore/qrect.h>
+i<QtCore/qsize.h>
+i<QtGui/qicon.h>
+i<QtGui/qpixmap.h>
+i<QtGui/qpalette.h>
+i<QtGui/qsizepolicy.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstyleditemdelegate.h
+c000000004A3DE2CE0000000000001007
+t1245569742
+s4103
+i<QtGui/qabstractitemdelegate.h>
+i<QtCore/qstring.h>
+i<QtGui/qpixmap.h>
+i<QtCore/qvariant.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstylefactory.h
+c000000004A3DE2CE00000000000008F1
+t1245569742
+s2289
+i<QtCore/qstringlist.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstyleoption.h
+c000000004A3DE2CE0000000000006DC0
+t1245569742
+s28096
+i<QtCore/qvariant.h>
+i<QtGui/qabstractspinbox.h>
+i<QtGui/qicon.h>
+i<QtGui/qmatrix.h>
+i<QtGui/qslider.h>
+i<QtGui/qstyle.h>
+i<QtGui/qtabbar.h>
+i<QtGui/qtabwidget.h>
+i<QtGui/qrubberband.h>
+i<QtGui/qframe.h>
+i<QtCore/qabstractitemmodel.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstylepainter.h
+c000000004A3DE2CE000000000000109B
+t1245569742
+s4251
+i<QtGui/qpainter.h>
+i<QtGui/qstyle.h>
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qstyleplugin.h
+c000000004A3DE2CE0000000000000AF8
+t1245569742
+s2808
+i<QtCore/qplugin.h>
+i<QtCore/qfactoryinterface.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsyntaxhighlighter.h
+c000000004A3DE2CE0000000000000E35
+t1245569742
+s3637
+i<QtCore/qglobal.h>
+i<QtCore/qobject.h>
+i<QtGui/qtextobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qsystemtrayicon.h
+c000000004A3DE2CE0000000000000F6F
+t1245569742
+s3951
+i<QtCore/qobject.h>
+i<QtGui/qicon.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtabbar.h
+c000000004A3DE2CE0000000000001C5C
+t1245569742
+s7260
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtableview.h
+c000000004A3DE2CE0000000000001984
+t1245569742
+s6532
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtablewidget.h
+c000000004A3DE2CE000000000000356F
+t1245569742
+s13679
+i<QtGui/qtableview.h>
+i<QtCore/qvariant.h>
+i<QtCore/qvector.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtabwidget.h
+c000000004A3DE2CE0000000000002264
+t1245569742
+s8804
+i<QtGui/qwidget.h>
+i<QtGui/qicon.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextbrowser.h
+c000000004A3DE2CE000000000000122D
+t1245569742
+s4653
+i<QtGui/qtextedit.h>
+i<QtCore/qurl.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextcursor.h
+c000000004A3DE2CE0000000000001B34
+t1245569742
+s6964
+i<QtCore/qstring.h>
+i<QtCore/qshareddata.h>
+i<QtGui/qtextformat.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextdocument.h
+c000000004A3DE2CE0000000000002309
+t1245569742
+s8969
+i<QtCore/qobject.h>
+i<QtCore/qsize.h>
+i<QtCore/qrect.h>
+i<QtGui/qfont.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextdocumentfragment.h
+c000000004A3DE2CE0000000000000CC1
+t1245569742
+s3265
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextdocumentwriter.h
+c000000004A3DE2CE0000000000000C25
+t1245569742
+s3109
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextedit.h
+c000000004A3DE2CE0000000000003740
+t1245569742
+s14144
+i<QtGui/qabstractscrollarea.h>
+i<QtGui/qtextdocument.h>
+i<QtGui/qtextoption.h>
+i<QtGui/qtextcursor.h>
+i<QtGui/qtextformat.h>
+i<QtGui/qtextobject.h>
+i<QtGui/qtextlayout.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextformat.h
+c000000004A3DE2CE00000000000070F7
+t1245569742
+s28919
+i<QtGui/qcolor.h>
+i<QtGui/qfont.h>
+i<QtCore/qshareddata.h>
+i<QtCore/qvector.h>
+i<QtCore/qvariant.h>
+i<QtGui/qpen.h>
+i<QtGui/qbrush.h>
+i<QtGui/qtextoption.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextlayout.h
+c000000004A3DE2CE0000000000001BE7
+t1245569742
+s7143
+i<QtCore/qstring.h>
+i<QtCore/qnamespace.h>
+i<QtCore/qrect.h>
+i<QtCore/qvector.h>
+i<QtGui/qcolor.h>
+i<QtCore/qobject.h>
+i<QtGui/qevent.h>
+i<QtGui/qtextformat.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextlist.h
+c000000004A3DE2CE0000000000000BB4
+t1245569742
+s2996
+i<QtGui/qtextobject.h>
+i<QtCore/qobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextobject.h
+c000000004A3DE2CE0000000000002683
+t1245569742
+s9859
+i<QtCore/qobject.h>
+i<QtGui/qtextformat.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtextoption.h
+c000000004A3DE2CE0000000000001322
+t1245569742
+s4898
+i<QtCore/qnamespace.h>
+i<QtCore/qchar.h>
+i<QtCore/qmetatype.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtexttable.h
+c000000004A3DE2CE0000000000001210
+t1245569742
+s4624
+i<QtCore/qglobal.h>
+i<QtCore/qobject.h>
+i<QtGui/qtextobject.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtoolbar.h
+c000000004A3DE2CE0000000000001946
+t1245569742
+s6470
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtoolbox.h
+c000000004A3DE2CE0000000000001554
+t1245569742
+s5460
+i<QtGui/qframe.h>
+i<QtGui/qicon.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtoolbutton.h
+c000000004A3DE2CE0000000000001B59
+t1245569742
+s7001
+i<QtGui/qabstractbutton.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtooltip.h
+c000000004A3DE2CE0000000000000BB6
+t1245569742
+s2998
+i<QtGui/qwidget.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtransform.h
+c000000004A3DE2CE0000000000002740
+t1245569742
+s10048
+i<QtGui/qmatrix.h>
+i<QtGui/qpainterpath.h>
+i<QtGui/qpolygon.h>
+i<QtGui/qregion.h>
+i<QtGui/qwindowdefs.h>
+i<QtCore/qline.h>
+i<QtCore/qpoint.h>
+i<QtCore/qrect.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtreeview.h
+c000000004A3DE2CE00000000000022E2
+t1245569742
+s8930
+i<QtGui/qabstractitemview.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtreewidget.h
+c000000004A3DE2CE0000000000004355
+t1245569742
+s17237
+i<QtGui/qtreeview.h>
+i<QtGui/qtreewidgetitemiterator.h>
+i<QtCore/qvariant.h>
+i<QtCore/qvector.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qtreewidgetitemiterator.h
+c000000004A3DE2CE00000000000013AE
+t1245569742
+s5038
+i<QtCore/qglobal.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qundogroup.h
+c000000004A3DE2CE0000000000000D95
+t1245569742
+s3477
+i<QtCore/qobject.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qundostack.h
+c000000004A3DE2CE0000000000001182
+t1245569742
+s4482
+i<QtCore/qobject.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qundoview.h
+c000000004A3DE2CE0000000000000C5E
+t1245569742
+s3166
+i<QtGui/qlistview.h>
+i<QtCore/qstring.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qvalidator.h
+c000000004A3DE2CE00000000000017B9
+t1245569742
+s6073
+i<QtCore/qobject.h>
+i<QtCore/qstring.h>
+i<QtCore/qregexp.h>
+i<QtCore/qlocale.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwhatsthis.h
+c000000004A3DE2CE0000000000000B0C
+t1245569742
+s2828
+i<QtCore/qobject.h>
+i<QtGui/qcursor.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwidget.h
+c000000004A3DE2CE00000000000091A0
+t1245569742
+s37280
+i<QtGui/qwindowdefs.h>
+i<QtCore/qobject.h>
+i<QtGui/qpaintdevice.h>
+i<QtGui/qpalette.h>
+i<QtGui/qfont.h>
+i<QtGui/qfontmetrics.h>
+i<QtGui/qfontinfo.h>
+i<QtGui/qsizepolicy.h>
+i<QtGui/qregion.h>
+i<QtGui/qbrush.h>
+i<QtGui/qcursor.h>
+i<QtGui/qkeysequence.h>
+i<QtGui/qevent.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwidgetaction.h
+c000000004A3DE2CE0000000000000B92
+t1245569742
+s2962
+i<QtGui/qaction.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwindowdefs.h
+c000000004A3DE2CE0000000000000EA5
+t1245569742
+s3749
+i<QtCore/qobjectdefs.h>
+i<QtCore/qnamespace.h>
+i<QtGui/qmacdefines_mac.h>
+i<QtGui/qwindowdefs_win.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwindowscestyle.h
+c000000004A3DE2CE0000000000001062
+t1245569742
+s4194
+i<QtGui/qwindowsstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwindowsmobilestyle.h
+c000000004A3DE2CE0000000000001068
+t1245569742
+s4200
+i<QtGui/qwindowsstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwindowsstyle.h
+c000000004A3DE2CE0000000000000FBA
+t1245569742
+s4026
+i<QtGui/qcommonstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwindowsvistastyle.h
+c000000004A3DE2CE0000000000001138
+t1245569742
+s4408
+i<QtGui/qwindowsxpstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwindowsxpstyle.h
+c000000004A3DE2CE0000000000001084
+t1245569742
+s4228
+i<QtGui/qwindowsstyle.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwizard.h
+c000000004A3DE2CE00000000000020EC
+t1245569742
+s8428
+i<QtGui/qdialog.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qwmatrix.h
+c000000004A3DE2CE0000000000000890
+t1245569742
+s2192
+i<QtGui/qmatrix.h>
+
+N/Library/Frameworks/QtGui.framework/Versions/4/Headers/qworkspace.h
+c000000004A3DE2CE0000000000001145
+t1245569742
+s4421
+i<QtGui/qwidget.h>
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004A9DE7DC0000000002B3D6F0
+t1251862492
+s45340400
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004A7680C1000000000000A5F0
+t1249280193
+s42480
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp
+c000000004ADE9BAA0000000000004082
+t1256102826
+s16514
+i"ProsimMainWindow.h"
+i<QtDebug>
+i<QGraphicsItem>
+i<QList>
+i<qgraphicsview.h>
+i<QAbstractScrollArea>
+i<QGraphicsRectItem>
+i<qfiledialog.h>
+i<stack>
+i<iostream>
+i<iomanip>
+i<fstream>
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h
+c000000004ADE91A90000000000000375
+t1256100265
+s885
+i"ui_prosim.h"
+i<iostream>
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app
+t1256102831
+s102
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/Info.plist
+t1256102235
+s568
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/MacOS/prosim
+t1256102831
+s91764
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/PkgInfo
+t1256102235
+s8
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/ProsimMainWindow.o
+t1256102828
+s996108
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/main.o
+t1256102246
+s925104
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/moc_ProsimMainWindow.o
+t1256102245
+s700276
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/prosim.LinkFileList
+c000000004ADE995B0000000000000166
+t1256102235
+s358
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-A0A52A2ADF7A1E2A99738674.sh
+c000000004ADE995B0000000000000063
+t1256102235
+s99
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-D7BA7D76DAB5DD13389D6332.sh
+c000000004ADE995B0000000000000062
+t1256102235
+s98
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp
+c000000004AAFB18600000000000000B4
+t1253028230
+s180
+i<QtGui>
+i"ProsimMainWindow.h"
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp
+c000000004ADE92120000000000000D27
+t1256100370
+s3367
+i"ProsimMainWindow.h"
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/prosim.app
+t1256102831
+s102
+
+N/Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h
+c000000004ADE91500000000000002950
+t1256100176
+s10576
+i<QtCore/QVariant>
+i<QtGui/QAction>
+i<QtGui/QApplication>
+i<QtGui/QButtonGroup>
+i<QtGui/QComboBox>
+i<QtGui/QFrame>
+i<QtGui/QGraphicsView>
+i<QtGui/QGridLayout>
+i<QtGui/QHBoxLayout>
+i<QtGui/QHeaderView>
+i<QtGui/QLabel>
+i<QtGui/QLineEdit>
+i<QtGui/QMainWindow>
+i<QtGui/QPlainTextEdit>
+i<QtGui/QPushButton>
+i<QtGui/QSpinBox>
+i<QtGui/QToolButton>
+i<QtGui/QWidget>
+
+N/usr/include/AvailabilityMacros.h
+c000000004A11A9B30000000000006724
+t1242671539
+s26404
+
+N/usr/include/ctype.h
+c000000004A5C14A60000000000002C18
+t1247548582
+s11288
+
+N/usr/include/limits.h
+c000000004A5C14A6000000000000145A
+t1247548582
+s5210
+
+N/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/usr/include/stdarg.h
+c000000004A5C14A600000000000000EA
+t1247548582
+s234
+
+N/usr/include/stddef.h
+c000000004A5C14A60000000000001404
+t1247548582
+s5124
+
+N/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+NInfo.plist
+c000000004ADE92370000000000000254
+t1256100407
+s596
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies277795644#277795644#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/prosim.build/Release/prosim.build/Objects-normal/i386/ProsimMainWindow.o /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s277795631.594437
+e277795631.595941
+r1
+xCompileC
+xbuild/prosim.build/Release/prosim.build/Objects-normal/i386/ProsimMainWindow.o
+x/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp277795631#277795631#0(744"In file included from /Library/Frameworks/QtCore.framework/Headers/qatomic.h:45,                 from /Library/Frameworks/QtCore.framework/Headers/qvariant.h:45,                 from /Library/Frameworks/QtCore.framework/Headers/QVariant:1,                 from /Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h:13,                 from /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h:1,                 from /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp:9:/Library/Frameworks/QtCore.framework/Headers/qglobal.h:311:6: warning: #warning "Support for this version of Mac OS X is still preliminary"/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp:273: warning: unused parameter 'quantum'2(22@68"#warning "Support for this version of Mac OS X is still preliminary"277795631#499#140#7(7@85"In file included from /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp277795631#18446744073709551615#0#0(6@63"/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp277795626#9#0#9#0#0"0(7@83"In file included from /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h277795631#18446744073709551615#0#0(6@61"/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h277793065#1#0#1#0#0"0(7@76"In file included from /Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h277795631#18446744073709551615#0#0(6@54"/Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h277792976#13#0#13#0#0"0(7@75"In file included from /Library/Frameworks/QtCore.framework/Headers/QVariant277795631#18446744073709551615#0#0(6@53"/Library/Frameworks/QtCore.framework/Headers/QVariant267262542#1#0#1#0#0"0(7@77"In file included from /Library/Frameworks/QtCore.framework/Headers/qvariant.h277795631#18446744073709551615#0#0(6@55"/Library/Frameworks/QtCore.framework/Headers/qvariant.h267262542#45#0#45#0#0"0(7@76"In file included from /Library/Frameworks/QtCore.framework/Headers/qatomic.h277795631#18446744073709551615#0#0(6@54"/Library/Frameworks/QtCore.framework/Headers/qatomic.h267262542#45#0#45#0#0"0(13@126"#warning "Support for this version of Mac OS X is still preliminary" in /Library/Frameworks/QtCore.framework/Headers/qglobal.h277795631#18446744073709551615#0#0(6@54"/Library/Frameworks/QtCore.framework/Headers/qglobal.h267262542#311#0#311#0#0"0(6@54"/Library/Frameworks/QtCore.framework/Headers/qglobal.h267262542#311#0#311#0#12"#warning "*"0(22@26"Unused parameter 'quantum'277795631#639#105#0(6@63"/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp277795626#273#0#273#0#20"unused parameter '*'0(0#0#63"/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp4300882208#1270"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.3 -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/prosim.hmap -F/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.5/mkspecs/macx-xcode -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources/i386 -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.cpp -o /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/ProsimMainWindow.o0#
+
+CCompileC build/prosim.build/Release/prosim.build/Objects-normal/i386/main.o /Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s277795035.903080
+e277795046.427449
+r1
+xCompileC
+xbuild/prosim.build/Release/prosim.build/Objects-normal/i386/main.o
+x/Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Library/Frameworks/QtCore.framework/Headers/qchar.h:45,
+o                 from /Library/Frameworks/QtCore.framework/Headers/qstring.h:45,
+o                 from /Library/Frameworks/QtCore.framework/Headers/qtextcodec.h:45,
+o                 from /Library/Frameworks/QtCore.framework/Headers/QtCore:3,
+o                 from /Library/Frameworks/QtGui.framework/Versions/4/Headers/QtGui:3,
+o                 from /Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp:1:
+o/Library/Frameworks/QtCore.framework/Headers/qglobal.h:311:6: warning: #warning "Support for this version of Mac OS X is still preliminary"
+lSLF07#2@59"Compile /Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp277795035#277795046#0(624"In file included from /Library/Frameworks/QtCore.framework/Headers/qchar.h:45,                 from /Library/Frameworks/QtCore.framework/Headers/qstring.h:45,                 from /Library/Frameworks/QtCore.framework/Headers/qtextcodec.h:45,                 from /Library/Frameworks/QtCore.framework/Headers/QtCore:3,                 from /Library/Frameworks/QtGui.framework/Versions/4/Headers/QtGui:3,                 from /Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp:1:/Library/Frameworks/QtCore.framework/Headers/qglobal.h:311:6: warning: #warning "Support for this version of Mac OS X is still preliminary"1(22@68"#warning "Support for this version of Mac OS X is still preliminary"277795035#484#140#7(7@73"In file included from /Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp277795035#18446744073709551615#0#0(6@51"/Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp274721030#1#0#1#0#0"0(7@82"In file included from /Library/Frameworks/QtGui.framework/Versions/4/Headers/QtGui277795035#18446744073709551615#0#0(6@60"/Library/Frameworks/QtGui.framework/Versions/4/Headers/QtGui267262542#3#0#3#0#0"0(7@73"In file included from /Library/Frameworks/QtCore.framework/Headers/QtCore277795035#18446744073709551615#0#0(6@51"/Library/Frameworks/QtCore.framework/Headers/QtCore267262542#3#0#3#0#0"0(7@79"In file included from /Library/Frameworks/QtCore.framework/Headers/qtextcodec.h277795035#18446744073709551615#0#0(6@57"/Library/Frameworks/QtCore.framework/Headers/qtextcodec.h267262542#45#0#45#0#0"0(7@76"In file included from /Library/Frameworks/QtCore.framework/Headers/qstring.h277795035#18446744073709551615#0#0(6@54"/Library/Frameworks/QtCore.framework/Headers/qstring.h267262542#45#0#45#0#0"0(7@74"In file included from /Library/Frameworks/QtCore.framework/Headers/qchar.h277795035#18446744073709551615#0#0(6@52"/Library/Frameworks/QtCore.framework/Headers/qchar.h267262542#45#0#45#0#0"0(13@126"#warning "Support for this version of Mac OS X is still preliminary" in /Library/Frameworks/QtCore.framework/Headers/qglobal.h277795035#18446744073709551615#0#0(6@54"/Library/Frameworks/QtCore.framework/Headers/qglobal.h267262542#311#0#311#0#0"0(6@54"/Library/Frameworks/QtCore.framework/Headers/qglobal.h267262542#311#0#311#0#12"#warning "*"0(0#0#51"/Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp4300882208#1246"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.3 -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/prosim.hmap -F/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.5/mkspecs/macx-xcode -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources/i386 -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/yoda/Desktop/prosim_final/prosimGUI/main.cpp -o /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/main.o0#
+
+CCompileC build/prosim.build/Release/prosim.build/Objects-normal/i386/moc_ProsimMainWindow.o /Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s277795043.773257
+e277795045.210581
+r1
+xCompileC
+xbuild/prosim.build/Release/prosim.build/Objects-normal/i386/moc_ProsimMainWindow.o
+x/Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Library/Frameworks/QtCore.framework/Headers/qatomic.h:45,
+o                 from /Library/Frameworks/QtCore.framework/Headers/qvariant.h:45,
+o                 from /Library/Frameworks/QtCore.framework/Headers/QVariant:1,
+o                 from /Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h:13,
+o                 from /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h:1,
+o                 from /Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp:10:
+o/Library/Frameworks/QtCore.framework/Headers/qglobal.h:311:6: warning: #warning "Support for this version of Mac OS X is still preliminary"
+lSLF07#2@75"Compile /Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp277795043#277795045#0(644"In file included from /Library/Frameworks/QtCore.framework/Headers/qatomic.h:45,                 from /Library/Frameworks/QtCore.framework/Headers/qvariant.h:45,                 from /Library/Frameworks/QtCore.framework/Headers/QVariant:1,                 from /Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h:13,                 from /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h:1,                 from /Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp:10:/Library/Frameworks/QtCore.framework/Headers/qglobal.h:311:6: warning: #warning "Support for this version of Mac OS X is still preliminary"1(22@68"#warning "Support for this version of Mac OS X is still preliminary"277795043#504#140#7(7@89"In file included from /Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp277795043#18446744073709551615#0#0(6@67"/Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp277793170#10#0#10#0#0"0(7@83"In file included from /Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h277795043#18446744073709551615#0#0(6@61"/Users/yoda/Desktop/prosim_final/prosimGUI/ProsimMainWindow.h277793065#1#0#1#0#0"0(7@76"In file included from /Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h277795043#18446744073709551615#0#0(6@54"/Users/yoda/Desktop/prosim_final/prosimGUI/ui_prosim.h277792976#13#0#13#0#0"0(7@75"In file included from /Library/Frameworks/QtCore.framework/Headers/QVariant277795043#18446744073709551615#0#0(6@53"/Library/Frameworks/QtCore.framework/Headers/QVariant267262542#1#0#1#0#0"0(7@77"In file included from /Library/Frameworks/QtCore.framework/Headers/qvariant.h277795043#18446744073709551615#0#0(6@55"/Library/Frameworks/QtCore.framework/Headers/qvariant.h267262542#45#0#45#0#0"0(7@76"In file included from /Library/Frameworks/QtCore.framework/Headers/qatomic.h277795043#18446744073709551615#0#0(6@54"/Library/Frameworks/QtCore.framework/Headers/qatomic.h267262542#45#0#45#0#0"0(13@126"#warning "Support for this version of Mac OS X is still preliminary" in /Library/Frameworks/QtCore.framework/Headers/qglobal.h277795043#18446744073709551615#0#0(6@54"/Library/Frameworks/QtCore.framework/Headers/qglobal.h267262542#311#0#311#0#0"0(6@54"/Library/Frameworks/QtCore.framework/Headers/qglobal.h267262542#311#0#311#0#12"#warning "*"0(0#0#67"/Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp4300882208#1278"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.3 -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/prosim.hmap -F/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/include -I/Library/Frameworks/QtCore.framework/Versions/4/Headers -I/usr/include/QtCore -I/Library/Frameworks/QtGui.framework/Versions/4/Headers -I/usr/include/QtGui -I/usr/include -I. -I. -I/usr/local/include -I/System/Library/Frameworks/CarbonCore.framework/Headers -I/usr/local/Qt4.5/mkspecs/macx-xcode -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources/i386 -I/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources -pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED -c /Users/yoda/Desktop/prosim_final/prosimGUI/moc_ProsimMainWindow.cpp -o /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/moc_ProsimMainWindow.o0#
+
+CLd /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/MacOS/prosim normal i386
+s277795631.596135
+e277795631.915304
+r1
+xLd
+x/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/MacOS/prosim
+xnormal
+xi386
+lSLF07#2@94"Link /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/MacOS/prosim277795631#277795631#0(0"0(0#0#0"4300882208#737"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    setenv MACOSX_DEPLOYMENT_TARGET 10.3    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release -L/Library/Frameworks -L/System/Library/Frameworks -F/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release -filelist /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/prosim.LinkFileList -mmacosx-version-min=10.3 -headerpad_max_install_names -L/Library/Frameworks -F/Library/Frameworks -lz -lm -framework QtGui -framework Carbon -framework AppKit -framework QtCore -framework ApplicationServices -o /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/MacOS/prosim0#
+
+CPBXCp prosim.app build/Release/prosim.app
+s277795631.917665
+e277795631.945071
+r1
+xPBXCp
+xprosim.app
+xbuild/Release/prosim.app
+lSLF07#2@29"Copy build/Release/prosim.app277795631#277795631#0(0"0(0#0#67"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app4300882208#330"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app /Users/yoda/Desktop/prosim_final/prosimGUI0#
+
+CPhaseScriptExecution "Qt Preprocessors" /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-A0A52A2ADF7A1E2A99738674.sh
+s277795644.517516
+e277795644.532335
+r1
+xPhaseScriptExecution
+xQt Preprocessors
+x/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-A0A52A2ADF7A1E2A99738674.sh
+omake: Nothing to be done for `preprocess'.
+lSLF07#2@42"Run custom shell script 'Qt Preprocessors'277795644#277795644#0(43"make: Nothing to be done for `preprocess'.1(13@43"make: Nothing to be done for `preprocess'.277795644#0#43#0(1@0"0(0#0#0"4300882208#16107"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER yoda    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv BUILD_ROOT /Users/yoda/Desktop/prosim_final/prosimGUI    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv CACHE_ROOT /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release    setenv CONTENTS_FOLDER_PATH prosim.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/prosim.dst    setenv DWARF_DSYM_FILE_NAME prosim.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv DYLIB_COMPATIBILITY_VERSION 1.0    setenv DYLIB_CURRENT_VERSION 1.0.0    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH prosim.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH prosim.app/Contents/MacOS    setenv EXECUTABLE_NAME prosim    setenv EXECUTABLE_PATH prosim.app/Contents/MacOS/prosim    setenv FILE_LIST /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH prosim.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME prosim.app    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/include\" /Library/Frameworks/QtCore.framework/Versions/4/Headers /usr/include/QtCore /Library/Frameworks/QtGui.framework/Versions/4/Headers /usr/include/QtGui /usr/include . . /usr/local/include /System/Library/Frameworks/CarbonCore.framework/Headers /usr/local/Qt4.5/mkspecs/macx-xcode"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH prosim.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/prosim.dst/Users/yoda/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER yoda    setenv INSTALL_PATH /Users/yoda/Applications    setenv INSTALL_ROOT /tmp/prosim.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH prosim.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/prosim-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release\" /Library/Frameworks /System/Library/Frameworks/"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/prosim.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.3    setenv MAC_OS_X_VERSION_ACTUAL 1061    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0601    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal    setenv OBJROOT /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "-pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED"    setenv OTHER_CPLUSPLUSFLAGS "-pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED"    setenv OTHER_LDFLAGS "-headerpad_max_install_names -L/Library/Frameworks -F/Library/Frameworks -lz -lm"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH prosim.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/PkgInfo    setenv PKGINFO_PATH prosim.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH prosim.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH prosim.app/Contents/PrivateHeaders    setenv PRODUCT_NAME prosim    setenv PRODUCT_SETTINGS_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT prosim    setenv PROJECT_DERIVED_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/DerivedSources    setenv PROJECT_DIR /Users/yoda/Desktop/prosim_final/prosimGUI    setenv PROJECT_FILE_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/prosim.xcodeproj    setenv PROJECT_NAME prosim    setenv PROJECT_TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build    setenv PUBLIC_HEADERS_FOLDER_PATH prosim.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH prosim.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH prosim.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH prosim.app/Contents/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/yoda/Desktop/prosim_final/prosimGUI    setenv SRCROOT /Users/yoda/Desktop/prosim_final/prosimGUI    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/SymbolRepositories    setenv SYMROOT /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME prosim    setenv TARGET_BUILD_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv TARGET_NAME prosim    setenv TARGET_TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_FILES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_ROOT /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH prosim.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER yoda    setenv USER_APPS_DIR /Users/yoda/Applications    setenv USER_LIBRARY_DIR /Users/yoda/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH prosim.app/Contents/version.plist    setenv VERSION_INFO_BUILDER yoda    setenv VERSION_INFO_FILE prosim_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:prosim  PROJECT:prosim-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME prosim.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0320    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv YACCFLAGS -d    /bin/sh -c /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-A0A52A2ADF7A1E2A99738674.sh0#
+
+CPhaseScriptExecution "Qt Qmake" /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-D7BA7D76DAB5DD13389D6332.sh
+s277795644.489125
+e277795644.517440
+r1
+xPhaseScriptExecution
+xQt Qmake
+x/Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-D7BA7D76DAB5DD13389D6332.sh
+omake: `prosim.xcodeproj/project.pbxproj' is up to date.
+lSLF07#2@34"Run custom shell script 'Qt Qmake'277795644#277795644#0(56"make: `prosim.xcodeproj/project.pbxproj' is up to date.1(13@56"make: `prosim.xcodeproj/project.pbxproj' is up to date.277795644#0#56#0(1@0"0(0#0#0"4300882208#16107"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER yoda    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv BUILD_ROOT /Users/yoda/Desktop/prosim_final/prosimGUI    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv CACHE_ROOT /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release    setenv CONTENTS_FOLDER_PATH prosim.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/prosim.dst    setenv DWARF_DSYM_FILE_NAME prosim.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv DYLIB_COMPATIBILITY_VERSION 1.0    setenv DYLIB_CURRENT_VERSION 1.0.0    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH prosim.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH prosim.app/Contents/MacOS    setenv EXECUTABLE_NAME prosim    setenv EXECUTABLE_PATH prosim.app/Contents/MacOS/prosim    setenv FILE_LIST /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH prosim.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME prosim.app    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/include\" /Library/Frameworks/QtCore.framework/Versions/4/Headers /usr/include/QtCore /Library/Frameworks/QtGui.framework/Versions/4/Headers /usr/include/QtGui /usr/include . . /usr/local/include /System/Library/Frameworks/CarbonCore.framework/Headers /usr/local/Qt4.5/mkspecs/macx-xcode"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH prosim.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/prosim.dst/Users/yoda/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER yoda    setenv INSTALL_PATH /Users/yoda/Applications    setenv INSTALL_ROOT /tmp/prosim.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH prosim.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/prosim-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release\" /Library/Frameworks /System/Library/Frameworks/"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal/i386/prosim.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.3    setenv MAC_OS_X_VERSION_ACTUAL 1061    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0601    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Objects-normal    setenv OBJROOT /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS "-pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED"    setenv OTHER_CPLUSPLUSFLAGS "-pipe -g -Wall -W -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED"    setenv OTHER_LDFLAGS "-headerpad_max_install_names -L/Library/Frameworks -F/Library/Frameworks -lz -lm"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH prosim.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c++    setenv PKGINFO_FILE_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/PkgInfo    setenv PKGINFO_PATH prosim.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH prosim.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH prosim.app/Contents/PrivateHeaders    setenv PRODUCT_NAME prosim    setenv PRODUCT_SETTINGS_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT prosim    setenv PROJECT_DERIVED_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/DerivedSources    setenv PROJECT_DIR /Users/yoda/Desktop/prosim_final/prosimGUI    setenv PROJECT_FILE_PATH /Users/yoda/Desktop/prosim_final/prosimGUI/prosim.xcodeproj    setenv PROJECT_NAME prosim    setenv PROJECT_TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build    setenv PUBLIC_HEADERS_FOLDER_PATH prosim.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH prosim.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH prosim.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/-l/-lenDZc3Gau5RpoSZrjYrU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH prosim.app/Contents/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/yoda/Desktop/prosim_final/prosimGUI    setenv SRCROOT /Users/yoda/Desktop/prosim_final/prosimGUI    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/SymbolRepositories    setenv SYMROOT /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME prosim    setenv TARGET_BUILD_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release    setenv TARGET_NAME prosim    setenv TARGET_TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_FILES_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_FILE_DIR /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build    setenv TEMP_ROOT /Users/yoda/Desktop/prosim_final/prosimGUI/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH prosim.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER yoda    setenv USER_APPS_DIR /Users/yoda/Applications    setenv USER_LIBRARY_DIR /Users/yoda/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH prosim.app/Contents/version.plist    setenv VERSION_INFO_BUILDER yoda    setenv VERSION_INFO_FILE prosim_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:prosim  PROJECT:prosim-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME prosim.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0320    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv YACCFLAGS -d    /bin/sh -c /Users/yoda/Desktop/prosim_final/prosimGUI/build/prosim.build/Release/prosim.build/Script-D7BA7D76DAB5DD13389D6332.sh0#
+
+CProcessInfoPlistFile /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/Info.plist Info.plist
+s277795035.856855
+e277795035.860580
+r1
+xProcessInfoPlistFile
+x/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist277795035#277795035#0(0"0(0#0#53"/Users/yoda/Desktop/prosim_final/prosimGUI/Info.plist4300882208#316"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    builtin-infoPlistUtility Info.plist -genpkginfo /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app/Contents/Info.plist0#
+
+CTouch /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app
+s277795631.915390
+e277795631.917615
+r1
+xTouch
+x/Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app
+lSLF07#2@73"Touch /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app277795631#277795631#0(0"0(0#0#0"4300882208#140"    cd /Users/yoda/Desktop/prosim_final/prosimGUI    /usr/bin/touch -c /Users/yoda/Desktop/prosim_final/prosimGUI/build/Release/prosim.app0#
+

@@ -1,0 +1,101 @@
+\hypertarget{queue_8c}{
+\section{src/queue.c File Reference}
+\label{queue_8c}\index{src/queue.c@{src/queue.c}}
+}
+{\tt \#include \char`\"{}queue.h\char`\"{}}\par
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+int \hyperlink{queue_8c_7e272d0fe9ad475cb922d2c450b756f1}{isEmpty} (QUEUE $\ast$queue)
+\begin{CompactList}\small\item\em Checks whether the queue is empty. \item\end{CompactList}\item 
+QUEUE $\ast$ \hyperlink{queue_8c_d5da30511bca5b51fc2b9f4afb3a518d}{init} (char $\ast$queuename)
+\begin{CompactList}\small\item\em Initialises a new queue. \item\end{CompactList}\item 
+int \hyperlink{queue_8c_a535334c24710d062c9a4ed881484514}{peek} (QUEUE $\ast$queue, void $\ast$$\ast$data, size\_\-t $\ast$size)
+\begin{CompactList}\small\item\em Inspects the first element of the queue, setting pointers to its location and size. \item\end{CompactList}\item 
+int \hyperlink{queue_8c_908bb69c1cf03c0a928a8a1fdcc957d2}{dequeue} (QUEUE $\ast$queue, void $\ast$$\ast$data, size\_\-t $\ast$size)
+\begin{CompactList}\small\item\em Removes the first element from the queue, setting pointers to its location and size. \item\end{CompactList}\item 
+int \hyperlink{queue_8c_ccdfd8fd114893cb1bf3f6f656fcc76c}{enqueue} (QUEUE $\ast$queue, void $\ast$data, size\_\-t size)
+\begin{CompactList}\small\item\em Adds an element to the back of the queue. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{queue_8c_908bb69c1cf03c0a928a8a1fdcc957d2}{
+\index{queue.c@{queue.c}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!queue.c@{queue.c}}
+\subsubsection[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}int dequeue (QUEUE $\ast$ {\em queue}, \/  void $\ast$$\ast$ {\em data}, \/  size\_\-t $\ast$ {\em size})}}
+\label{queue_8c_908bb69c1cf03c0a928a8a1fdcc957d2}
+
+
+Removes the first element from the queue, setting pointers to its location and size. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em queue}]The queue on which to perform the dequeue \item[{\em data}]Void pointer that will be store the location of the payload \item[{\em size}]Size pointer that will store the size of the payload being looked at \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if the operation is successful, 1 if the queue is empty \end{Desc}
+\hypertarget{queue_8c_ccdfd8fd114893cb1bf3f6f656fcc76c}{
+\index{queue.c@{queue.c}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!queue.c@{queue.c}}
+\subsubsection[{enqueue}]{\setlength{\rightskip}{0pt plus 5cm}int enqueue (QUEUE $\ast$ {\em queue}, \/  void $\ast$ {\em data}, \/  size\_\-t {\em size})}}
+\label{queue_8c_ccdfd8fd114893cb1bf3f6f656fcc76c}
+
+
+Adds an element to the back of the queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em queue}]The queue that will be added to \item[{\em data}]Void pointer that holds the location of the payload item to be added \item[{\em size}]Stores the size of the payload item to be added \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if the operation is successful, 1 otherwise \end{Desc}
+\hypertarget{queue_8c_d5da30511bca5b51fc2b9f4afb3a518d}{
+\index{queue.c@{queue.c}!init@{init}}
+\index{init@{init}!queue.c@{queue.c}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}QUEUE$\ast$ init (char $\ast$ {\em queuename})}}
+\label{queue_8c_d5da30511bca5b51fc2b9f4afb3a518d}
+
+
+Initialises a new queue. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em queuename}]The desired name of the queue \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The front of the queue \end{Desc}
+\hypertarget{queue_8c_7e272d0fe9ad475cb922d2c450b756f1}{
+\index{queue.c@{queue.c}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!queue.c@{queue.c}}
+\subsubsection[{isEmpty}]{\setlength{\rightskip}{0pt plus 5cm}int isEmpty (QUEUE $\ast$ {\em queue})}}
+\label{queue_8c_7e272d0fe9ad475cb922d2c450b756f1}
+
+
+Checks whether the queue is empty. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em queue}]The queue to be checked \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]1 if the queue is empty, 0 otherwise \end{Desc}
+\hypertarget{queue_8c_a535334c24710d062c9a4ed881484514}{
+\index{queue.c@{queue.c}!peek@{peek}}
+\index{peek@{peek}!queue.c@{queue.c}}
+\subsubsection[{peek}]{\setlength{\rightskip}{0pt plus 5cm}int peek (QUEUE $\ast$ {\em queue}, \/  void $\ast$$\ast$ {\em data}, \/  size\_\-t $\ast$ {\em size})}}
+\label{queue_8c_a535334c24710d062c9a4ed881484514}
+
+
+Inspects the first element of the queue, setting pointers to its location and size. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em queue}]The queue to be inspected \item[{\em data}]Void pointer that will be store the location of the payload item \item[{\em size}]Size pointer that will store the size of the link being looked at \end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if the operation is successful, 1 if the queue is empty \end{Desc}
